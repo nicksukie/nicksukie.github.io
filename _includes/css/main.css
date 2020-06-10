@@ -86,7 +86,7 @@ a {
 	
 }
 
-@media screen and (max-width: 640px) {
+@media all and (max-width: 640px) {
 	
 .nav-item {
 	font-size: 0.8em;
@@ -151,7 +151,7 @@ a {
 }
 
 
-@media screen and (min-width: 641px) {
+@media all and (min-width: 641px) {
 .text-body {
   margin: 0 auto;
   width: 65%;
@@ -310,7 +310,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-
+.hover-blue:hover {
+	color: #6A95D1;
+}
 
 
 .post-preview:hover a{ 
