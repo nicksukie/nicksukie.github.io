@@ -1,8 +1,7 @@
    <!-- Navigation -->
     <nav class="navbar clearfix">
-	
-	<div class="nav-contents right"> 
-	
+		<a href="/"><p class="inline-block nav-item ml3">{{ site.title }}</p></a>
+	<div class="nav-contents right my-auto"> 
   {% for item in site.data.navigation %}
     <div class="nav-item transition-off"><a href="{{ item.link }}" {% if page.url == item.link %}style="color: ;"{% endif %}>
       {{ item.name }}

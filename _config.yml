@@ -31,9 +31,9 @@ permalink: pretty
 minima:
   date_format: "%b %-d, %Y"
 
-  social_links:
-    instagram: nicksukie
-    twitter: nicksukie
+social_links:
+  instagram: nicksukie
+  twitter: nicksukie
 
 # Exclude from processing.
 # The following items will not be processed, by default.

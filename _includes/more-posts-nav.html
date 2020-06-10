@@ -1,0 +1,43 @@
+   <!-- Navigation -->
+<div class="PageNavigation center">
+
+    <div class="post-preview sm-col-5 center inline-block">
+
+  {% if page.previous.url %}
+  
+
+	
+  
+
+      <a href="{{page.previous.url}}">
+	  <div class="image-contain"> 
+        <img class="featured_img-preview" src="{{ page.previous.featured_img }}" /></div></a>
+
+        <a href="{{ page.previous.url }}">  <h2 class="home-post-title">{{ page.previous.title }} </h2></a>
+      <div class="mt1"><span class="date-text">{{ page.previous.date | date_to_string }}</span></div>
+
+	</div>
+  
+  {% endif %}
+    <div class="post-preview sm-col-5 inline-block right">
+  {% if page.next.url %}
+  
+  
+
+	
+
+
+      <a href="{{page.next.url}}">
+	  <div class="image-contain"> 
+        <img class="featured_img-preview" src="{{ page.next.featured_img }}" /></div></a>
+
+        <a href="{{ page.next.url }}">  <h2 class="home-post-title">{{ page.next.title }} </h2></a>
+      <div class="mt1"><span class="date-text">{{ page.next.date | date_to_string }}</span></div>
+  
+	</div>
+	
+	
+  {% endif %}
+   
+
+</div>
