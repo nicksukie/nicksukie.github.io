@@ -1,0 +1,272 @@
+/* no longer using this file. CSS is now found in assets/css/styles.scss
+which references main.scss in the /_sass directory (e.g. changes to CSS go directly is _sass folder)*/
+
+
+
+nav {
+color: none;
+background: white;
+box-shadow: 0 4px 4px -4px;
+display: block;
+
+height: 40px;
+opacity: .6;
+padding: 30px 0;
+margin: 0 0 30px 0;
+width: 100%;
+transition: opacity .3s;
+
+}
+
+
+
+nav:hover {
+	transition: .3s;
+	opacity:1;
+}
+
+
+
+.nav-contents {
+	padding: 10px;
+	margin: 0 30px;
+	
+}
+
+.nav-item {
+	color: black;
+	padding: 0 10px 0 0;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	float: left;
+	opacity: .6;
+	transition: opacity .3s;
+
+		
+}
+
+
+.nav-item:hover {
+
+	opacity: 1;
+	color: black;
+	transition: 0.3s;
+
+}
+
+
+body{
+	
+  background-color:white;
+	margin: 0 0;
+
+
+}
+
+a {
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 640px) {
+  .text-body {
+
+    width: 470px;
+	margin: 0 10px;
+    font-size: .9em;
+
+  }
+  
+  .image-contain {
+	  height: 140px;
+	  overflow: hidden;
+	  border-radius: 6px;
+	  
+  }
+  .featured_img-preview {
+width: 70%;
+
+
+}
+
+
+
+
+.post-preview {
+
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+}
+
+
+@media screen and (min-width: 641px) {
+.text-body {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.featured_img-preview {
+width: 230px;
+border-radius: 6px;
+
+
+}
+
+
+
+ .post-preview {
+
+  text-align: center;
+  width: 100%;
+  display: inline;
+}
+
+
+.post-list {
+	min-width: 1000px;
+	display: block;
+}
+.post-list>li {
+
+  display: inline;
+}
+
+
+}
+
+
+feat-img-container { 
+	height: 400px;
+	overflow: hidden;
+}
+
+.feat-img {
+	width: 100%;
+
+
+}
+
+.post-list-post-preview {
+	
+}
+
+.post-list-post-title {
+	
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.8em;
+}
+
+.excerpt-text {
+
+font-style: italic;
+font-size: 1.2em;
+}
+
+.article {
+    margin: 0 10%;
+}
+
+hr {
+  background-color: none;
+  border-style:  solid;
+
+  border-color: grey;
+
+  border-width: 1px;
+  height: 0px;
+  width: 7%;
+  justify-content: center;
+
+  -webkit-box-shadow: none hoff voff blur color;
+  box-shadow: none hoff voff blur color;
+}
+
+p {
+	font-size: 1.1em;
+	  margin: 0 ;
+}
+
+h1 {
+ color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+  margin: 0 ;
+  
+}
+
+ h4 {
+  color: #66bfbf;
+}
+
+
+.date-text {
+	font-size: .9em;
+	color: #777778;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+
+.para-em {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+
+
+.recent_entries {
+
+  width: 100%;
+}
+
+
+
+
+
+
+.post-preview:hover a{ 
+color: #6A95D1;
+}
+
+
+.post-list-post-preview:hover a .post-list-post-title, .post-list-post-preview:hover a p{
+	color: #6A95D1;
+}
+
+
+/**
+ * Site footer
+ */
+
+footer {
+	margin-top: 15px;
+	background-color: darkgrey;
+	padding: 5px 15px
+
+
+}
+
+
+.sans {
+	
+	font-family: sans-serif;
+}
+
+
+
+
+/**
+ * Article Preview
+ */
+ 
+

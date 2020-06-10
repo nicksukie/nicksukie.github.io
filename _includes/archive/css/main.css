@@ -1,0 +1,70 @@
+/* no longer using this file. CSS is now found in assets/css/styles.scss 
+which references main.scss in the /_sass directory (e.g. changes to CSS go directly is _sass folder)*/
+
+nav {
+color: blue;
+background: silver;
+
+}
+
+body{
+  background-color:#f4f4f4;
+
+
+
+}
+
+a {
+  color: green;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.body {
+	margin: 0 5%
+}
+
+.article {
+    margin: 0 10%;
+}
+
+hr {
+  background-color: none;
+  border-style:  none;
+  border-top: dotted;
+  border-color: grey;
+
+  border-width: 5px;
+  height: 0px;
+  width: 7%;
+  justify-content: center;
+
+  -webkit-box-shadow: none hoff voff blur color;
+  box-shadow: none hoff voff blur color;
+}
+
+
+h1 {
+ color:#6983aa;
+}
+
+
+ h4 {
+  color: #66bfbf;
+}
+
+
+
+/**
+ * Site footer
+ */
+
+footer {
+	
+	background-color: darkgrey;
+	
+	
+	
+	
+}
+	
