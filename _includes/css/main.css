@@ -2,7 +2,6 @@
 which references main.scss in the /_sass directory (e.g. changes to CSS go directly is _sass folder)*/
 
 
-
 nav {
 color: none;
 background: white;
@@ -14,6 +13,7 @@ opacity: .6;
 
 margin: 0 0 30px 0;
 width: 100%;
+min-width: 320px;
 transition: opacity .3s;
 line-height: 70px;
 vertical-align: middle;
@@ -44,7 +44,7 @@ nav:hover {
 	float: left;
 	opacity: .6;
 	transition: opacity .3s;
-
+	text-transform: lowercase;
 		
 }
 
@@ -62,7 +62,7 @@ body{
 	
   background-color:white;
 	margin: 0 0;
-
+min-width: 320px;
 
 }
 
@@ -86,21 +86,32 @@ a {
 	
 }
 
+
 @media all and (max-width: 640px) {
 	
+
+
+
 .nav-item {
 	font-size: 0.8em;
 	text-transform: lowercase;
+	margin: 0px 0px;
 }	
 	
   .text-body {
 
-    max-width: 460px;
-	margin: 0 10px;
-    font-size: .9em;
+    max-width: 640px;
+
+	margin: 0 auto;
+	padding: 0 10px;
+    font-size: 1.0em;
 
   }
-  
+  .post-content {
+	margin: 0 20px;
+  width: 100%;
+
+}
   .image-contain {
 	  height: 140px;
 	  overflow: hidden;
@@ -136,6 +147,7 @@ a {
 
 	overflow: hidden;
 	max-height: 300px;
+	display:block;
 }
 
 .feat-img {
@@ -148,14 +160,40 @@ a {
 
 }
 
+.more-posts {
+	
+min-height: 550px;
+	
+} 
+
 }
 
 
-@media all and (min-width: 641px) {
+@media all and (min-width: 640px) {
+	
+	.container {
+	min-width:1060px;
+}
+	
+	.page-content {
+	
+
+
+}
+
+	
+.post-content {
+max-width: 1200px;
+
+
+}
+	
 .text-body {
-  margin: 0 auto;
-  width: 65%;
+
   font-size: 1.1em;
+    width: 65%;
+	min-width: 640px;
+	margin: 0 auto;
 }
 
 .featured_img-preview {
@@ -165,18 +203,28 @@ border-radius: 6px;
 
 }
 
+.recent-entries-container {
+min-width: 1060px;
+
+
+}
+
+.recent-entries {
+
+min-width: 1060px;
+}
 
 
  .post-preview {
 
   text-align: center;
-  width: 100%;
-  display: inline;
+  min-width: 250px;
+  display: inline-block;
 }
 
 
 .post-list {
-	min-width: 1000px;
+
 	display: block;
 	margin: 0 30px;
 
@@ -206,9 +254,22 @@ border-radius: 6px;
 }
 
 
+.page-content-home {
+min-width: 1060px;
+	
 }
 
-@media screen and (min-width: 641px) and (max-width: 1042px) {
+
+
+.more-posts {
+	
+min-height: 300px;
+	
+} 
+ 
+}
+
+/* @media all and (min-width: 641px) and (max-width: 1042px) {
 .recent_entries {
 	
 	overflow-x: scroll;
@@ -216,6 +277,21 @@ border-radius: 6px;
 
 }
 
+*/
+
+/* Adjust nav for mobile */
+@media all and (max-width: 351px) {
+nav {
+	height: 140px;
+}
+
+}
+
+
+.post-content {
+	margin: 0 auto;
+	
+}
 .post-list-post-preview {
 	
 }
@@ -294,6 +370,13 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 1.4em;
 }
 
+
+.paragraph-text-home {
+	font-family: "Times New Roman", Times, serif;
+	max-width: 800px;
+	line-height: 1.4em;
+}
+
 .para-em {
   font-weight: bold;
   font-style: italic;
@@ -302,25 +385,18 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-.recent_entries {
-
-  width: 100%;
-
-}
-
-
 
 .hover-blue:hover {
 	color: #6A95D1;
 }
 
 
-.post-preview:hover a{ 
+.post-preview:hover a, .post-preview:active a{ 
 color: #6A95D1;
 }
 
 
-.post-list-post-preview:hover a .post-list-post-title, .post-list-post-preview:hover a p{
+.post-list-post-preview:hover a .post-list-post-title, .post-list-post-preview:hover a p, .post-list-post-preview:active a .post-list-post-title, .post-list-post-preview:active a p{
 	color: #6A95D1;
 }
 
@@ -352,19 +428,13 @@ footer {
  */
 
 
-.more-posts {
-	
 
-	margin: 0 auto;
-	width: 90%;
-	height: 100%;
-	
-} 
- 
  
  .PageNavigation {
-min-height: 300px;
-}
+	height: 100%;
+	margin: 0 auto;
+	width: 80%;
+}	
  
  
 
