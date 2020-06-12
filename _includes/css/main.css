@@ -1,7 +1,9 @@
 /* no longer using this file. CSS is now found in assets/css/styles.scss
 which references main.scss in the /_sass directory (e.g. changes to CSS go directly is _sass folder)*/
 
-
+p {
+	color:#333333
+}
 nav {
 color: none;
 background: white;
