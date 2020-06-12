@@ -140,8 +140,16 @@ a {
   width: 100%;
   display: block;
   margin-bottom: 30px;
+  min-height: 240px;
 }
 
+
+ .post-preview-home {
+
+
+ min-width: 0px;
+  min-height: 0px;
+}
 
 .feat-img-container { 
 
@@ -162,7 +170,7 @@ a {
 
 .more-posts {
 	
-min-height: 550px;
+height: auto;
 	
 } 
 
@@ -218,10 +226,18 @@ min-width: 1060px;
  .post-preview {
 
   text-align: center;
-  min-width: 250px;
+ min-width: 350px;
+ max-width: 410px;
+  min-height: 270px;
   display: inline-block;
 }
 
+ .post-preview-home {
+
+
+ min-width: 0px;
+  min-height: 0px;
+}
 
 .post-list {
 
