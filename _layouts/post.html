@@ -6,13 +6,13 @@ layout: default
 
   
  <div class="feat-img-container" ><img class="feat-img " src="{{ page.featured_img }}"></div>
-    
+    	<br/>
 	<div class="post-content">
 	<div class="text-body">
 	  <header class="post-header">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       <time class="dt-published " datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-       <div class="date-text my1 mt2"> {{ page.date | date: date_format }}</div>
+       <div class="date-text my1 mt1"> {{ page.date | date: date_format }}</div>
       </time>
       {%- if page.modified_date -%}
         ~
@@ -27,9 +27,9 @@ layout: default
 	  
     <h1 class="post-title m0" itemprop="name headline">{{ page.title | escape }}</h1>
 	  <p class="excerpt-text m0">{{ page.excerpt }}</p>
-
+<br/>
 	  <hr>
-	
+	<br/>
 
 	  
   </header>

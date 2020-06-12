@@ -358,6 +358,18 @@ p {
 	  font-family: sans-serif;
 }
 
+
+p a { 
+  text-decoration: underline;
+  text-decoration-color:  #6A95D1;
+
+}
+
+p a:hover { 
+color: #6A95D1;
+
+}
+
 h1 {
  color: black;
 }
@@ -370,6 +382,7 @@ h1, h2, h3, h4, h5, h6 {
 
  h4 {
   color: #66bfbf;
+
 }
 
 
