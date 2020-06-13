@@ -1,6 +1,12 @@
 /* no longer using this file. CSS is now found in assets/css/styles.scss
 which references main.scss in the /_sass directory (e.g. changes to CSS go directly is _sass folder)*/
 
+body, html {
+  height: 100%;
+  min-height: 133px;
+}
+
+
 p {
 	color:#333333
 }
@@ -298,7 +304,7 @@ min-height: 300px;
 */
 
 /* Adjust nav for mobile */
-@media all and (max-width: 351px) {
+@media all and (max-width: 354px) {
 nav {
 	height: 140px;
 }
@@ -440,12 +446,20 @@ color: #6A95D1;
 footer {
 	margin-top: 15px;
 	background-color: white;
-	padding: 15px 15px;
+	padding: 15px 0;
 	border-top: 1px solid #eee;
+	width: 100%;
+	position: absolute;
+    bottom:0;
+	left: 0;
+	right: 0;
 
 
 }
 
+.footer-container {
+	padding: 10px 15px;
+}
 
 .sans {
 	
@@ -469,4 +483,14 @@ footer {
 }	
  
  
+.default-page-container {
+	   min-height:100%;
+	   height: 100%;
+   position:relative;
+	
+}
 
+
+.blog-post-list-container {
+	height: 80%;
+}

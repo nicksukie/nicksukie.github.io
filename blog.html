@@ -2,8 +2,11 @@
 layout: default
 title: Blog
 ---
+
+<div class="blog-post-list-container">
 <div class="text-body">
 <h1 class="sans">Latest Posts</h1>
+
 
 <ul class="list-reset">
   {% for post in site.posts limit:10 %}
@@ -17,5 +20,5 @@ title: Blog
     </li>
   {% endfor %}
 </ul>
-
-<div>
+</div>
+</div>
