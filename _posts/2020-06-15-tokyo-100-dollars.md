@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What can you do with $100/day in Tokyo"
+title:  "What can you do with $100/day in Tokyo?"
 excerpt: I was a rich man once, for a few weeks.
 featured_img: /assets/images/shibuya-night.jpeg
 ---
