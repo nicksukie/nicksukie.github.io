@@ -124,6 +124,7 @@ a {
 	  height: 140px;
 	  overflow: hidden;
 	  border-radius: 6px;
+
 	  	width: 70%;
 		margin: 0 auto;
 	  
@@ -212,10 +213,20 @@ max-width: 1200px;
 	margin: 0 auto;
 }
 
+
+  .image-contain {
+	  height: 140px;
+	  overflow: hidden;
+	  border-radius: 6px;
+
+	  margin: 0 auto;
+	  
+  }
+
 .featured_img-preview {
 width: 230px;
 border-radius: 6px;
-
+height: 100%;
 
 }
 
