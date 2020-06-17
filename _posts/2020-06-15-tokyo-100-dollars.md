@@ -6,7 +6,7 @@ featured_img: /assets/images/shibuya-night.jpeg
 ---
 
 
-In the time before I learned how to budget comprehensively, which was relatively late in life given a complete lack of regard for anything financial - whether due to rebellion or a side effect of cultural neglect -  I'd typically live a very frugal lifestyle, not knowing when or if I was approaching the limits of my means. I'd simply live on as little as possible, an unintentional minimalist, you could say. The alibi was that I was a student, and the fact that students are looked on universally justified in being poor, I was able to make it work.  
+In the time before I learned how to budget comprehensively, which was relatively late in life given a complete lack of regard for anything financial - whether due to rebellion or a side effect of cultural neglect -  I'd typically live a very frugal lifestyle, not knowing when or if I was approaching the limits of my means. I'd simply live on as little as possible - an unintentional minimalist, you could say. The alibi was that I was a student, and the fact that students are looked on universally as justified in being poor, I was able to make it work.  
 <br/>
 
 But there would be times when I was suddenly imbued with the prescience of obligation to budget, and at such moments I was sometimes pleasantly surprised, as it turned out in the story I am now going to tell.   
@@ -33,9 +33,9 @@ By now, your probably wondering what I did with all that extra capital.
 Here's the answer (spoiler: it's be much less exciting than you hoped).  
 <br/>
 
-First, I went to the ground floor of the Tokyo Skytree, and bought lots of souvenirs. Just my luck, I found a shop that sold postcards for only a hundred yen (a dollar) each. I bought lots of them, along with other various cultural items that would be of interest to friends and family. Following with that theme, I then went to Tokyo Tower, another landmark of the Tokyo skyline, which had a much less assuming and less elaborate souvenir market at  its base, and bought - you guessed it - more souvenirs. This time, shirts and clothing.  
+First, I went to the ground floor of the [Tokyo Skytree](https://en.wikipedia.org/wiki/Tokyo_Skytree), and bought lots of souvenirs. Just my luck, I found a shop that sold postcards for only a hundred yen (a dollar) each. I bought lots of them, along with other various cultural items that would be of interest to friends and family: calligraphy brushes, [sushi magnets](https://www.businessinsider.com/how-fake-food-became-90-million-dollar-industry-japan-2019-1), tea leaves, matcha kit-kats, all that unique-to-Japan goodness. Following with that theme, I then went to [Tokyo Tower](https://en.wikipedia.org/wiki/Tokyo_Tower), another landmark of the Tokyo skyline - a structure which interestingly, could be easily mistaken for the Eiffel Tower from afar - which had a much less assuming and less elaborate souvenir market at its base. There I purchased - you guessed it - more souvenirs. This time, shirts and clothing.  
   <br/>
-I also came up with what I thought would be the most culturally appropriate souvenir idea, which, to my dismay, happened to be one of the cheapest things to buy in Japan: chopticks, which  are sold in various shapes, sizes, colors, and designs in any 100 yen shop. I went crazy, buying pairs for not only friends and family back home, but for my co-workers whom I'd be leaving very soon. I'll let you decide what kind of impression I made with such a parting gift.   
+I also came up with what I thought would be the most culturally appropriate souvenir idea, which, to my dismay, happened to be one of the cheapest things to buy in Japan: chopticks, which  are sold in various shapes, sizes, colors, and designs in any 100 yen shop. I went crazy, hopping all around the city, buying pairs for not only friends and family back home, but for my co-workers whom I'd be leaving very soon. I'll let you decide what kind of impression I made with such a parting gift.   
 <br/>
 
 Now let's get to the juicy stuff.  
