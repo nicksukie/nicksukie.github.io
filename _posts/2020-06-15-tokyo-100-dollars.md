@@ -6,7 +6,7 @@ featured_img: /assets/images/shibuya-night.jpeg
 ---
 
 
-In the time before I learned how to budget comprehensively, which was relatively late in life given a complete lack of regard for anything financial - whether due to rebellion or a side effect of cultural neglect -  I'd typically live a very frugal lifestyle, not knowing when or if I was approaching the limits of my means. I'd simply live on as little as possible - an unintentional minimalist, you could say. The alibi was that I was a student, and the fact that students are looked on universally as justified in being poor, I was able to make it work.  
+In the time before I learned how to budget comprehensively, which was relatively late in life given a complete lack of regard for anything financial - whether due to rebellion or a side effect of systemic cultural neglect -  I'd typically live a very frugal lifestyle, not knowing when or if I was approaching the limits of my means. I'd simply live on as little as possible - an unintentional minimalist, you could say. The alibi was that I was a student, and the fact that students are looked on universally as justified in being poor, I was able to make it work.  
 <br/>
 
 But there would be times when I was suddenly imbued with the prescience of obligation to budget, and at such moments I was sometimes pleasantly surprised, as it turned out in the story I am now going to tell.   
