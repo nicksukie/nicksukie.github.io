@@ -27,13 +27,13 @@ In a #YOLO moment (or rather a #YOIJO moment, which in hindsight was actually a 
 What I quickly learned was that deciding what to spend money on was _hard_ when you had a lot of it. Now I understand why Bill Gates has dedicated the later phase of his career to philanthropy. Deciding where to allocate an excessive amount of money is a full-time job in itself. For me, it would be a few weeks. For Bill, it's going on a couple _decades_.  
 <br/>
 
-By now, your probably wondering what I did with all that extra capital.   
+By now, you're probably wondering what I did with all those extra yen.   
 <br/>
 
 Here's the answer (spoiler: it's be much less exciting than you hoped).  
 <br/>
 
-First, I went to the ground floor of the [Tokyo Skytree](https://en.wikipedia.org/wiki/Tokyo_Skytree), and bought lots of souvenirs. Just my luck, I found a shop that sold postcards for only a hundred yen (a dollar) each. I bought lots of them, along with other various cultural items that would be of interest to friends and family: calligraphy brushes, [sushi magnets](https://www.businessinsider.com/how-fake-food-became-90-million-dollar-industry-japan-2019-1), tea leaves, matcha kit-kats, all that unique-to-Japan goodness. Following with that theme, I then went to [Tokyo Tower](https://en.wikipedia.org/wiki/Tokyo_Tower), another landmark of the Tokyo skyline - a structure which interestingly, could be easily mistaken for the Eiffel Tower from afar - which had a much less assuming and less elaborate souvenir market at its base. There I purchased - you guessed it - more souvenirs. This time, shirts and clothing.  
+First, I went to the ground floor of the [Tokyo Skytree](https://en.wikipedia.org/wiki/Tokyo_Skytree), and bought lots of souvenirs. Just my luck, I found a shop that sold postcards for only a hundred yen (a dollar) each. I bought lots of them, along with other various cultural items that would be of interest to friends and family: calligraphy brushes, [sushi magnets](https://www.businessinsider.com/how-fake-food-became-90-million-dollar-industry-japan-2019-1), tea leaves, matcha kit-kats, all that unique-to-Japan goodness. Following with that theme, I then went to Tokyo Tower, another landmark of the Tokyo skyline - a structure which interestingly, could be easily [mistaken for the Eiffel Tower](https://traveltriangle.com/blog/eiffel-tower-vs-tokyo-tower/) from afar - which had a much less assuming and less elaborate souvenir market at its base. There I purchased - you guessed it - more souvenirs. This time, shirts and clothing.  
   <br/>
 I also came up with what I thought would be the most culturally appropriate souvenir idea, which, to my dismay, happened to be one of the cheapest things to buy in Japan: chopticks, which  are sold in various shapes, sizes, colors, and designs in any 100 yen shop. I went crazy, hopping all around the city, buying pairs for not only friends and family back home, but for my co-workers whom I'd be leaving very soon. I'll let you decide what kind of impression I made with such a parting gift.   
 <br/>
