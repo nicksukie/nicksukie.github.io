@@ -43,3 +43,4 @@ My first ever impression of a foreign country was, as a result of a logistical m
 
 I took a few photos and headed back to the station. After this unexpected detour, I was ready for the real adventure to start. 
 
+

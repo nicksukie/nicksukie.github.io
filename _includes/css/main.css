@@ -134,7 +134,7 @@ a {
 	width: 100%;
 	max-height: 100%;
 	object-fit: cover;
-	
+	over
 
 }
 
@@ -225,8 +225,8 @@ max-width: 1200px;
 
 .featured_img-preview {
 width: 230px;
-border-radius: 6px;
-height: 100%;
+	border-radius: 6px;
+	object-fit: cover;
 
 }
 
@@ -273,12 +273,13 @@ min-width: 1060px;
 
 
 .feat-img-container { 
-
+	border-radius: 6px;
 	overflow: hidden;
 	height: 400px;
 }
 
 .feat-img {
+	
 	width: 100%;
 	max-height: 100%;
 	object-fit: cover;
@@ -498,4 +499,19 @@ footer {
 
 .blog-post-list-container {
 	min-height: 400px;
+}
+
+
+
+.in-post-img {
+	width: 60%;
+	
+}
+
+.img-caption {
+	font-size: .7em;
+	font-color: #331;
+	text-align: center;
+	display: block;
+	margin: 0;
 }
