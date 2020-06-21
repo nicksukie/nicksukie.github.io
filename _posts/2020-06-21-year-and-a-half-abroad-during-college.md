@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I spend a year and a half abroad during college"
+title:  "I spent a year and a half abroad during college"
 excerpt: And why you probably shouldn't do the same
 featured_img: /assets/images/globe-traversal.jpg
 ---
