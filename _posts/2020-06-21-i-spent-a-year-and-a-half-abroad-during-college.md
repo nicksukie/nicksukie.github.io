@@ -2,7 +2,7 @@
 layout: post
 title:  "I spent a year and a half abroad during college"
 excerpt: And why you probably shouldn't do the same
-featured_img: /assets/images/bigbuddha4.jpeg
+featured_img: /assets/images/bigbuddha4.jpeg?4362984378"
 
 ---
 
