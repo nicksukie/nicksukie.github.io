@@ -1,0 +1,63 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  
+
+    	<br/>
+	<div class="post-content">
+	<div class="text-body">
+	  <header class="post-header">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      <time class="dt-published " datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+       <div class="date-text my1 mt1"> {{ page.date | date: date_format }}</div>
+      </time>
+      {%- if page.modified_date -%}
+        ~
+        {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+          {{ mdate | date: date_format }}
+        </time>
+      {%- endif -%}
+	  
+	  
+	  <div class="post-body mx-auto">
+	  
+    <h1 class="post-title m0" itemprop="name headline">{{ page.title | escape }}</h1>
+	  <p class="excerpt-text m0">{{ page.excerpt }}</p>
+	  
+<br/>
+
+	  <hr>
+	<br/>
+
+	  
+  </header>
+
+  <div class="paragraph-text mb3" itemprop="articleBody">
+  
+    {{ content }}
+	
+
+
+  </div>
+  </div>
+  </div>
+  </div>
+  <hr>
+<!-- 
+Display tags
+-->  
+	{% if page.tags.size > 0 %}
+  Tag{% if page.tags.size > 1 %}s{% endif %}:
+  {{ page.tags | join: ", " }}
+{% endif %}
+
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+<div class="more-posts mb3">
+<h1 class="sans my3 mx3 ">Further Reading</h1>
+{% include more-posts-nav.html %}
+</div>

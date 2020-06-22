@@ -2,7 +2,7 @@
 layout: post
 title:  "What can you do with $100/day in Tokyo?"
 excerpt: I was a rich man once, for a few weeks.
-featured_img: /assets/images/shibuya-night.jpeg
+featured_img: /assets/images/skytree.jpeg
 ---
 
 
@@ -32,11 +32,17 @@ By now, you're probably wondering what I did with all those extra yen.
 
 Here's the answer (spoiler: it's be much less exciting than you hoped).  
 <br/>
-
+  <img src="/assets/images/insta/tokyo-skytree-night.jpg" class="in-post-img block mx-auto">
+<span class="img-caption mb3">Tokyo Skytree from a distance</span>
 First, I went to the ground floor of the [Tokyo Skytree](https://en.wikipedia.org/wiki/Tokyo_Skytree), and bought lots of souvenirs. Just my luck, I found a shop that sold postcards for only a hundred yen (a dollar) each. I bought lots of them, along with other various cultural items that would be of interest to friends and family: calligraphy brushes, [sushi magnets](https://www.businessinsider.com/how-fake-food-became-90-million-dollar-industry-japan-2019-1), tea leaves, matcha kit-kats, all that unique-to-Japan goodness. Following with that theme, I then went to Tokyo Tower, another landmark of the Tokyo skyline - a structure which interestingly, could be easily [mistaken for the Eiffel Tower](https://traveltriangle.com/blog/eiffel-tower-vs-tokyo-tower/) from afar - which had a much less assuming and less elaborate souvenir market at its base. There I purchased - you guessed it - more souvenirs. This time, shirts and clothing.  
   <br/>
+  <img src="/assets/images/insta/tokyo-tower-afar.jpg" class="in-post-img block mx-auto">
+<span class="img-caption mb3">Tokyo Tower from afar</span>
+  
 I also came up with what I thought would be the most culturally appropriate souvenir idea, which, to my dismay, happened to be one of the cheapest things to buy in Japan: chopticks, which  are sold in various shapes, sizes, colors, and designs in any 100 yen shop. I went crazy, hopping all around the city, buying pairs for not only friends and family back home, but for my co-workers whom I'd be leaving very soon. I'll let you decide what kind of impression I made with such a parting gift.   
 <br/>
+<img src="/assets/images/insta/all-the-chopsticks.jpg" class="in-post-img block mx-auto">
+<span class="img-caption mb3">All the chopsticks.</span>
 
 Now let's get to the juicy stuff.  
 <br/>

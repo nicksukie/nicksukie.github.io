@@ -2,7 +2,8 @@
 layout: post
 title:  "I spent a year and a half abroad during college"
 excerpt: And why you probably shouldn't do the same
-featured_img: /assets/images/globe-traversal.jpg
+featured_img: /assets/images/bigbuddha4.jpeg
+
 ---
 
 I was a suburban, middle-class kid, and probably from playing too many video games when I was younger, I realized that life could be much more interesting that the one I was living. So as soon as I possibly could, I took a trip. A long trip. Not just a vacation, but a venture into new cultures and societies much deeper than that of a tourist.  
@@ -21,7 +22,7 @@ What I did was, through applying to various programs within the university, mana
 
 It was a combination of luck and determination. I went to a school which had a co-op program (a 5 year bachelors degree with 1.5 years of work experience squeezed in, no summer breaks). While most people use that as an opportunity to gain valuable working experience in the field  in which they intend to pursue after college, I used it as an opportunity to see the world. I did three co-ops in three different countries. On top of that, I enrolled in two study abroad programs, in two different countries, in-between the working periods, glueing them together with more time abroad.  
 <br/> 
-<img src="/assets/images/bigbuddha.jpg" class="in-post-img block mx-auto">
+<img src="/assets/images/bigbuddha2.jpeg" class="in-post-img block mx-auto">
 <span class="img-caption mb3">Classic study abroad pic.</span>
 I'd also travel in between semesters (i.e. work for six months, and then travel for a couple weeks before next the academic term started, and repeat), adding a few more countries to my repertoire.  
 <br/>
