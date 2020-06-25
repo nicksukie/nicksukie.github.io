@@ -12,7 +12,7 @@ I arrived in China knowing only the characters for 1 through 10.  I could also i
 
 I ordered my first few meals with body language and by pointing at pictures on menus.   
 <br/>
-  <img src="/assets/images/china-early/menu-1.jpg" class="in-post-img block mx-auto">
+  <img src="/assets/images/china-early/menu-1.JPG" class="in-post-img block mx-auto">
 <span class="img-caption mb3">Many menus in China are just long lists of dishes, making it all the more important to learn how to read characters!</span>
 I very quickly got fed up with not being able to communicate with people.   
 <br/>
