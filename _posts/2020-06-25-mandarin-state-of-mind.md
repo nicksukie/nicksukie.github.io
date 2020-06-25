@@ -2,7 +2,7 @@
 layout: post
 title:  "A Mandarin State of Mind"
 excerpt: The missing first chapter of any Chinese language textbook
-featured_img: /assets/images/china-early/forbidden-temple.jpg
+featured_img: /assets/images/china-early/forbidden-temple.JPG
 series: language adventures
 ---
 
@@ -32,7 +32,7 @@ Learning Chinese for someone who speaks a latin or germanic rooted language (i.e
 <hr class="hr2"><br/>
 
 
-  <img src="/assets/images/china-early/slippery-slope.jpg" class="in-post-img block mx-auto">
+  <img src="/assets/images/china-early/slippery-slope.JPG" class="in-post-img block mx-auto">
 <span class="img-caption mb3">Learning Chinese can be a slippery slope... he he.</span>
 
 First, before reading this post, I encourage you to spend some time studying [*pinyin*](https://www.quora.com/What-are-the-best-Pinyin-pronunciation-tables-with-audio), the phonetic system for representing Chinese syllables in letters. It's very straightforward and it'll save you an incredible amount of time with pronunciation later on. Take a few hours and just cram it. Then, when your ready to continue reading, I highly encourage you to have [Google translate](https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=en&text=%E6%84%9F%E8%B0%A2%E6%82%A8%E7%9C%8B%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2) (browser) or [Pleco](https://www.pleco.com/) (mobile) open, so you can look up the pronunciations of the characters in the examples below. Learning Chinese is as much about the time you put into it as it is how good you are at using resources. No one person, app, or blog, can teach it to you completely, and you'll often have to refer to complementary resources along the way if you want to make it sink it as well, and as quickly, as possible.     
@@ -66,7 +66,7 @@ Here it's also worth introducing the concept of radicals: the sub-components whi
 
 This is the part where is gets kind of abstract and confusing. The first thing you need to know is that an individual character is not necessarily a word on its own. A character, first and foremost, represents a concept. There are *concepts* in that are represented across several different Chinese which might be represented by a single word in English.  
 <br/>
-  <img src="/assets/images/china-early/strengthen-the-sense-of-civilization.jpg" class="in-post-img block mx-auto">
+  <img src="/assets/images/china-early/strengthen-the-sense-of-civilization.JPG" class="in-post-img block mx-auto">
 <span class="img-caption mb3">A good way to pick up some new characters is from some of the many signs displayed in public places, like this one.  Very philosophical if you ask me.</span>
 Additionally, while a character in itself *may* be a word on it's own, most words (with the exception of grammar particles and common verbs) have two characters. Each of the two characters may be similar in the concept they convey, but combining them together gives the word the specifity so you know when/which context to use it in. Having two characters per word also makes it easier to distinguish between similar sounding words in spoken Chinese, since the language only has a total of 413 syllables to make up all of its thousands of characters.   
 <br/>
@@ -104,7 +104,7 @@ Let's take the character 福, for example. 福 means luck, fortune, or prosperit
 
 In Chinese culture, this character can be seen in many place as a symbol which is used to attract good fortune, and is placed on entrances to homes and businesses, especially during holidays. The meaning of the word comes from its usage in certain tradition contexts, and not so much based on its fundamental "definition". There are also other character which mean 'luck' in Chinese, but you cannot paste them onto your door (I mean you can but people will either be really confused or laugh at you).  </p></div>
 <br/>
-  <img src="/assets/images/china-early/big-fu.jpg" class="in-post-img block mx-auto">
+  <img src="/assets/images/china-early/big-fu.JPG" class="in-post-img block mx-auto">
 <span class="img-caption mb3">A large display of the character 福, seen in an art museum in Taiyuan, Shanxi province.</span>
 
 The the main point here is, don't think of characters as fixed words with fixed meanings. Better yet, don't study characters individually at all. Study *expressions*.   
@@ -148,7 +148,7 @@ If you're in China and you request an Uber (known there as Didi) and it arrives 
 <br/>
 </p></div> 
 <br/>
-  <img src="/assets/images/china-early/taxi-driver.jpg" class="in-post-img block mx-auto">
+  <img src="/assets/images/china-early/taxi-driver.JPG" class="in-post-img block mx-auto">
 <span class="img-caption mb3">One of the many taxi drivers I confused with my Englinese.</span>
 <hr class="hr2"><br/>
 
