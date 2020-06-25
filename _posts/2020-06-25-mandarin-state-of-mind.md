@@ -17,13 +17,13 @@ I ordered my first few meals with body language and by pointing at pictures on m
 I very quickly got fed up with not being able to communicate with people.   
 <br/>
 
-My only other experience learning a new language was Spanish in school. This was different. Learning a language on the go, while in a place where you are surrounded by it everyday is a totally different story. On the one hand, you have constant exposure, making it potentially easy to pick up new words/expressions on a regular basis. But at the same time, there's just so much that you can't understand, surrounding you constantly, that it can be overwhelming.   
+My only other experience learning a new language was Spanish in school. Learning a language on the go, while in a place where you are surrounded by it everyday is a totally different story. On the one hand, you have constant exposure, making it potentially easy to pick up new words/expressions on a regular basis. But at the same time, there's just so much that you can't understand, surrounding you constantly, that it can be overwhelming.   
 <br/>
 
 I remember looking at a sign at the top of a building, thinking, there's no way anyone can ever learn this language. At that time, characters to me just looked like amorphous, unintellible square shaped scribbles. There was no logic to it.   
 <br/>
 
-But at the end of six months, I was able to have basic conversations, verbally and written (by typing... handwriting is a different story), and could travel alone with no problem. I started without any structure, a raft at sea, and I eventually made it to dry land. But you don't have to be a raft. What I'm going to share here is how to build yourself a sturdy ship so your voyage to fluency can get off to as smooth as start as possible, and be robust enough to weather any storms that may get in its way later on.  
+But at the end of six months, I was able to have basic conversations, verbally and written (typing... handwriting is a different story), and could travel alone with no problem. I started without any structure, a raft at sea, and I eventually made it to dry land. But you don't have to be a raft. What I'm going to share here is how to build yourself a sturdy ship so your voyage to fluency can get off to as smooth as start as possible, and be robust enough to weather any storms that may get in its way later on.  
 <br/>
 
 Learning Chinese for someone who speaks a latin or germanic rooted language (i.e. English, Spanish, French, etc) is very difficult because it requires a different mindset. Here, I'll introduce some important concepts which I think will get you into that mindset. Keep in mind that this is not intended to be a *LESSON*, but just a compilation of tips and examples to get your head in gear for the ride.
@@ -35,7 +35,7 @@ Learning Chinese for someone who speaks a latin or germanic rooted language (i.e
   <img src="/assets/images/china-early/slippery-slope.JPG" class="in-post-img block mx-auto">
 <span class="img-caption mb3">Learning Chinese can be a slippery slope... he he.</span>
 
-First, before reading this post, I encourage you to spend some time studying [*pinyin*](https://www.quora.com/What-are-the-best-Pinyin-pronunciation-tables-with-audio), the phonetic system for representing Chinese syllables in letters. It's very straightforward and it'll save you an incredible amount of time with pronunciation later on. Take a few hours and just cram it. Then, when your ready to continue reading, I highly encourage you to have [Google translate](https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=en&text=%E6%84%9F%E8%B0%A2%E6%82%A8%E7%9C%8B%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2) (browser) or [Pleco](https://www.pleco.com/) (mobile) open, so you can look up the pronunciations of the characters in the examples below. Learning Chinese is as much about the time you put into it as it is how good you are at using resources. No one person, app, or blog, can teach it to you completely, and you'll often have to refer to complementary resources along the way if you want to make it sink it as well, and as quickly, as possible.     
+First, before reading this post, I encourage you to spend some time studying [*pinyin*](https://www.quora.com/What-are-the-best-Pinyin-pronunciation-tables-with-audio), the phonetic system for representing Chinese syllables in letters. It's very straightforward and it'll save you an incredible amount of time with pronunciation later on. Take a few hours and just cram it. Then, when you're ready to continue reading, I highly encourage you to have [Google translate](https://translate.google.com/#view=home&op=translate&sl=zh-CN&tl=en&text=%E6%84%9F%E8%B0%A2%E6%82%A8%E7%9C%8B%E6%88%91%E7%9A%84%E5%8D%9A%E5%AE%A2) (browser) or [Pleco](https://www.pleco.com/) (mobile) open, so you can look up the pronunciations of the characters in the examples below. Learning Chinese is as much about the time you put into it as it is how good you are at using resources. No one person, app, or blog, can teach it to you completely, and you'll often have to refer to complementary resources along the way if you want to make it sink it as well, and as quickly, as possible.     
 <br/>
 
 (Side note: I'll be using simplified Chinese in the examples below. I learned simplified first, so it comes more natural to me, but it doesn't really matter which one you learn first. It's not hard to jump from one to the other. They're usually pretty similar, give or take a few strokes.)  
@@ -64,11 +64,11 @@ Here it's also worth introducing the concept of radicals: the sub-components whi
 
 ### A character is a concept, not a word 
 
-This is the part where is gets kind of abstract and confusing. The first thing you need to know is that an individual character is not necessarily a word on its own. A character, first and foremost, represents a concept. There are *concepts* in that are represented across several different Chinese which might be represented by a single word in English.  
+This is the part where is gets kind of abstract and confusing. The first thing you need to know is that an individual character is not necessarily a word on its own. A character, first and foremost, represents a concept. There are *concepts* in that are represented across several different Chinese characters which might be represented by a single word in English.  
 <br/>
   <img src="/assets/images/china-early/strengthen-the-sense-of-civilization.JPG" class="in-post-img block mx-auto">
 <span class="img-caption mb3">A good way to pick up some new characters is from some of the many signs displayed in public places, like this one.  Very philosophical if you ask me.</span>
-Additionally, while a character in itself *may* be a word on it's own, most words (with the exception of grammar particles and common verbs) have two characters. Each of the two characters may be similar in the concept they convey, but combining them together gives the word the specifity so you know when/which context to use it in. Having two characters per word also makes it easier to distinguish between similar sounding words in spoken Chinese, since the language only has a total of 413 syllables to make up all of its thousands of characters.   
+Additionally, while a character in itself *may* be a word on it's own, most words (with the exception of grammar particles and common verbs) have two characters. Each of the two characters may be similar in the concept they convey, but combining them together gives the word extra specificity so you know when/which context to use it in. Having two characters per word also makes it easier to distinguish between similar sounding words in spoken Chinese, since the language only has a total of 413 syllables to make up all of its thousands of characters.   
 <br/>
 
 Now, let's put this idea into practice. In example below, we'll see how  the meaning of two characters combines can be pretty drastically different from either of the individual characters it's composed of.  
@@ -90,7 +90,7 @@ Now, let's put this idea into practice. In example below, we'll see how  the mea
 </div>
 
 <br/>
-Here we can see that two characters, 'love' and 'good', are combined to form the word 'hobby'. That's not completely intuitive. That's the first point we need to understand: Chinese is very much a contextual language. Characters mean different things depending on ther context, i.e. depending on the other characters around them. There are, of course, characters which have meanings on their own, but in most cases, their meaning is based on traditional usage, as opposed to an inherent definition.  
+Here we can see that two characters, 'love' and 'good', are combined to form the word 'hobby'. That's not completely intuitive. That's one of the most important points we need to understand: Chinese is very much a contextual language. Characters mean different things depending on ther context, i.e. depending on the other characters around them. There are, of course, characters which have meanings on their own, but in most cases, their meaning is based on where it is used, as opposed to an inherent definition.  
 <br/>
 
  
@@ -110,7 +110,7 @@ In Chinese culture, this character can be seen in many place as a symbol which i
 The the main point here is, don't think of characters as fixed words with fixed meanings. Better yet, don't study characters individually at all. Study *expressions*.   
 <br/>
 
-One of the biggest mistakes I made when learning Chinese was learning characters one by one. This is a fatal error that probably set me back months if not years in my progress. As a result of that I was able to read signs and names really well (I spent a lot of time translating names of subway stations in Beijing), but I struggled with reading anything sentences, let along paragraphs longer than a few characters. That's why I recommend learning Chinese, not on a character basis, and not even on a *word* basis, but on an *expression* basis. Learning expressions early on will expose you to all different kinds of grammar structures and colloquialisms which will be incredibly confusing, because the characters will mean different things that what you learned them to be.  
+One of the biggest mistakes I made when learning Chinese was learning characters one by one. This is a fatal error that probably set me back months if not years in my progress. As a result of that I was able to read signs and names really well (I spent a lot of time translating names of subway stations in Beijing), but I struggled with reading sentences, let alone paragraphs longer than a few characters. That's why I recommend learning Chinese, not on a character basis, and not even on a *word* basis, but on an *expression* basis. Learning expressions early on will expose you to all different kinds of grammar structures and colloquialisms where you can learn how different characters and words are used in different contexts. On the other hand, expressions would be incredibly confusing if you only studied individual characters, because those characters - when put into certain expressions - will mean different things that what you learned them to be.  
 <br/>
  
 ### The rule rule of Chinese grammar is... there is no grammar?
@@ -137,7 +137,7 @@ In the second sentence, the thing that changed is your emotional state. I + happ
 <br/>
 </p></div><br/>
 
-Another very common mistake is to assume, like I did, that you can just fit words into grammar patterns and people will understand what you mean, even if it's not quite perfect. This might be the case with other languages with similar grammar to English. But with Chinese, don't be surprised if you say something in Chinese that sounds perfectly logical to you, because you combined words in a grammatical structure that would make sense in English, and the person whom your're speaking to has know idea what you mean. To express yourself in Chinese, you can't just speak in Chinese. You have to *think* in Chinese.  
+Another very common mistake is to assume, like I did, that you can just fit words into grammar patterns and people will understand what you mean, even if it's not quite perfect. This might be the case with other languages with similar grammar to English. But with Chinese, don't be surprised if you say something in Chinese that sounds perfectly logical to you, because you combined words in a grammatical structure that would make sense in English, and the person whom you're speaking to has no idea what you mean. To express yourself in Chinese, you can't just speak in Chinese. You have to *think* in Chinese.  
 <br/>
 <div class="example-block">
 <p>
