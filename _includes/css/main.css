@@ -401,11 +401,24 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
- h4 {
-  color: #66bfbf;
+h3 {
+	margin-bottom: 10px;
+
+	font-size: 1.3em;
+	font-family: helvetica;
 
 }
 
+ h4 {
+  color:;
+
+}
+
+h5 {
+	font-weight: 600;
+	font-family: helvetica;
+	
+}
 
 .date-text {
 	font-size: .9em;
@@ -506,7 +519,7 @@ footer {
 
 .in-post-img {
 	width: 60%;
-	
+	margin-bottom: 8px;
 }
 
 .img-caption {
@@ -514,5 +527,13 @@ footer {
 	font-color: #331;
 	text-align: center;
 	display: block;
-	margin: 0;
+	margin: 0 auto;
+	width: 70%;
+}
+
+
+.example-block {
+	border: 1px solid lightgrey;
+	padding: 25px;
+background: #EBF1F7
 }
