@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "A Mandarin State of Mind"
-excerpt: The missing first chapter of any Chinese language textbook
+excerpt: What I wish I knew before learning Chinese
 featured_img: /assets/images/china-early/forbidden-temple.JPG
 series: language adventures
+tags: language, chinese, china
 ---
 
 
@@ -23,7 +24,7 @@ My only other experience learning a new language was Spanish in school. Learning
 I remember looking at a sign at the top of a building, thinking, there's no way anyone can ever learn this language. At that time, characters to me just looked like amorphous, unintellible square shaped scribbles. There was no logic to it.   
 <br/>
 
-But at the end of six months, I was able to have basic conversations, verbally and written (typing... handwriting is a different story), and could travel alone with no problem. I started without any structure, a raft at sea, and I eventually made it to dry land. But you don't have to be a raft. What I'm going to share here is how to build yourself a sturdy ship so your voyage to fluency can get off to as smooth as start as possible, and be robust enough to weather any storms that may get in its way later on.  
+But at the end of six months, I was able to have basic conversations, verbally and written (typing... handwriting is a different story), and could travel alone with no problem. I started without any structure, a raft at sea, and I eventually made it to dry land. But you don't have to be a raft. What I'm going to share here is how to build yourself a sturdy ship so your voyage to fluency can get off to as smooth a start as possible, and be robust enough to weather any storms that may get in its way later on.  
 <br/>
 
 Learning Chinese for someone who speaks a latin or germanic rooted language (i.e. English, Spanish, French, etc) is very difficult because it requires a different mindset. Here, I'll introduce some important concepts which I think will get you into that mindset. Keep in mind that this is not intended to be a *LESSON*, but just a compilation of tips and examples to get your head in gear for the ride.
@@ -48,7 +49,7 @@ First, before reading this post, I encourage you to spend some time studying [*p
 Chinese is hard because it's a different paradigm, a completely different mindset than the one you are used to if you grew up only speaking a European language. It's not a matter of learning verb conjugations and vocabulary (once you learn Spanish, for example, you can learn French or Italian incredibly quickly just by substituting the verb conjugations and vocabulary - all the patterns and structures are the same). Chinese, I'd argue, is one of the hardest languages in the world. Even native Chinese speakers take around 10 years to become completely fluent when they are kids, and it only became common for the average Chinese person to read Chinese within the last 100 years or so. It's no surprise it's so complicated, as it's one of the [oldest living languages on the planet](https://en.wikipedia.org/wiki/Oracle_bone). Over all those years, it's evolved and grown to be nuanced and layered in ways that English is not.   
 <br/>
 
-But don't let the complexity turn you off. It becomes much easier once you dive into it. As long as you go into it *knowing* it will be very different, you won't be surprised. Consider it an opportunity to break down your conceptions of the world and reform them in a new way. No, of course, you won't forget your native language, but you might find that what you know, or knew about the world is largely influenced by the words you use and the concepts they convey. And so by learning a new language, especially one so different, you'll be able to open your eyes to a new way of looking at the world. It may sound a little scary, but trust me, it's a lot of fun, and it'll be worth it when you can communicate with people from a different part of the world and understand them at a deeper level than that of just a tourist or a spectator. I'd also suspect that it may make people more tolerant and sympathetic to one another when they can speak each others' language.   
+But don't let the complexity turn you off. It becomes much easier once you dive into it. As long as you go into it *knowing* it will be very different, you won't be surprised. Consider it an opportunity to break down your conceptions of the world and reform them in a new way. No, of course, you won't forget your native language, but you might find that what you know, or knew about the world is largely influenced by the words you use and the concepts they convey. And so by learning a new language, especially one so different, you'll be able to open your eyes to a new way of looking at the world. It may sound a little scary, but trust me, it's a lot of fun, and it'll be worth it when you can communicate with people from a different part of the world and understand them at a deeper level than that of just a tourist or a spectator. I'd also suspect that it may make people more tolerant and sympathetic to one another when they can speak each other's language.   
 <br/>
 
 
@@ -64,14 +65,14 @@ Here it's also worth introducing the concept of radicals: the sub-components whi
 
 ### A character is a concept, not a word 
 
-This is the part where is gets kind of abstract and confusing. The first thing you need to know is that an individual character is not necessarily a word on its own. A character, first and foremost, represents a concept. There are *concepts* in that are represented across several different Chinese characters which might be represented by a single word in English.  
+This is the part where is gets kind of abstract and confusing. The first thing you need to know is that an individual character is not necessarily a word on its own. A character, first and foremost, represents a concept. There are *concepts* that are represented across several different Chinese characters which might be represented by a single word in English.  
 <br/>
   <img src="/assets/images/china-early/strengthen-the-sense-of-civilization.JPG" class="in-post-img block mx-auto">
 <span class="img-caption mb3">A good way to pick up some new characters is from some of the many signs displayed in public places, like this one.  Very philosophical if you ask me.</span>
 Additionally, while a character in itself *may* be a word on it's own, most words (with the exception of grammar particles and common verbs) have two characters. Each of the two characters may be similar in the concept they convey, but combining them together gives the word extra specificity so you know when/which context to use it in. Having two characters per word also makes it easier to distinguish between similar sounding words in spoken Chinese, since the language only has a total of 413 syllables to make up all of its thousands of characters.   
 <br/>
 
-Now, let's put this idea into practice. In example below, we'll see how  the meaning of two characters combines can be pretty drastically different from either of the individual characters it's composed of.  
+Now, let's put this idea into practice. In example below, we'll see how  the meaning of two characters combines can be drastically different from either of the individual characters it's composed of.  
 <br/>
 
 <div class="example-block">
@@ -102,7 +103,7 @@ Here we can see that two characters, 'love' and 'good', are combined to form the
 Let's take the character 福, for example. 福 means luck, fortune, or prosperity.  
 <br/>
 
-In Chinese culture, this character can be seen in many place as a symbol which is used to attract good fortune, and is placed on entrances to homes and businesses, especially during holidays. The meaning of the word comes from its usage in certain tradition contexts, and not so much based on its fundamental "definition". There are also other character which mean 'luck' in Chinese, but you cannot paste them onto your door (I mean you can but people will either be really confused or laugh at you).  </p></div>
+In Chinese culture, this character can be seen in many place as a symbol which is used to attract good fortune, and is placed on entrances to homes and businesses, especially during holidays. The meaning of the word comes from its usage in certain tradition contexts, and not so much based on its fundamental "definition". There are also other character which mean 'luck' in Chinese, but you cannot paste them onto your door (I mean you can, but people will either be very confused or laugh at you).  </p></div>
 <br/>
   <img src="/assets/images/china-early/big-fu.JPG" class="in-post-img block mx-auto">
 <span class="img-caption mb3">A large display of the character 福, seen in an art museum in Taiyuan, Shanxi province.</span>
@@ -115,10 +116,10 @@ One of the biggest mistakes I made when learning Chinese was learning characters
  
 ### The rule rule of Chinese grammar is... there is no grammar?
 
-That brings me to the next important conceptual point: Chinese doesn't have grammar. Okay, that's an exaggeration, but for all intents and purposes, for a beginner *it doesn't*. Chinese has the SVO (subject-object-verb) grammar pattern, like English, but that's where the similarity ends. Chinese does *not* have, tenses, plurals, verb inflections or conjugations. The grammar is also, for the most part *contextual*.   
+That brings me to the next important conceptual point: Chinese doesn't have grammar. Okay, that's an exaggeration, but for all intents and purposes, for a beginner *it doesn't*. Chinese has the SVO (subject-verb-object) grammar pattern, like English, but that's where the similarity ends. Chinese does *not* have, tenses, plurals, verb inflections or conjugations. The grammar is also, for the most part *contextual*.   
 <br/>
 
-For example, one of the most common grammar characters (called particles), is 了. This character basically implies that something changed. It's ofted taught as the equivalent of 'ed' for past tense in English, but it's not and anyone who tells you that is cheating you. Better to *know* that it's complicated in the beginning and not completely understand it, than assume it's simple and then try to fix your understanding later on.   
+For example, one of the most common grammar characters (called particles), is 了. This character basically implies that something changed. It's often taught as the equivalent of 'ed' for past tense in English, but it's not and anyone who tells you that is cheating you. Better to *know* that it's complicated in the beginning and not completely understand it, than assume it's simple and then try to fix your understanding later on.   
 <br/>
 
 <div class="example-block">
@@ -130,7 +131,7 @@ For example, one of the most common grammar characters (called particles), is �
 我开心了 = I'm happy (I became happy/I'm happy now)   
 <br/><br/>
 
-In both of these sentences, the 了 is signifying that something was changed. In the first one, it's the action of eating. You are not still eating and you are not saying a general statement that you ar a person who eats cake, so the 了 signifies that the action of eating cake is over.  
+In both of these sentences, the 了 is signifying that something was changed. In the first one, it's the action of eating. You are not still eating and you are not saying a general statement that you are a person who eats cake, so the 了 signifies that the action of eating cake is over.  
 <br/>
 <br/>
 In the second sentence, the thing that changed is your emotional state. I + happy + 了 (change of state). I wasn't happy before, now I am. This sentence would be used if you were sad or disappointed about something and somebody tried to cheer you up. If you just wanted to say generally how you're feeling (no change), you'd say 我很开心.  
