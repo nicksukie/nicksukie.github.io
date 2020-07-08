@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "A Bootleg Smartphone and a Bangkok Trainstation"
-excerpt: Preserving memories in words when there are no pictures
+title:  "Don't buy smartphones in Bangkok Trainstations"
+excerpt: And preservation of memories in words when there are no pictures
 featured_img: /assets/images/SE-Asia-early/trees-blur.jpeg
 ---
 
