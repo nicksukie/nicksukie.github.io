@@ -116,12 +116,12 @@ Along my professional journey I've also been fortunate to have had the opportuni
 <div class="center mx-auto">
   <img src="/assets/images/work/nomad.jpeg" class="inline-block-3" style="width: 80%;">
 
-<span class="img-caption mb3">The user-flow for event creation in Oodymate, a platform to connect people together for a meal, especially while traveling.</span>
+<span class="img-caption mb3">The much sought after nomad view. What I later realized is that it would be amuch nicer view without the computer in the way.</span>
 
 </div> 
 While I think the trend of nomadism looks, for the most part, more glamorous than it actually is, having experienced it first hand makes me better able to determine my future career path knowing all possible the options. Not to mention, the prospect of combining two passions of mine - travel and technology - is something that would have been a lingering "to-do" until I did it. So now, with that experience checked off, I can move on to a more stable, and potentially more realistic lifestyle, taking what I've learned about work-life balance from that period of voluntary instability, and using that to form a healthy balance wherever my career takes me in the future.    
 <br/>
-Remote work can be seen as the ultimate luxury for any software engineer, and while it's something to strive towards, it's probably not a realistic expectation for an early-stage in one's careeer, where, the way I see it, the priority should be on learning, improving skills, and networking. Lifestyle balance is important, but priorities should take into account long-term achievement as well as short-term comfort. That being said, I'm a proponent of utilizing one's vacation days! I believe the brain needs a break sometimes, so that the soul can be nourished. 
+Remote work can be seen as the ultimate luxury for any software engineer, and while it's something to strive towards, it's probably not a realistic expectation for an early-stage in one's career, where - the way I see it - the priority should be on learning, improving skills, and networking. Lifestyle balance is important, but priorities should take into account long-term achievement as well as short-term comfort. That being said, I'm a proponent of utilizing one's vacation days! I believe the brain needs a break sometimes, so that the soul can be nourished. 
 <br/>
 
 
