@@ -66,7 +66,7 @@ With this intuition-based leaning and a foundation of programming and web-develo
 <br/>
 
 <div class="center mx-auto">
-  <img src="/assets/images/work/IF1.png" class="inline-block mr3" style="width: 80%;">
+  <img src="/assets/images/work/IF1.PNG" class="inline-block mr3" style="width: 80%;">
 
 <span class="img-caption mb3">The resulting news discussion/aggregation platform which I developed during my master's, intended to create a "healthier" ecosystem for online news.</span>
 
