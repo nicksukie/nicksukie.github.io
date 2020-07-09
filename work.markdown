@@ -66,7 +66,7 @@ With this intuition-based leaning and a foundation of programming and web-develo
 <br/>
 
 <div class="center mx-auto">
-  <img src="/assets/images/work/IF1.png" class="inline-block mr3" style="width: 80%;">
+  <img src="/assets/images/work/IF1.PNG" class="inline-block mr3" style="width: 80%;">
 
 <span class="img-caption mb3">The resulting news discussion/aggregation platform which I developed during my master's, intended to create a "healthier" ecosystem for online news.</span>
 
@@ -109,19 +109,19 @@ Another startup I worked with had both hardware and software components, and was
 
 ### Work-Life-Travel Balance
 
-Along my professional journey I've also been fortunate to have had the opportunity to delve somewhat into the digital nomad community, a burgeoning trend among young software developers, who, taking advance of the ability to work remotely as a programmer, choose to live in countries which may correspond better with their intended lifestyle - and budgets - leading to a potentially healthier work-life balance while also gaining some understanding of cultures of different people around the world.    
+Along my professional journey I've also been fortunate to have had the opportunity to delve somewhat into the digital nomad community, a burgeoning trend among young software developers, who, taking advantage of the ability to work remotely as a programmer, choose to live in countries which may correspond better with their intended lifestyle - and budgets - leading to a potentially healthier work-life balance while also gaining some understanding of cultures of different people around the world.    
 <br/>
 
 
 <div class="center mx-auto">
   <img src="/assets/images/work/nomad.jpeg" class="inline-block-3" style="width: 80%;">
 
-<span class="img-caption mb3">The much sought after nomad view. What I later realized is that it would be amuch nicer view without the computer in the way.</span>
+<span class="img-caption mb3">The much sought after nomad view. What I later realized is that it would be amuch nicer view without the computer in the foreground.</span>
 
 </div> 
 While I think the trend of nomadism looks, for the most part, more glamorous than it actually is, having experienced it first hand makes me better able to determine my future career path knowing all possible the options. Not to mention, the prospect of combining two passions of mine - travel and technology - is something that would have been a lingering "to-do" until I did it. So now, with that experience checked off, I can move on to a more stable, and potentially more realistic lifestyle, taking what I've learned about work-life balance from that period of voluntary instability, and using that to form a healthy balance wherever my career takes me in the future.    
 <br/>
-Remote work can be seen as the ultimate luxury for any software engineer, and while it's something to strive towards, it's probably not a realistic expectation for an early-stage in one's career, where - the way I see it - the priority should be on learning, improving skills, and networking. Lifestyle balance is important, but priorities should take into account long-term achievement as well as short-term comfort. That being said, I'm a proponent of utilizing one's vacation days! I believe the brain needs a break sometimes, so that the soul can be nourished. 
+Remote work can be seen as the ultimate luxury for any software developer, and while it's something to strive towards, it's probably not a realistic expectation for an early-stage in one's career, a time when - the way I see it - the priority should be on learning, improving skills, and networking. Lifestyle balance is important, but priorities should take into account long-term achievement as well as short-term comfort. That being said, I'm a proponent of utilizing one's vacation days! I believe the brain needs a break sometimes, so that the soul can be nourished. 
 <br/>
 
 
