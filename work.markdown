@@ -14,6 +14,23 @@ title: My Work
 <hr> 
 <br/>
 
+
+<div class="toc">  
+
+<h4 style="text-align: center">Table of Contents</h4>
+
+<ol>
+<li><a href="#Student_Phase">Student Phase: Co-ops & Internships</a></li>
+<li><a href="#Graduate_Phase">Graduate Phase: Research</a></li>
+<li><a href="#Startups_Phase">Freelancing & Startups Phase</a></li>
+<li><a href="#Work_Life_Travel">Work-Life-Travel Balance</a></li>
+<li><a href="#tldr">tl;dr</a></li>
+</ol> 
+
+</div> 
+<br/>
+
+
  <em><strong>Here's the story of my professional journey up to now:  </strong></em>  
 <br/>
 
@@ -22,6 +39,7 @@ My first foray into software development was in my first year of college when I 
 <br/>
 
 
+<span id="Student_Phase"></span>
 ### Student Phase: Co-ops & Internships   
 
 Outside of coursework, where I learned MatLab, mostly for performing complex mathematical computations in (non-software) engineering homework assignments, I soon started programming with Python. My second co-op during my undergrad (a five-year, three co-op program featuring alternating 6-month work and study periods for three out of the five years, no summer breaks) was a data science role for the R&D department of an environmental engineering company. I took what I knew about MatLab, and scaled that up with mentorship from a great supervisor and plenty of Stackoverflow, tutorials, and trial and error - to gain a beginner's proficiency in the language. By the end of the six months, I'd been able to produce some significant results for the company, as well as make a massive leap in my programming abilities as compared to when I started at the company. My accomplishments there included a desktop application for data analysis and visualization of R&D data, as well as a digital image processing tool to classify highspeed images of moving particles according to their speed and orientation.   
@@ -61,8 +79,9 @@ While there was only a small portion of line-by-line programming in this role, i
 At this point, the trend throughout my studies was that my work interests were becoming much less *scientific* and much more *design-oriented*. Whereas a field of "hard-engineering" relies upon scientific laws and mathematical equations, I was starting to lean more towards a field dominated by intuition and consumer preferences (of course, software engineering has a basis of science, but at its highest level, it is abstracted such that those mathematical fundamentals are almost invisible to the end-user).   
 <br/>
 
-
+<span id="Graduate_Phase"></span>
 ### Graduate Phase: Research
+
 
 With this intuition-based leaning and a foundation of programming and web-development skills in tow, I combinaed all that with my interest in scalable platforms, as hinted at in my first-ever software endeavor, I decided to pursue my most ambitious project yet. I fully-fledged social media platform in a niche which I felt was lacking - news.  
 <br/>
@@ -91,7 +110,9 @@ Oh, and through the same project, I did discover the meaning of life. Well, ok, 
 Overall, through my master's program and software project, I gained a more realistic view of software development, and life itself, making my personal and professional goals more straightforward and realizable.  
 <br/>
  
-### Graduate Phase: Startups  
+<span id="Startups_Phase"></span>
+### Freelancing & Startups Phase
+
 The learnings from academic life, admittedly, tend to be unapplicable to the real world. So, being a fan of the real world, I was eager to escape from the relative isolation of campus life and get involved in some startup efforts to counterbalance potential impracticality of coursework and research.   
 <br/>
 
@@ -108,7 +129,7 @@ One of which was Oodymate, a social platform for travelers to <a href="https://w
 
 Another startup I worked with had both hardware and software components, and was a device for mental relaxation. After completing a successful Kickstarter campaign, they enlisted me to the team to assist with rolling out successive versions of the mobile app, making appropriate additions and pivots according to user demand and feedback. I drew up wireframes for a handful of potential features, and after deciding with the founding team on which ones best aligned with the future direction of the business, assisted the lead developer with implementation, providing an iterative series of wireframes until all specifications were pinned down and ironed out. Those features are currently deployed in the latest version of the application, which, along with the hardware product, are gaining significant traction in the market.   
 <br/>
-
+<span id="Work_Life_Travel"></span>
 ### Work-Life-Travel Balance
 
 Along my professional journey I've also been fortunate to have had the opportunity to delve somewhat into the digital nomad community, a burgeoning trend among young software developers, who, taking advantage of the ability to work remotely as a programmer, choose to live in countries which may correspond better with their intended lifestyle - and budgets - leading to a potentially healthier work-life balance while also gaining some understanding of cultures of different people around the world.    

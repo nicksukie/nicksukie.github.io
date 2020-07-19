@@ -537,3 +537,12 @@ footer {
 	padding: 25px;
 background: #EBF1F7
 }
+
+
+.toc {
+	border-radius: 12px;
+	padding: 25px;
+	margin: auto;
+	width: 50%;
+	background: #EBF1F7;
+}

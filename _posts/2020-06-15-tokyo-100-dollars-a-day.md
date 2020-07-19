@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What can you do with $100/day in Tokyo?"
-excerpt: I was a rich man once, for a few weeks.
+excerpt: Giving a new meaning to the term "budget travel"
 featured_img: /assets/images/skytree.jpeg
 ---
 

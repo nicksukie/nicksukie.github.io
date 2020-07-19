@@ -26,7 +26,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 excerpt_separator: <!--more-->
 
 
-permalink: pretty
+permalink: :title/
 
 minima:
   date_format: "%b %-d, %Y"

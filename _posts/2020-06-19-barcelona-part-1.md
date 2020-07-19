@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "The Sky Looks Different in Spain"
-excerpt: I accidentally stumbled into the Barcelona suburbs, and enjoyed every minute of it
+title:  "Lost in Barcelona"
+excerpt: How I learned to appreciate the little things while traveling
 series: Barcelona, Part 1
 featured_img: /assets/images/barcelona-residential.jpeg
 ---
