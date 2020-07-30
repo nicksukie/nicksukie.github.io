@@ -57,10 +57,10 @@ I went back to the dorm and turned in for the night.
 <hr class="hr2">  
 <br/>
 
-I was awoken at 4am by a loud, piercing noise coming from the hallway. It was the sound of someone repeatedly banging two pieces of wood together. A wake-up call, summoning eeryone out of bed and up to the main hall for morning prayer.  
+I was awoken at 4am by a loud, piercing noise coming from the hallway. It was the sound of someone repeatedly banging two pieces of wood together. A wake-up call, summoning everyone out of bed and up to the main hall for morning prayer.  
 <br/>
 
-Then, after prayer, breakfast. The morning light shone horizontally into the mess hall. Total silence as the meal was underway, aside from the clinking of chopsticks against metal bowls. Volunteers coming around to offer seconds. There was a form of sign language, designed solely to let the server know how much, and whether more rice, porridge, or vegetable dishes was desired.  
+Then, after prayer, breakfast. The morning light shone horizontally into the mess hall. Total silence as the meal was underway, aside from the clinking of chopsticks against metal bowls. Volunteers coming around to offer seconds. People were using a form of sign language to convey to the server whether, and how much rice, porridge, or vegetables they desired.
 <br/>
 
   <img src="/assets/images/monastery/incense.JPG" class="in-post-img block mx-auto">
@@ -90,4 +90,4 @@ I went back again a few weekends later. This time, I actually did some work as a
 <hr class="hr2">  
 <br/>
 
-Is there really something deeper to life than what I'd always known? Some form of happiness whose only requirement is the acceptance of simplicity? If so, it sounds like I have a long way to get there. And I still have yet to confirm it. But for now, <em>at least I have a hint.<.em>
+Is there really something deeper to life than what I'd always known? Some form of happiness whose only requirement is the acceptance of simplicity? If so, it sounds like I have a long way to get there. And I still have yet to confirm it. But for now, <em>at least I have a hint.</em>
