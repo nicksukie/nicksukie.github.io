@@ -216,7 +216,8 @@ max-width: 1200px;
 
   .image-contain {
 	  height: 140px;
-	  width: 230px;
+	  max-width: 230px;
+
 	  overflow: hidden;
 	  border-radius: 6px;
 
@@ -246,10 +247,11 @@ min-width: 1060px;
  .post-preview {
 
   text-align: center;
- min-width: 350px;
- max-width: 410px;
+ 
+min-width: 200px;
   min-height: 270px;
   display: inline-block;
+  padding: 0 8px;
 }
 
  .post-preview-home {
