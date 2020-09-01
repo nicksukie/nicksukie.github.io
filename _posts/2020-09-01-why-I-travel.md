@@ -13,11 +13,11 @@ That's really what it's all about: <em>the moment</em>.
 <br/>
 
 
-Some people play sports. Some play music. I travel. These are all activities that enforce a state of being which allows one to be fully present. Maybe I chose the most expensive one. But it worked out, because it was all on loan. Much like someone would take out a bank loan to start a business, hoping that they'll soon earn enough in profit to pay it back, I traveled on scholarships during college, hoping, or rather, assuming, that the person I would become as a result would equip me with tools to achieve success (both and material, and spiritual).   
+Some people play sports. Some play music. I travel. These are all activities that enforce a state of being which allows one to be fully present. Maybe I chose the most expensive one. But it worked out, because it was all on loan. Much like someone would take out a bank loan to start a business, hoping that they'll soon earn enough in profit to pay it back, I traveled on scholarships during college, hoping, or rather, assuming, that the person I would become as a result would equip me with tools to achieve success (both the material, and spiritual).   
 <br/>
 
 
-I find the benefits of travel endless, because the flexibility of it - the adventure - is something that gives you back whatever you put into it. By traveling, you're not only becoming good at traveling; if done a certain way, traveling can help a person get better at "life" itself. The demands it has on the mental and emotional faculties: the necessity of planning, interacting at various levels of formality, negotiating, coming up with solutions to problems expected and unexpected.   
+I find the benefits of travel endless, because the flexibility of it - the adventure - is something that gives you back whatever you put into it. By traveling, you're not only becoming good at traveling; if done a certain way, traveling can help a person get better at *life itself*. The demands it has on the mental and emotional faculties: the necessity of planning, interacting at various levels of formality, negotiating, coming up with solutions to problems expected and unexpected.   
 <br/>
 
 
@@ -42,7 +42,7 @@ But there were definitely other factors of my personality that made travel the p
 <br/>
 
 
-Ever since I started learning Spanish in school, I loved learning languages. In fact it was the only subject in school I actually enjoyed. because it didn't feel like school. It felt like preparation for life. And so traveling was just an endless immersive language course where I was experiencing life at the same time as I was gaining skills which would be useful and make the experience more enjoyable the more I learned: in very perceptible ways.   
+Ever since I started learning Spanish in school, I loved learning languages. In fact it was the only subject in school I actually enjoyed, because it didn't feel like school. It felt like preparation for life. And so traveling was just an endless immersive language course where I was experiencing life at the same time as I was gaining skills which would be useful and make the experience more enjoyable the more I learned: in very perceptible ways.   
 <br/>
 
 

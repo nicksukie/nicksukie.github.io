@@ -472,6 +472,7 @@ color: #6A95D1;
  */
 
 footer {
+	display: block;
 	margin-top: 15px;
 	background-color: white;
 	padding: 15px 0;
@@ -480,10 +481,12 @@ footer {
 
 
 
+
 }
 
 .footer-container {
-	padding: 10px 15px;
+	padding: 10px 0px;
+	margin-right: 30px;
 }
 
 .sans {
@@ -547,4 +550,19 @@ background: #EBF1F7
 	margin: auto;
 	width: 50%;
 	background: #EBF1F7;
+}
+
+.social>a>img  {
+	max-width: 30px; 
+	padding-left: 30px;
+
+}
+
+
+.social>a {
+		opacity: 0.7;
+}
+
+.social>a:hover {
+		opacity: 1;
 }
