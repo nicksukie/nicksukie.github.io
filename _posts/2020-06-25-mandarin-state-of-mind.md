@@ -114,7 +114,7 @@ The the main point here is, don't think of characters as fixed words with fixed 
 One of the biggest mistakes I made when learning Chinese was learning characters one by one. This is a fatal error that probably set me back months if not years in my progress. As a result of that I was able to read signs and names really well (I spent a lot of time translating names of subway stations in Beijing), but I struggled with reading sentences, let alone paragraphs longer than a few characters. That's why I recommend learning Chinese, not on a character basis, and not even on a *word* basis, but on an *expression* basis. Learning expressions early on will expose you to all different kinds of grammar structures and colloquialisms where you can learn how different characters and words are used in different contexts. On the other hand, expressions would be incredibly confusing if you only studied individual characters, because those characters - when put into certain expressions - will mean different things that what you learned them to be.  
 <br/>
  
-### The rule rule of Chinese grammar is... there is no grammar?
+### The first rule of Chinese grammar is... there is no grammar?
 
 That brings me to the next important conceptual point: Chinese doesn't have grammar. Okay, that's an exaggeration, but for all intents and purposes, for a beginner *it doesn't*. Chinese has the SVO (subject-verb-object) grammar pattern, like English, but that's where the similarity ends. Chinese does *not* have, tenses, plurals, verb inflections or conjugations. The grammar is also, for the most part *contextual*.   
 <br/>
