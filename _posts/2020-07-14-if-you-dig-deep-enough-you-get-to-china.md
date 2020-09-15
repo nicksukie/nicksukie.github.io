@@ -6,7 +6,7 @@ featured_img: /assets/images/beijing-arrival/forbidden-city.JPG
 ---
 
 
-Starting a new life in a new place is tiring enough to do once, let alone five times in two years. By the time I got to Japan, my fifth destination, I can say honestly, it was a little bit underwhelming. Not to say Japan wasn't as unique or interesting as I'd expected, but simply because I'd learned to be a little bit more reaslistic with my expectations before arriving anywhere. 
+Starting a new life in a new place is tiring enough to do once, let alone five times in two years. By the time I got to Japan, my fifth destination, I can say honestly, it was a little bit underwhelming. Not to say Japan wasn't as unique or interesting as I'd expected, but simply because I'd learned to be a little bit more reaslistic with my expectations before arriving anywhere.  
 <br/>
 
 For the most part, though, I didn't have any expectations at all when I got off the plane in Beijing a year and a half earlier.    

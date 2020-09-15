@@ -72,7 +72,7 @@ This is the part where is gets kind of abstract and confusing. The first thing y
 Additionally, while a character in itself *may* be a word on it's own, most words (with the exception of grammar particles and common verbs) have two characters. Each of the two characters may be similar in the concept they convey, but combining them together gives the word extra specificity so you know when/which context to use it in. Having two characters per word also makes it easier to distinguish between similar sounding words in spoken Chinese, since the language only has a total of 413 syllables to make up all of its thousands of characters.   
 <br/>
 
-Now, let's put this idea into practice. In example below, we'll see how  the meaning of two characters combines can be drastically different from either of the individual characters it's composed of.  
+Now, let's put this idea into practice. In example below, we'll see how  the meaning of two characters combined can be drastically different from either of the individual characters it's composed of.  
 <br/>
 
 <div class="example-block">

@@ -5,7 +5,7 @@ excerpt: And why I'll never not be one, even if I'm not traveling
 featured_img: /assets/images/why-i-travel/forbidden-reflection.jpg
 ---
 
-The first time I ever went abroad was a volunteer trip to Costa Rica during my second year of college. Needless to say, it was as eye-opening as could possibly be. I loved every second of digging holes into the ground for compost, planting seeds, tending to the crops. I took into the sun, the sounds, the smells, and tastes. I learned to appreciate nature and the moment for the first time.  
+The first time I ever went abroad was a volunteer trip to Costa Rica during my second year of college. Needless to say, it was as eye-opening as could possibly be. I loved every second of digging holes into the ground for compost, planting seeds, tending to the crops. I took in the sun, the sounds, the smells, and tastes. I learned to appreciate nature and the moment for the first time.  
 <br/>
 
 
@@ -25,7 +25,7 @@ Traveling is what you make of it. And I made it into a tool to push myself to my
 <br/>
 
 
-Some might said it's an addiction. The adrenaline rush of being surrounding by nothing familiar. And maybe it is. But if you can pull it off, why not? There's no downside.   
+Some might said it's an addiction. The adrenaline rush of being surround by nothing familiar. And maybe it is. But if you can pull it off, why not? There's no downside.   
 <br/>
 
 
@@ -42,7 +42,7 @@ But there were definitely other factors of my personality that made travel the p
 <br/>
 
 
-Ever since I started learning Spanish in school, I loved learning languages. In fact it was the only subject in school I actually enjoyed, because it didn't feel like school. It felt like preparation for life. And so traveling was just an endless immersive language course where I was experiencing life at the same time as I was gaining skills which would be useful and make the experience more enjoyable the more I learned: in very perceptible ways.   
+Ever since I started learning Spanish in school, I loved learning languages. In fact it was the only subject in school I actually enjoyed, because it didn't feel like school. It felt like preparation for life. And so traveling was just an endless immersive language course where I was experiencing life at the same time as I was gaining skills which would be useful and make the experience more enjoyable the more I learned - in very perceptible ways.   
 <br/>
 
 
@@ -64,6 +64,6 @@ Traveling was a way for me to see how people lived in the world outside of my sm
 <br/>
  
 
-This is where my life's journey has reached the boundary of being based around traveling, to being based around non-judgement. Because, having spent some time at home (this post is being written in August 2020, so you know why), I have practiced my understanding of non-judgement gained in the international context by applying it to life locally, and have found that it is just as applicable. People are people everywhere, and while there are geographies which awaken a person more than others, the prospect of travel itself, purely wandering the way I used to - no longer appeals to me. Instead, I intend on expanding that understanding of non-judgement further to encompass more and more of my life, and find joy in the moments wherever I am. Surely, I will never tire of seeing new places in the world, meeting new people, new experiences. Having lived abroad is one of the things that most defines me, and that will never change. But the emphasis has shifted, and now the adventure continues on yet another dimension - the one where meaning is derived from output rather than intake. Sharing my pictures, stories, thoughts, and beliefs with the world. This is my new adventure, and I'm glad that you're following along.  
+This is where my life's journey has reached the boundary of being based around traveling, to being based around non-judgement. Because, having spent some time at home (this post is being written in August 2020, so you know why), I have practiced my understanding of non-judgement gained in the international context by applying it to life locally, and have found that it is just as applicable. People are people everywhere, and while there are geographies which awaken a person more than others, the prospect of travel itself - purely wandering the way I used to - no longer appeals to me. Instead, I intend on expanding that understanding of non-judgement further to encompass more and more of my life, and find joy in the moments wherever I am. Surely, I will never tire of seeing new places in the world, meeting new people, new experiences. Having lived abroad is one of the things that most defines me, and that will never change. But the emphasis has shifted, and now the adventure continues on yet another dimension - the one where meaning is derived from output rather than intake. Sharing my pictures, stories, thoughts, and beliefs with the world. This is my new adventure, and I'm glad that you're following along.  
 <br/>
  
