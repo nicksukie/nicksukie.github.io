@@ -6,9 +6,6 @@ featured_img: /assets/images/bigbuddha4.jpeg?4362984378"
 
 ---
 
-I grew up in a suburban, middle class household, and probably from playing too many video games, I realized early on that life could be much more interesting that the one I was living. So as soon as I possibly could, I took a trip. A long trip. Not just a vacation, but a venture into new cultures and societies much deeper than that of a tourist.  
-<br/>
-
 I initially followed the typical "go to college and get a good education" life path without thinking too much about it. While I think I should have thought a little bit more about what I wanted to do with my life prior to committing myself to a university with $40k a year tuition, what I did was probably the next best thing (aside from taking a year off or dropping out completely).   
 <br/>
 
