@@ -1,0 +1,47 @@
+---
+layout: default
+---
+<div class="page-content">
+    <div class="text-body paragraph-text-home mx-auto mb2">
+      <img src="https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-19/s320x320/116871508_327470918291187_5233915572378074612_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_ohc=eVEG6CFK5HoAX8suXgE&oh=264e9a68f0c266b21821602d838f59c0&oe=5F796848" class="headshot" alt="headshot">
+
+
+{% include about-expanded.html %}
+   
+</div>
+
+
+<br>
+
+<div class="center" style="text-align:center">
+
+<h1 class="" > Recent Entries </h1>
+<br>
+<div class="block" style="width:100%; min-height: 280px; margin: auto;">
+
+<ul class="list-reset post-list">
+  {% for post in site.posts limit:4 %}
+  <div class="post-preview sm-col sm-col-3">
+	
+    <li>
+
+      <a href="{{ post.url }}">
+	  <div class="image-contain"> 
+        <img class="featured_img-preview" src="{{ post.featured_img }}" /></div></a>
+
+        <a href="{{ post.url }}">  <h2 class="home-post-title">{{ post.title }} </h2></a>
+      <div class="mt1"><span class="date-text">{{ post.date | date_to_string }}</span></div>
+    </li>
+	</div>
+  {% endfor %}
+</ul>
+
+</div>
+</div>
+
+
+<br>
+
+
+
+
