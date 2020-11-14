@@ -41,7 +41,7 @@ nav:hover {
 .nav-contents {
 
 	margin: 0 30px;
-	
+
 }
 
 .nav-item {
@@ -53,7 +53,7 @@ nav:hover {
 	opacity: .6;
 	transition: opacity .3s;
 	text-transform: lowercase;
-		
+
 }
 
 
@@ -67,7 +67,7 @@ nav:hover {
 
 
 body{
-	
+
   background-color:white;
 	margin: 0 0;
 min-width: 320px;
@@ -81,22 +81,22 @@ a {
 }
 
 .post-preview {
-	
+
 	opacity:.7;
-	
-	
+
+
 }
 
 .post-preview:hover {
-	
+
 	opacity: 1;
-	
-	
+
+
 }
 
 
 @media all and (max-width: 640px) {
-	
+
 
 
 
@@ -104,8 +104,8 @@ a {
 	font-size: 0.8em;
 	text-transform: lowercase;
 	margin: 0px 0px;
-}	
-	
+}
+
   .text-body {
 
     max-width: 640px;
@@ -127,7 +127,7 @@ a {
 
 	  	width: 70%;
 		margin: 0 auto;
-	  
+
   }
   .featured_img-preview {
 
@@ -160,7 +160,7 @@ a {
   min-height: 0px;
 }
 
-.feat-img-container { 
+.feat-img-container {
 
 	overflow: hidden;
 	max-height: 300px;
@@ -178,33 +178,33 @@ a {
 }
 
 .more-posts {
-	
+
 height: auto;
-	
-} 
+
+}
 
 }
 
 
 @media all and (min-width: 640px) {
-	
+
 	.container {
 	min-width:1060px;
 }
-	
+
 	.page-content {
-	
+
 
 
 }
 
-	
+
 .post-content {
 max-width: 1200px;
 
 
 }
-	
+
 .text-body {
 
   font-size: 1.1em;
@@ -222,7 +222,7 @@ max-width: 1200px;
 	  border-radius: 6px;
 
 	  margin: 0 auto;
-	  
+
   }
 
 .featured_img-preview {
@@ -247,7 +247,7 @@ min-width: 1060px;
  .post-preview {
 
   text-align: center;
- 
+
 min-width: 200px;
   min-height: 270px;
   display: inline-block;
@@ -275,14 +275,14 @@ min-width: 200px;
 
 
 
-.feat-img-container { 
+.feat-img-container {
 	border-radius: 6px;
 	overflow: hidden;
 	height: 400px;
 }
 
 .feat-img {
-	
+
 	width: 100%;
 	max-height: 100%;
 	object-fit: cover;
@@ -295,22 +295,22 @@ min-width: 200px;
 
 .page-content-home {
 min-width: 1060px;
-	
+
 }
 
 
 
 .more-posts {
-	
+
 min-height: 300px;
-	
-} 
- 
+
+}
+
 }
 
 /* @media all and (min-width: 641px) and (max-width: 1042px) {
 .recent_entries {
-	
+
 	overflow-x: scroll;
 }
 
@@ -329,20 +329,20 @@ nav {
 
 .post-content {
 	margin: 0 auto;
-	
+
 }
 .post-list-post-preview {
-	
+
 }
 
 .post-list-post-title {
-	
+
 	font-family: 'Roboto Slab', serif;
-	font-size: 1.8em;
+	font-size: 1.4em;
 }
 
 .home-post-title {
-	
+
 	font-family: 'Roboto Slab', serif;
 	font-size: 1.3em;
 }
@@ -356,7 +356,7 @@ font-size: 1.2em;
 .post-title {
 	font-family: 'Roboto Slab', serif;
 	font-size: 2.0em;
-margin-bottom: 15px;	
+margin-bottom: 15px;
 }
 
 .article {
@@ -369,7 +369,7 @@ hr {
 }
 
 .hr2 {
-	
+
 	border: 0;
 	border-top: 2px solid grey;
 	width: 7%;
@@ -382,16 +382,7 @@ p {
 }
 
 
-p a { 
-  text-decoration: underline;
-  text-decoration-color:  #6A95D1;
 
-}
-
-p a:hover { 
-color: #6A95D1;
-
-}
 
 h1 {
  color: black;
@@ -400,7 +391,7 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
 
   margin: 0 ;
-  
+
 }
 
 h3 {
@@ -412,14 +403,14 @@ h3 {
 }
 
  h4 {
-  
+
 
 }
 
 h5 {
 	font-weight: 600;
 	font-family: helvetica;
-	
+
 }
 
 .date-text {
@@ -457,7 +448,7 @@ h5 {
 }
 
 
-.post-preview:hover a, .post-preview:active a{ 
+.post-preview:hover a, .post-preview:active a{
 color: #6A95D1;
 }
 
@@ -490,7 +481,7 @@ footer {
 }
 
 .sans {
-	
+
 	font-family: sans-serif;
 }
 
@@ -503,14 +494,14 @@ footer {
 
 
 
- 
+
  .PageNavigation {
 	height: 100%;
 	margin: 0 auto;
 	width: 80%;
-}	
- 
- 
+}
+
+
 .default-page-container {
 
 }
@@ -553,7 +544,7 @@ background: #EBF1F7
 }
 
 .social>a>img  {
-	max-width: 30px; 
+	max-width: 30px;
 	padding-left: 30px;
 
 }
@@ -565,4 +556,23 @@ background: #EBF1F7
 
 .social>a:hover {
 		opacity: 1;
+}
+
+
+
+/*PORTFOLIO CSS*/
+
+p a {
+  text-decoration: underline;
+  text-decoration-color:  #6A95D1;
+
+}
+
+p a:hover {
+color: #6A95D1;
+
+}
+
+h3 {
+  text-transform: uppercase;
 }

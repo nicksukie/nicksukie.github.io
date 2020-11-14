@@ -4,27 +4,36 @@ title: My Work
 
 ---
 
+<div class="center mx3">
+<p><strong> I write a blog as a hobby, but by trade, I write something quite different - code. I've been interested software ever since getting my hands on computers and video games as a young child. I'm passionate about creating intuitive user experiences which enable people to interact and express themselves in new and productive ways.
 
-
-
-
-
- <em><strong>Here's the story of my professional journey up to now.  </strong></em>  
+ I'm also available for freelance web-development work on a per-project basis.</strong>
+ </p> </div> 
 <br/>
+
+<hr> 
+<br/>
+
 
 <div class="toc">  
 
-<h4 style="text-align: center" class="sans">Table of Contents</h4>
+<h4 style="text-align: center">Table of Contents</h4>
 
 <ol>
-<li><p><a href="#Student_Phase">Student Phase: Co-ops & Internships</a></p></li>
-<li><p><a href="#Graduate_Phase">Graduate Phase: Research</a></p></li>
-<li><p><a href="#Startups_Phase">Freelancing & Startups Phase</a></p></li>
-<li><p><a href="#Work_Life_Travel">Work-Life-Travel Balance</a></p></li>
-</ol>
+<li><a href="#Student_Phase">Student Phase: Co-ops & Internships</a></li>
+<li><a href="#Graduate_Phase">Graduate Phase: Research</a></li>
+<li><a href="#Startups_Phase">Freelancing & Startups Phase</a></li>
+<li><a href="#Work_Life_Travel">Work-Life-Travel Balance</a></li>
+<li><a href="#tldr">tl;dr</a></li>
+</ol> 
 
-</div>
+</div> 
 <br/>
+
+
+ <em><strong>Here's the story of my professional journey up to now:  </strong></em>  
+<br/>
+
 
 My first foray into software development was in my first year of college when I attempted to "disrupt" the exorbitant textbook industry by creating a sharing platform for students to exchange books across the campus. I put together a basic landing page, but soon, the only thing I managed to disrupt was my grades, and so my software aspirations had to be put on hold for a few years. That first venture, though, as shallow as it was, gave me my first exposure to HTML, CSS, and the dynamics of a CMS, which would prove useful later in the professional setting.   
 <br/>
@@ -51,16 +60,16 @@ Finally, during the same co-op I worked on yet another desktop application, orig
 <span class="img-caption mb3">My first user-interface, a coal combustion reaction calculator desktop application built in MatLab. Later on I'd shift further away from scientific and more towards consumer applications.</span>
 
 </div>
-
+		
 <hr class="hr2">
-
+		  
 <br/>
 
 
 Although my major at the time was not related to IT or computer science, I had always had programming as a passion, and knew I'd get back into it as a career at some point later in life (why I didn't think to study it in college is a conversation for another day). But with that passion in the back of my mind, I decided to do something risky, and take an internship in the field, which was actually completely unrelated to my major at that time - a decision based on instinct which proved to be a good one (what is life but a game challenging you to know when and when not to trust your instincts?). During the final co-op during my undergrad, I worked as a web developer for a Tokyo based compliance startup. I designed from scratch a website for the company's international product suite, and revised the bilingual corporate website as well, all using WordPress. I designed icons, wrote copy, integrated translations, and formatted all the pages using Wordpress's WYSIWYG platform along with some custom HTML and CSS, and deployed it at the very hesitant nod of the company CTO, making this my first complete web project (and <a href="https://web.archive.org/web/20160131185851/http://www.shimpla.com/en/"> it shows</a>).   
 <br/>
 
-While there was only a small portion of line-by-line programming in this role, it did give me a stronger conceptual understanding of web-development and UI design, and inspired me to further delve into the field. It also provided a soft-landing for my entrance into web-development, given that the website was intended as a showcase of products and not a representation of a company as a whole (who would hire a mere intern to take on such a huge responsibility?). I was graciously given the chance to perform a task which I'd had the desire but not yet the competency to do, simply out of the goodness of heart to give an young ambitious person a chance, and for that I'm deeply grateful. Because, as blank canvas of a student with little concrete idea of what he wanted to do as a profession, this was the first role I've performed which I've felt fully "in my element", so to speak. Whereas my previous co-op experience was satisfying to certain extent, it was still further on the scientific side than I'd find myself inclined to delve into further. As such, if I can find that level of comfort in a future role, I'll know that I'm in the right place.
+While there was only a small portion of line-by-line programming in this role, it did give me a stronger conceptual understanding of web-development and UI design, and inspired me to further delve into the field. It also provided a soft-landing for my entrance into web-development, given that the website was intended as a showcase of products and not a representation of a company as a whole (who would hire a mere intern to take on such a huge responsibility?). I was graciously given the chance to perform a task which I'd had the desire but not yet the competency to do, simply out of the goodness of heart to give an young ambitious person a chance, and for that I'm deeply grateful. Because, as blank canvas of a student with little concrete idea of what he wanted to do as a profession, this was the first role I've performed which I've felt fully "in my element", so to speak. Whereas my previous co-op experience was satisfying to certain extent, it was still further on the scientific side than I'd find myself inclined to delve into further. As such, if I can find that level of comfort in a future role, I'll know that I'm in the right place. 
 
 <br/>
 <hr class="hr2">   
@@ -74,7 +83,7 @@ At this point, the trend throughout my studies was that my work interests were b
 ### Graduate Phase: Research
 
 
-With this intuition-based leaning and a foundation of programming and web-development skills in tow, I combined all that with my interest in scalable platforms, as hinted at in my first-ever software endeavor, I decided to pursue my most ambitious project yet. I fully-fledged social media platform in a niche which I felt was lacking - news.  
+With this intuition-based leaning and a foundation of programming and web-development skills in tow, I combinaed all that with my interest in scalable platforms, as hinted at in my first-ever software endeavor, I decided to pursue my most ambitious project yet. I fully-fledged social media platform in a niche which I felt was lacking - news.  
 <br/>
 
 <div class="center mx-auto">
@@ -100,7 +109,7 @@ Oh, and through the same project, I did discover the meaning of life. Well, ok, 
 
 Overall, through my master's program and software project, I gained a more realistic view of software development, and life itself, making my personal and professional goals more straightforward and realizable.  
 <br/>
-
+ 
 <span id="Startups_Phase"></span>
 ### Freelancing & Startups Phase
 
@@ -132,8 +141,13 @@ Along my professional journey I've also been fortunate to have had the opportuni
 
 <span class="img-caption mb3">The much sought after nomad view. What I later realized is that it would be amuch nicer view without the computer in the foreground.</span>
 
-</div>
+</div> 
 While I think the trend of nomadism looks, for the most part, more glamorous than it actually is, having experienced it first hand makes me better able to determine my future career path knowing all possible the options. Not to mention, the prospect of combining two passions of mine - travel and technology - is something that would have been a lingering "to-do" until I did it. So now, with that experience checked off, I can move on to a more stable, and potentially more realistic lifestyle, taking what I've learned about work-life balance from that period of voluntary instability, and using that to form a healthy balance wherever my career takes me in the future.    
 <br/>
-Remote work can be seen as the ultimate luxury for any software developer, and while it's something to strive towards, it's probably not a realistic expectation for an early-stage in one's career, a time when - the way I see it - the priority should be on learning, improving skills, and networking. Lifestyle balance is important, but priorities should take into account long-term achievement as well as short-term comfort. That being said, I'm a proponent of utilizing one's vacation days! I believe the brain needs a break sometimes, so that the soul can be nourished.
+Remote work can be seen as the ultimate luxury for any software developer, and while it's something to strive towards, it's probably not a realistic expectation for an early-stage in one's career, a time when - the way I see it - the priority should be on learning, improving skills, and networking. Lifestyle balance is important, but priorities should take into account long-term achievement as well as short-term comfort. That being said, I'm a proponent of utilizing one's vacation days! I believe the brain needs a break sometimes, so that the soul can be nourished. 
 <br/>
+
+
+
+
+
