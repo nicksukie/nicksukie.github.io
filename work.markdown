@@ -10,7 +10,7 @@ title: My Work
 My professional endeavors have been concentrated in the field of technology and startups, whereas my major strengths are found in the creative realm: writing and design. The combination of these interests and strengths has launched me onto a career path in branding/marketing for growth stage tech startups.  
 <br/>
 
- Below I've outlined some of the highlights of my professional journey up to now (tl;dr - <a href=">https://www.linkedin.com/in/nicholas-sukiennik-95111549/">my LinkedIn Profile</a>).  
+ Below I've outlined some of the highlights of my professional journey up to now (tl;dr - <a href="https://www.linkedin.com/in/nicholas-sukiennik-95111549/">my LinkedIn Profile</a>).  
 <br/>
 
 
