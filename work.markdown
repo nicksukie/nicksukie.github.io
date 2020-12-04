@@ -4,43 +4,42 @@ title: My Work
 
 ---
 
+<h1 class="sans" style="font-size: 2em">Work</h1>
+<br />
 
-
-
-
-
- <em><strong>Here's the story of my professional journey up to now.  </strong></em>  
+My professional endeavors have been concentrated in the field of technology and startups, whereas my major strengths are found in the creative realm: writing and design. The combination of these interests and strengths has launched me onto a career path in branding/marketing for growth stage tech startups.  
 <br/>
+
+ Below I've outlined some of the highlights of my professional journey up to now (tl;dr - <a href=">https://www.linkedin.com/in/nicholas-sukiennik-95111549/">my LinkedIn Profile</a>).  
+<br/>
+
 
 <div class="toc">  
 
 <h4 style="text-align: center" class="sans">Table of Contents</h4>
 
 <ol>
+
 <li><p><a href="#Student_Phase">Student Phase: Co-ops & Internships</a></p></li>
-<li><p><a href="#Graduate_Phase">Graduate Phase: Research</a></p></li>
-<li><p><a href="#Startups_Phase">Freelancing & Startups Phase</a></p></li>
+<li><p><a href="#Graduate_Phase">Graduate Phase: Personal Venture</a></p></li>
+<li><p><a href="#Startups_Phase">Startup Contributions</a></p></li>
 <li><p><a href="#Work_Life_Travel">Work-Life-Travel Balance</a></p></li>
 </ol>
 
 </div>
+
+
+
+
 <br/>
+<span id="Student_Phase"></span>
+### Student Phase: Co-ops & Internships   
 
 My first foray into software development was in my first year of college when I attempted to "disrupt" the exorbitant textbook industry by creating a sharing platform for students to exchange books across the campus. I put together a basic landing page, but soon, the only thing I managed to disrupt was my grades, and so my software aspirations had to be put on hold for a few years. That first venture, though, as shallow as it was, gave me my first exposure to HTML, CSS, and the dynamics of a CMS, which would prove useful later in the professional setting.   
 <br/>
 
-
-<span id="Student_Phase"></span>
-### Student Phase: Co-ops & Internships   
-
 Outside of coursework, where I learned MatLab, mostly for performing complex mathematical computations in (non-software) engineering homework assignments, I soon started programming with Python. My second co-op during my undergrad (a five-year, three co-op program featuring alternating 6-month work and study periods for three out of the five years, no summer breaks) was a data science role for the R&D department of an environmental engineering company. I took what I knew about MatLab, and scaled that up with mentorship from a great supervisor and plenty of Stackoverflow, tutorials, and trial and error - to gain a beginner's proficiency in the language. By the end of the six months, I'd been able to produce some significant results for the company, as well as make a massive leap in my programming abilities as compared to when I started at the company. My accomplishments there included a desktop application for data analysis and visualization of R&D data, as well as a digital image processing tool to classify highspeed images of moving particles according to their speed and orientation.   
 <br/>
-
-<div class="center mx-auto">
-  <img src="/assets/images/work/amina-1.png" class="inline-block mr3" style="width: 40%;">
-    <img src="/assets/images/work/amina-2.png" class="inline-block" style="width: 40%;">
-<span class="img-caption mb3">Input and output of R&D data to visualization. My first Python project.</span>
-</div>
 Finally, during the same co-op I worked on yet another desktop application, originally developed by a previous intern, which utilized an API from NASA to generate combustion reaction information at a user-designated range of conditions. On this project, I did not work much with the calculations aspect, but I revised the user interface and the output graphs for the reactions. As such, one could say this was my first UI/UX design project, another skill which would, in a very early instance of foreshadowing, pave the way for my future career.  
 <br/>
 
@@ -57,7 +56,7 @@ Finally, during the same co-op I worked on yet another desktop application, orig
 <br/>
 
 
-Although my major at the time was not related to IT or computer science, I had always had programming as a passion, and knew I'd get back into it as a career at some point later in life (why I didn't think to study it in college is a conversation for another day). But with that passion in the back of my mind, I decided to do something risky, and take an internship in the field, which was actually completely unrelated to my major at that time - a decision based on instinct which proved to be a good one (what is life but a game challenging you to know when and when not to trust your instincts?). During the final co-op during my undergrad, I worked as a web developer for a Tokyo based compliance startup. I designed from scratch a website for the company's international product suite, and revised the bilingual corporate website as well, all using WordPress. I designed icons, wrote copy, integrated translations, and formatted all the pages using Wordpress's WYSIWYG platform along with some custom HTML and CSS, and deployed it at the very hesitant nod of the company CTO, making this my first complete web project (and <a href="https://web.archive.org/web/20160131185851/http://www.shimpla.com/en/"> it shows</a>).   
+Although my major at the time was not related to IT or computer science, I had always had software as a passion, and knew I'd get back into it as a career at some point later in life (why I didn't think to study it in college is a conversation for another day). But with that passion in the back of my mind, I decided to do something risky, and take an internship in the field, which was actually completely unrelated to my major at that time - a decision based on instinct which proved to be a good one (what is life but a game challenging you to know when and when not to trust your instincts?). During the final co-op during my undergrad, I worked as an IT assistant for a Tokyo based compliance startup. I designed from scratch a website for the company's international product suite, and revised the bilingual corporate website as well, all using WordPress. I designed icons, wrote copy, integrated translations, and formatted all the pages using Wordpress along with some custom HTML and CSS, and deployed it at the very hesitant nod of the company CTO, making this my first complete web project (and <a href="https://web.archive.org/web/20160131185851/http://www.shimpla.com/en/"> it shows</a>).   
 <br/>
 
 While there was only a small portion of line-by-line programming in this role, it did give me a stronger conceptual understanding of web-development and UI design, and inspired me to further delve into the field. It also provided a soft-landing for my entrance into web-development, given that the website was intended as a showcase of products and not a representation of a company as a whole (who would hire a mere intern to take on such a huge responsibility?). I was graciously given the chance to perform a task which I'd had the desire but not yet the competency to do, simply out of the goodness of heart to give an young ambitious person a chance, and for that I'm deeply grateful. Because, as blank canvas of a student with little concrete idea of what he wanted to do as a profession, this was the first role I've performed which I've felt fully "in my element", so to speak. Whereas my previous co-op experience was satisfying to certain extent, it was still further on the scientific side than I'd find myself inclined to delve into further. As such, if I can find that level of comfort in a future role, I'll know that I'm in the right place.
@@ -71,7 +70,7 @@ At this point, the trend throughout my studies was that my work interests were b
 <br/>
 
 <span id="Graduate_Phase"></span>
-### Graduate Phase: Research
+### Graduate Phase: Personal Venture
 
 
 With this intuition-based leaning and a foundation of programming and web-development skills in tow, I combined all that with my interest in scalable platforms, as hinted at in my first-ever software endeavor, I decided to pursue my most ambitious project yet. I fully-fledged social media platform in a niche which I felt was lacking - news.  
@@ -99,12 +98,21 @@ Oh, and through the same project, I did discover the meaning of life. Well, ok, 
 <br/>
 
 Overall, through my master's program and software project, I gained a more realistic view of software development, and life itself, making my personal and professional goals more straightforward and realizable.  
-<br/>
+    <br>
+See:
+
+  <ul class="">
+
+  <li><p><a href="https://arxiv.org/abs/1812.03781">"Inflo: News Categorization and Keyphrase Extraction for Implementation in an Aggregation System"</a></p></li>
+  <li><p><a href="https://youtu.be/iScMNIKq5K0">A video overview of the platform</a></p></li>
+  <li><p><a href="https://github.com/nicksukie/inflo-pub">The open-sourced github repo for the web-application.</a></p></li>
+  <li><p><a href="https://github.com/nicksukie/inflo-pub/blob/master/README-longversion.pdf">My thesis containing in-depth descriptions of both the technical and business aspects of the venture.</a></p></li>          </ul>
+
 
 <span id="Startups_Phase"></span>
-### Freelancing & Startups Phase
+### Startup Contributions
 
-The learnings from academic life, admittedly, tend to be unapplicable to the real world. So, being a fan of the real world, I was eager to escape from the relative isolation of campus life and get involved in some startup efforts to counterbalance potential impracticality of coursework and research.   
+The learnings from academic life, admittedly, tend to be occasionally unapplicable to the real world. So, being a fan of the real world, I was eager to escape from the relative isolation of campus life and get involved in some startup efforts to counterbalance potential impracticality of coursework and research.   
 <br/>
 
 One of which was Oodymate, a social platform for travelers to <a href="https://www.lonelyplanet.com/articles/oodymate-food-local"> find meal buddies in foreign destinations</a>. I worked alongside the founder from conception to release, providing qualitative feedback on UI design, user flows, and feature specifications, as well as coordinated work between the product and engineering teams. Finally, I spearheaded the branding direction and early marketing efforts upon the release of the beta, which spawned an almost unexpected byproduct - a series of meetup events revolving around food, which currently boast membership of several thousand members across three cities in Asia. Using real-world events as a marketing tool, then, has proven to be a highly effective idea, as long as one can then make the transition from offline participant, to active user of the application.   
@@ -130,7 +138,7 @@ Along my professional journey I've also been fortunate to have had the opportuni
 <div class="center mx-auto">
   <img src="/assets/images/work/nomad.jpeg" class="inline-block-3" style="width: 80%;">
 
-<span class="img-caption mb3">The much sought after nomad view. What I later realized is that it would be amuch nicer view without the computer in the foreground.</span>
+<span class="img-caption mb3">The much sought after nomad view. What I later realized is that it would be a much nicer view without the computer in the foreground.</span>
 
 </div>
 While I think the trend of nomadism looks, for the most part, more glamorous than it actually is, having experienced it first hand makes me better able to determine my future career path knowing all possible the options. Not to mention, the prospect of combining two passions of mine - travel and technology - is something that would have been a lingering "to-do" until I did it. So now, with that experience checked off, I can move on to a more stable, and potentially more realistic lifestyle, taking what I've learned about work-life balance from that period of voluntary instability, and using that to form a healthy balance wherever my career takes me in the future.    

@@ -1,6 +1,6 @@
 - name: Home
   link: /
-- name: Portfolio
-  link: /portfolio
+- name: Writing
+  link: /writing
 - name: Work
   link: /work
