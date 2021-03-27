@@ -1,0 +1,231 @@
+body {
+	background-color: #D2D8DE;
+	margin: 25px;
+}
+
+h3 {
+
+
+}
+
+
+.column-layout {
+margin: 0px;
+width: 50%;
+float: left;
+	z-index: 	0;
+}
+
+.dashboard{
+margin: 25px;
+
+}
+.column_container {
+	display: inline-block;
+	width: 49%;
+	border-right: 0px solid;
+	border-color: lightgrey;
+	padding-right: 20px;
+	margin: 0;
+
+	height: 600px;
+	overflow-y: auto;
+	text-align: none;
+		z-index: 	0;
+}
+
+.col-sm-6 {
+margin: 0;
+padding: 0;
+
+
+}
+.article_container {
+	display: block;
+
+	float: left;
+
+	overflow: hidden;
+
+
+	background-color: rgba(255, 255, 255, .9);
+	padding: 10px;
+	border-radius: 0px;
+
+	border-bottom: 1px solid lightgrey;
+
+	margin: 0px;
+	width: 100%;
+	cursor: pointer;	
+	z-index: 	100;
+
+}
+
+
+
+
+#news-container {
+	margin-right: 10px;
+	box-shadow: inset 0px 10px 3px #888,inset 0px -10px 3px #888;
+
+		z-index: 	1000;
+
+}
+
+.expand {
+
+display: inline-block;
+float: left;
+	width: 100%;
+	background-color: white;
+	border-right: 0px solid;
+	border-color: lightgrey;
+	padding: 20px;
+	padding-left: 0PX;
+	padding-bottom: 0;
+	border-radius: 5px; 
+		
+	text-align: none;
+
+
+}
+
+
+
+
+
+.cb_layout {
+
+	clear: none;
+	float: left;
+
+
+
+	padding-bottom: 0px;
+	margin: 10px;
+	
+
+	width: 100%;
+	/*opacity: 0.7; */
+	background-color: white;
+	display: block;
+	position: 	relative;	
+
+	transition: 0.1s;
+
+}
+
+
+.imagePlusInfo {
+
+
+}
+
+
+
+
+.image_container{
+	height: 200px;
+	width: 100%;	
+	margin-bottom: 	0px;
+	display: block;
+
+}
+
+
+
+
+div.image_container>img {
+
+	/*margin-top: 10px;
+
+	margin-left: 5px; */
+	object-fit: cover; /*KEY to having image fit in parent div without stretching (centered)*/ 
+	margin-right: 0;
+	margin-bottom: 0px;
+	max-height: 100%;
+	width: 100%;
+	padding: 0;
+	/*float: left;
+	display: inline;*/
+
+}
+
+
+.cat_label_container {
+
+background:#D2D8DE;
+padding: 	8px;
+border-radius: 	3px;
+text-align: 	center;
+
+}
+
+.keyword_container {
+display: inline-block;
+width: auto;
+background:#D2D8DE;
+padding: 	8px;
+border-radius: 	3px;
+text-align: center;
+margin: 0 5px 5px 0;
+}
+
+
+
+.keyword_label_container {
+display: inline-block;
+width: 90%;
+background: white;
+padding: 	8px;
+border-radius: 	3px;
+text-align: center;
+margin: 0 5px 5px 0;
+}
+
+
+
+.article_container:hover, .article_container:focus, .article_container:active, .clicked {
+
+background-color: #F1F8FF;	
+
+}
+
+.compare {
+margin-top: 15px;
+
+}
+
+.compare h4 {
+
+	text-align: center;
+}
+.method {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	text-align: center;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	border-bottom: 1px solid grey;
+
+}
+
+.method select {
+	width: 100%;
+
+}
+
+    
+
+
+.results {
+	margin-top: 5px;
+display: inline-block;
+	float: left;
+	width: 50%;
+	text-align: center;
+	
+	min-height: 250px;
+}
+

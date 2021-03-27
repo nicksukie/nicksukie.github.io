@@ -1,0 +1,1445 @@
+<!DOCTYPE html5>
+<html lang="en-US">
+<head>
+
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126744533-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-126744533-1');
+</script>
+  <meta charset="utf-8"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="css/demo-style-v3.css">
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+<script>
+
+/*  $.ajax({
+        async: false,
+        type: 'GET',
+        url: 'http://localhost:8080/test-app/cnn/demo-v1.py',
+success: function(data) {
+            alert(data);
+            }
+});*/
+
+/*const Http = new XMLHttpRequest();
+const url= 'https://newsapi.org/v2/top-headlines?' +
+          'country=us&' +
+          'apiKey=d478da899a2548d98c0255eaceab061a';
+
+
+Http.open("GET",url);
+Http.send();
+
+Http.onreadystatechange=function() {
+if(this.readyState==4 && this.status==200){
+	//console.log(Http.responseText);
+
+
+ var data = Http.responseText;
+ var json = JSON.parse(data);
+
+ var articles = json.articles;
+//console.log(articles);
+ articles.forEach(appendData);
+
+function appendData(value, index, array) {
+var title = value.title;
+var sourceName = value.source.name;
+var url_article = value.url;
+var img = value.urlToImage;*/
+//console.log(value.title);
+/*$('#news-container').append("<form name='"+url_article+"'><div class='article_container' onclick='callPython('"+url_article+"')'><h4>"+title+"</h4><h6>"+sourceName+"</h6><input style='display:none' value=''></div></form>");
+
+$('#news-container').append("<div id='"+url_article+"' class='article_container' ><h4>"+title+"</h4><h6>"+sourceName+"</h6></div>");
+
+		}
+	}
+
+}*/
+
+</script>
+
+
+</head>
+
+<body>
+
+
+
+
+
+<h1>Inflo News Categorization and Keyphrase Extraction Demo - V1.2</h1>
+<h6>The current demo uses static, pre-computed data, as a sample of the algorithm capabilities and output. We are currently in the process of hosting the trained models to a web service. Please stayed tuned for the dynamic version to be released soon in V2</h6>
+<div class=dashboard>
+<h3>Recent Stories</h3>
+
+
+
+<div id="news-container" class="col-sm-6 column_container">
+
+<div id="article-0-link" class="article_container" ><h4>German nurse admits playing 'God' and MURDERING 100 patients by giving them heart attacks</h4><h6>Express.co.uk</h6></div>
+
+
+<div id="article-1-link" class="article_container"><h4>Giants QB Kyle Lauletta arrested after nearly running over officer</h4><h6>Espn.com</h6></div>
+
+
+<div id="article-2-link" class="article_container" ><h4>DJ Durkin and Damon Evans will retain jobs at Maryland, source says</h4><h6>The Washington Post</h6></div>
+
+
+<div id="article-3-link" class="article_container" ><h4>Fantasy fallout of Demaryius Thomas trade for Texans, Broncos</h4><h6>Espn.com</h6></div>
+
+
+<div id="article-4-link" class="article_container" ><h4>Apple unveils new iPad Pro, MacBook Air and Mac Mini</h4><h6>CNN</h6></div>
+
+
+<div id="article-5-link" class="article_container" ><h4>Trump vows to end birthright citizenship with an executive order. Speaker Ryan says no way.</h4><h6>NBC News</h6></div>
+
+
+<div id="article-6-link" class="article_container"><h4>Wide receiver Golden Tate heading from Lions to Eagles</h4><h6>Espn.com</h6></div>
+
+
+<div id="article-7-link" class="article_container" ><h4>Whitey Bulger, Boston Mobster and Informant, Is Dead at 89</h4><h6>The New York Times</h6></div>
+
+
+<div id="article-8-link" class="article_container"><h4>Special counsel Robert Mueller accuses opponents of offering women money to make 'false claims' about him</h4><h6>CNBC</h6></div>
+
+
+<div id="article-9-link" class="article_container" ><h4>Andrew Gillum Is Winning by Being His Natural, Black Self</h4><h6>Theroot.com</h6></div>
+
+
+<div id="article-10-link" class="article_container" ><h4>US Agency Investigates 'Taxpayer-Funded Anti-Semitism' Against George Soros</h4><h6>Npr.org</h6></div>
+
+
+<div id="article-11-link" class="article_container" ><h4>Lion Air crash: Indonesia to inspect Boeing 737-Max 8 planes</h4><h6>Bbc.com</h6></div>
+
+
+<div id="article-12-link" class="article_container"><h4>Yosemite fall: Victims identified as married bloggers from India</h4><h6>Bbc.com</h6></div>
+
+
+<div id="article-13-link" class="article_container"><h4>Land O'Lakes Withdraws Support For White Supremacist GOP Congressman Steve King</h4><h6>The Huffington Post</h6></div>
+
+<div id="article-14-link" class="article_container"><h4>Angela Merkel's political challenges</h4><h6>Bbc.com</h6></div>
+
+</div>
+
+<div class="col-sm-6 column_container" id="details">
+<h4 class="placeholder" style="display: show;">Click on an article in the list to view details</h4>
+
+<div class="expand" style="display: none;" id="article-0">
+
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="https://cdn.images.express.co.uk/img/dynamic/78/750x445/1038541.jpg"></div>
+
+                      <h4 id="SOURCE">Express.co.uk</h4> <a id="LINK" href="https://www.express.co.uk/news/world/1038541/niels-hoegel-german-nurse-kill-oldenburg-germany-nurse">Go to article</a>
+                      <h4 id="DATETIME">Tue, 30 Oct 2018 19:01:00 GMT</h4>
+
+                      <h3 id="HEADLINE">German nurse admits playing ‘God’ and MURDERING 100 patients by giving them heart attacks</h3>
+                      <h6 id="DESCRIPTION">A NURSE in Germany has admitted murdering 100 patients by putting them in a drug-induced heart attack so he could them show off to his colleagues by bringing them back to life.</h6>
+            <h2 class="cat_label_container" id="cat_label">Law &amp; Order</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">niels hoegel</h4><h4 class="keyword_container" id="cat_label">german nurse admits</h4><h4 class="keyword_container" id="cat_label">sad guy</h4><h4 class="keyword_container" id="cat_label">oldenburg</h4><h4 class="keyword_container" id="cat_label">heart attacks</h4><h4 class="keyword_container" id="cat_label">life sentence</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A0" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A0" onload="resultCompare2(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+
+</div>
+
+
+<div class="expand" style="display: none;" id="article-1">
+
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="http://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F1029%2Fr454924_1296x729_16%2D9.jpg"></div>
+
+                      <h4 id="SOURCE">ESPN.com</h4> <a id="LINK" href="http://www.espn.com/nfl/story/_/id/25127955/new-york-giants-qb-kyle-lauletta-arrested-traffic-violation">Go to article</a>
+                      <h4 id="DATETIME"></h4>
+
+                      <h3 id="HEADLINE">New York Giants QB Kyle Lauletta arrested for traffic violation</h3>
+                      <h6 id="DESCRIPTION">Giants rookie QB Kyle Lauletta was arrested Tuesday morning after nearly running over an officer while committing a traffic violation, according to a police report.</h6>
+            <h2 class="cat_label_container" id="cat_label">Sports</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">kyle lauletta</h4><h4 class="keyword_container" id="cat_label">traffic violation</h4><h4 class="keyword_container" id="cat_label">new york giants</h4><h4 class="keyword_container" id="cat_label">rookie quarterback</h4><h4 class="keyword_container" id="cat_label">wrong lane</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A1" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A1" onload="resultCompare2(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+</div>
+
+
+
+
+
+<div class="expand" style="display: none;" id="article-2">
+
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="https://www.washingtonpost.com/resizer/u8Osu_PqQr1kTVy-qikaAWhBsvs=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FEZOT3WENAI6RMZYUMUJ63FXII.jpg"></div>
+
+                      <h4 id="SOURCE">Washington Post</h4> <a id="LINK" href="https://www.washingtonpost.com/sports/2018/10/30/maryland-regents-expected-recommend-dj-durkin-damon-evans-retain-jobs/">Go to article</a>
+                      <h4 id="DATETIME">Tue, 30 Oct 2018 00:00:00 GMT</h4>
+
+                      <h3 id="HEADLINE">DJ Durkin and Damon Evans will retain jobs at Maryland, source says</h3>
+                      <h6 id="DESCRIPTION">The football coach has been on administrative leave since Aug. 11, amid two investigations into his program.</h6>
+            <h2 class="cat_label_container" id="cat_label">Lifestyle</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">damon evans</h4><h4 class="keyword_container" id="cat_label">football program</h4><h4 class="keyword_container" id="cat_label">administrative leave</h4><h4 class="keyword_container" id="cat_label">dj durkin</h4><h4 class="keyword_container" id="cat_label">washington post</h4><h4 class="keyword_container" id="cat_label">university system</h4><h4 class="keyword_container" id="cat_label">college park</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A2" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A2" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+
+</div>
+
+
+
+
+<div class="expand" style="display: none;" id="article-3">
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="http://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F1030%2Fr455391_1296x729_16%2D9.jpg"></div>
+
+                      <h4 id="SOURCE">ESPN.com</h4> <a id="LINK" href="http://www.espn.com/fantasy/football/story/_/id/25127965/fantasy-football-fantasy-fallout-demaryius-thomas-trade-texans-broncos">Go to article</a>
+                      <h4 id="DATETIME"></h4>
+
+                      <h3 id="HEADLINE">Fantasy football -- Fantasy fallout of Demaryius Thomas trade for Texans, Broncos</h3>
+                      <h6 id="DESCRIPTION">Who are the winners and losers in fantasy following Tuesday's trade that shipped the veteran wideout from Denver to Houston?</h6>
+            <h2 class="cat_label_container" id="cat_label">Sports</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">fantasy football</h4><h4 class="keyword_container" id="cat_label">demaryius thomas trade</h4><h4 class="keyword_container" id="cat_label">wide receiver</h4><h4 class="keyword_container" id="cat_label">hamilton</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A3" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A3" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+</div>
+
+
+
+<div class="expand" style="display: none;" id="article-4">
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="https://cdn.cnn.com/cnnnext/dam/assets/181030104953-20181030-apple-event-13-super-tease.jpg"></div>
+
+                      <h4 id="SOURCE">CNN</h4> <a id="LINK" href="https://www.cnn.com/2018/10/30/tech/apple-event-october-2018/index.html">Go to article</a>
+                      <h4 id="DATETIME">Tue, 30 Oct 2018 00:00:00 GMT</h4>
+
+                      <h3 id="HEADLINE">Apple unveils new iPad Pro, MacBook Air and Mac Mini</h3>
+                      <h6 id="DESCRIPTION">Apple unveiled updates to its iPad and Mac line.</h6>
+            <h2 class="cat_label_container" id="cat_label">Technology</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">apple unveils new ipad pro</h4><h4 class="keyword_container" id="cat_label">macbook air</h4><h4 class="keyword_container" id="cat_label">mac mini new york</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A4" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A4" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+
+</div>
+
+
+
+
+
+
+<div class="expand" style="display: none;" id="article-5">
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="https://media3.s-nbcnews.com/j/newscms/2018_44/2607146/181016-donald-trump-ap-interview-se-658p_332001d8885d44378efa6f6bd727aa69.1200;630;7;70;5.jpg"></div>
+
+                      <h4 id="SOURCE">NBC News</h4> <a id="LINK" href="https://www.nbcnews.com/politics/immigration/trump-wants-end-birthright-citizenship-executive-order-n926081">Go to article</a>
+                      <h4 id="DATETIME"></h4>
+
+                      <h3 id="HEADLINE">Trump vows to end birthright citizenship with an executive order. Speaker Ryan says no way.</h3>
+                      <h6 id="DESCRIPTION">Some constitutional scholars believe it's protected by the 14th Amendment and cannot be changed by a stroke of the president's pen.</h6>
+            <h2 class="cat_label_container" id="cat_label">Politics</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">supreme court</h4><h4 class="keyword_container" id="cat_label">executive order</h4><h4 class="keyword_container" id="cat_label">united states</h4><h4 class="keyword_container" id="cat_label">end birthright citizenship</h4><h4 class="keyword_container" id="cat_label">trump vows</h4><h4 class="keyword_container" id="cat_label">paul ryan</h4><h4 class="keyword_container" id="cat_label">14th amendment</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A5" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A5" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+
+</div>
+
+
+
+
+<div class="expand" style="display: none;" id="article-6">
+
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="http://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0910%2Fr429137_1296x729_16%2D9.jpg"></div>
+
+                      <h4 id="SOURCE">ESPN.com</h4> <a id="LINK" href="http://www.espn.com/nfl/story/_/id/25127780/lions-trade-wide-receiver-golden-tate-eagles">Go to article</a>
+                      <h4 id="DATETIME"></h4>
+
+                      <h3 id="HEADLINE">Lions trade wide receiver Golden Tate to Eagles</h3>
+                      <h6 id="DESCRIPTION">The Eagles have acquired wide receiver Golden Tate from the Lions.</h6>
+            <h2 class="cat_label_container" id="cat_label">Sports</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">detroit lions</h4><h4 class="keyword_container" id="cat_label">trade wide receiver golden tate</h4><h4 class="keyword_container" id="cat_label">free agency</h4><h4 class="keyword_container" id="cat_label">third-round pick</h4><h4 class="keyword_container" id="cat_label">philadelphia eagles</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A6" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A6" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+
+</div>
+
+
+
+
+<div class="expand" style="display: none;" id="article-7">
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="https://static01.nyt.com/images/2018/10/31/obituaries/31BULGER1/31BULGER1-facebookJumbo.jpg"></div>
+
+                      <h4 id="SOURCE">nytimes.com</h4> <a id="LINK" href="https://www.nytimes.com/2018/10/30/obituaries/whitey-bulger-dead.html">Go to article</a>
+                      <h4 id="DATETIME">Tue, 30 Oct 2018 00:00:00 GMT</h4>
+
+                      <h3 id="HEADLINE">Whitey Bulger, Notorious Boston Mobster and Informant, Is Dead at 89</h3>
+                      <h6 id="DESCRIPTION">One of the most wanted gangsters for 16 years, he was beaten to death by inmates in a West Virginia prison. His murderous life inspired books and films.</h6>
+            <h2 class="cat_label_container" id="cat_label">Law &amp; Order</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">notorious boston mobster</h4><h4 class="keyword_container" id="cat_label">west virginia prison</h4><h4 class="keyword_container" id="cat_label">federal bureau</h4><h4 class="keyword_container" id="cat_label">whitey bulger</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A7" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A7" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+
+</div>
+
+
+
+
+<div class="expand" style="display: none;" id="article-8">
+
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/05/18/104478794-GettyImages-186114718.1910x1000.jpg"></div>
+
+                      <h4 id="SOURCE">CNBC</h4> <a id="LINK" href="https://www.cnbc.com/2018/10/30/mueller-accuses-opponents-of-offering-money-to-make-false-claims-about-him.html">Go to article</a>
+                      <h4 id="DATETIME">Tue, 30 Oct 2018 00:00:00 GMT</h4>
+
+                      <h3 id="HEADLINE">Mueller accuses opponents of offering women money to make 'false claims' about him</h3>
+                      <h6 id="DESCRIPTION">"When we learned last week of allegations that women were offered money to make false claims about the Special Counsel, we immediately referred the matter to the FBI for investigation," spokesman Peter Carr says.</h6>
+            <h2 class="cat_label_container" id="cat_label">Politics</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">attorney general</h4><h4 class="keyword_container" id="cat_label">jack burkman</h4><h4 class="keyword_container" id="cat_label">false claims</h4><h4 class="keyword_container" id="cat_label">women money</h4><h4 class="keyword_container" id="cat_label">fbi allegations</h4><h4 class="keyword_container" id="cat_label">special counsel robert mueller</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A8" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A8" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+
+</div>
+
+
+
+
+<div class="expand" style="display: none;" id="article-9">
+
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="https://i.kinja-img.com/gawker-media/image/upload/s--LZGCVnTz--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/yzofclgxzq8heapl9bmb.png"></div>
+
+                      <h4 id="SOURCE">The Root</h4> <a id="LINK" href="https://www.theroot.com/andrew-gillum-is-winning-by-being-his-natural-black-se-1830099442">Go to article</a>
+                      <h4 id="DATETIME"></h4>
+
+                      <h3 id="HEADLINE">Andrew Gillum Is Winning by Being His Natural, Black Self</h3>
+                      <h6 id="DESCRIPTION">JACKSONVILLE, Fla.—Tallahassee Mayor Andrew Gillum isn’t afraid to tell you he is a proud black man. The political implications of being “too black,” long a concern for black candidates running for statewide or higher office throughout U.S. history, don’t scare him. He embraces his blackness because he believes in himself and knows black candidates before him have blazed a trail that makes his approach viable in 2018.</h6>
+            <h2 class="cat_label_container" id="cat_label">Entertainment</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">terrell jermaine starr</h4><h4 class="keyword_container" id="cat_label">black self photo</h4><h4 class="keyword_container" id="cat_label">black people</h4><h4 class="keyword_container" id="cat_label">andrew gillum</h4><h4 class="keyword_container" id="cat_label">black man</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A9" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A9" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+
+</div>
+
+
+
+
+<div class="expand" style="display: none;" id="article-10">
+
+
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="https://media.npr.org/assets/img/2018/10/30/gettyimages-73098849_wide-1d2a900fa8774c853cbcf7cdcbcd625145436af5.jpg?s=1400"></div>
+
+                      <h4 id="SOURCE">NPR.org</h4> <a id="LINK" href="https://www.npr.org/2018/10/30/662052937/u-s-agency-investigates-taxpayer-funded-anti-semitism-against-george-soros">Go to article</a>
+                      <h4 id="DATETIME">Tue, 30 Oct 2018 00:00:00 GMT</h4>
+
+                      <h3 id="HEADLINE">U.S. Agency Investigates 'Taxpayer-Funded Anti-Semitism' Against George Soros</h3>
+                      <h6 id="DESCRIPTION">A federally funded Spanish-language broadcaster called Soros — among other things — a "non-practicing Jewish financial speculator with flexible morals." Now, its parent agency wants answers.</h6>
+            <h2 class="cat_label_container" id="cat_label">Politics</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">image toggle caption</h4><h4 class="keyword_container" id="cat_label">cuba broadcasting</h4><h4 class="keyword_container" id="cat_label">agency investigates</h4><h4 class="keyword_container" id="cat_label">judicial watch</h4><h4 class="keyword_container" id="cat_label">anti-semitic television segment</h4><h4 class="keyword_container" id="cat_label">united states</h4><h4 class="keyword_container" id="cat_label">television martí</h4><h4 class="keyword_container" id="cat_label">george soros</h4><h4 class="keyword_container" id="cat_label">joe raedle</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A10" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A10" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+
+</div>
+
+
+
+
+<div class="expand" style="display: none;" id="article-11">
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="https://ichef.bbci.co.uk/images/ic/1024x576/p06q6v8n.jpg"></div>
+
+                      <h4 id="SOURCE">BBC News</h4> <a id="LINK" href="https://www.bbc.com/news/world-asia-46035609">Go to article</a>
+                      <h4 id="DATETIME"></h4>
+
+                      <h3 id="HEADLINE">Lion Air crash: Indonesia to inspect Boeing 737-Max 8 planes</h3>
+                      <h6 id="DESCRIPTION">All Boeings 737-Max 8 in Indonesia are targeted, after one crashed into the sea with 189 on board.</h6>
+            <h2 class="cat_label_container" id="cat_label">Law &amp; Order</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">lion air crash</h4><h4 class="keyword_container" id="cat_label">planes media playback</h4><h4 class="keyword_container" id="cat_label">device media caption debris</h4><h4 class="keyword_container" id="cat_label">boeing 737-max</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A11" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A11" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+
+</div>
+
+
+
+<div class="expand" style="display: none;" id="article-12">
+
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="https://ichef.bbci.co.uk/news/1024/branded_news/5744/production/_104104322_captujfvu6re.jpg"></div>
+
+                      <h4 id="SOURCE">BBC News</h4> <a id="LINK" href="https://www.bbc.com/news/world-us-canada-46035739">Go to article</a>
+                      <h4 id="DATETIME"></h4>
+
+                      <h3 id="HEADLINE">Yosemite fall: Victims identified as married bloggers from India</h3>
+                      <h6 id="DESCRIPTION">The couple who fell to their deaths had blogged about their love for travel and each other.</h6>
+            <h2 class="cat_label_container" id="cat_label">Lifestyle</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">india image</h4><h4 class="keyword_container" id="cat_label">image caption</h4><h4 class="keyword_container" id="cat_label">travel photos</h4><h4 class="keyword_container" id="cat_label">yosemite fall</h4><h4 class="keyword_container" id="cat_label">married bloggers</h4><h4 class="keyword_container" id="cat_label">taft point</h4><h4 class="keyword_container" id="cat_label">image copyright</h4><h4 class="keyword_container" id="cat_label">dangerous locations</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A12" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A12" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+</div>
+
+
+
+
+<div class="expand" style="display: none;" id="article-13">
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="https://img.huffingtonpost.com/asset/5bd86a4f1d00008800309726.jpeg?cache=nkpkf6zjl2&amp;ops=1910_1000"></div>
+
+                      <h4 id="SOURCE">HuffPost</h4> <a id="LINK" href="https://www.huffingtonpost.com/entry/land-o-lakes-steve-king_us_5bd86902e4b07427610b7bf3">Go to article</a>
+                      <h4 id="DATETIME">Tue, 30 Oct 2018 15:43:01 GMT</h4>
+
+                      <h3 id="HEADLINE">Land O'Lakes Withdraws Support For White Supremacist GOP Congressman Steve King</h3>
+                      <h6 id="DESCRIPTION">The eight-term congressman has already lost support from a home state newspaper and the tech giant Intel.</h6>
+            <h2 class="cat_label_container" id="cat_label">Politics</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">european culture</h4><h4 class="keyword_container" id="cat_label">last week</h4><h4 class="keyword_container" id="cat_label">far-right publication</h4><h4 class="keyword_container" id="cat_label">steve king</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A13" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A13" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+
+</div>
+
+
+
+
+
+<div class="expand" style="display: none;" id="article-14">
+
+
+
+    <div class="cb_layout">
+            <h4 class="placeholder" style="display: none;">Click on an article in the list to view details</h4>
+            <div style="" id="IPI" class="imagePlusInfo">
+                <div class="image_container"><img id="IMG" src="https://ichef.bbci.co.uk/news/1024/branded_news/2D5A/production/_104101611_p06q8q4w.jpg"></div>
+
+                      <h4 id="SOURCE">BBC News</h4> <a id="LINK" href="https://www.bbc.com/news/av/world-europe-46034619/angela-merkel-s-political-challenges">Go to article</a>
+                      <h4 id="DATETIME"></h4>
+
+                      <h3 id="HEADLINE">Angela Merkel's political challenges</h3>
+                      <h6 id="DESCRIPTION">Angela Merkel was once dubbed the Queen of Germany. These are three key moments from her career.</h6>
+            <h2 class="cat_label_container" id="cat_label">Politics</h2>
+                        <div class="cb_tag" id="KEYWORDS"><h4 class="keyword_container" id="cat_label">angela merkel</h4></div>
+                    <div class="compare">
+                    <h4>Compare Methods</h4>
+
+
+                    <div class="method">
+
+                    <select id="A14" onload="resultCompare1(this)" onchange="resultCompare1(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                    </select>
+
+
+                    </div>
+
+                    <div class="method">
+
+                      <select id="A14" onload="resultCompare1(this)" onchange="resultCompare2(this)">
+
+                      <option value="stats_phrase">Statistical (Inflo)</option>
+                      <option value="graph_phrase">Graphical (Inflo)</option>
+                      <option value="entities">Entities (Inflo)</option>
+                      <option value="tfidf_results">TF-IDF</option>
+                      <option value="position">PostionRank</option>
+                      <option value="yake">YAKE!</option>
+                      </select>
+
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+
+     </div>
+
+
+
+
+</div>
+
+<div class="results" id="comp1">
+                    </div>
+
+<div class="results" id="comp2">
+                    </div>
+
+
+</div>
+
+</div>
+<script>
+
+
+$("#article-0-link").click(function() {
+var i
+$("#comp1").empty();
+$("#comp2").empty();
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+  $('.placeholder').hide();
+  $('#article-0').show();
+
+});
+
+$("#article-1-link").click(function(){
+$("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-1').show();
+});
+
+
+$("#article-2-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-2').show();
+});
+
+
+$("#article-3-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-3').show();
+});
+
+
+$("#article-4-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-4').show();
+});
+
+
+$("#article-5-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-5').show();
+});
+
+
+$("#article-6-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-6').show();
+});
+
+
+$("#article-7-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-7').show();
+});
+
+
+$("#article-8-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-8').show();
+});
+
+
+$("#article-9-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-9').show();
+});
+
+$("#article-10-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-10').show();
+});
+
+
+$("#article-11-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-11').show();
+});
+
+$("#article-12-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-12').show();
+});
+
+
+$("#article-13-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-13').show();
+});
+
+
+$("#article-14-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-14').show();
+});
+
+$("#article-15-link").click(function() {
+  $("#comp1").empty();
+$("#comp2").empty();
+var i
+for (i=0; i<16; i++){
+  $("#article-"+i+"").hide();
+}
+ $('.placeholder').hide();
+  $('#article-15').show();
+});
+
+
+
+var stats_phraseA0 = ["heart attacks"]
+var graph_phraseA0 = ["german nurse admits", "niels hoegel", "life sentence"]
+var entitiesA0 = ["oldenburg"]
+var tfidf_resultsA0 = ["nurse", "patients", "hoegel", "oldenburg", "horrific", "sentence", "niels"]
+var positionA0 = ["german nurse admits", "patients heart", "niels hoegel", "murdering", "life sentence"]
+var yakeA0 = ["murdering two patients", "sentence for murdering", "german nurse admits", "murdering two", "nurse admits playing", "second world war", "hoegel is already"]
+
+
+var stats_phraseA1 = ["kyle lauletta", "rookie quarterback", "new york giants", "traffic violation"]
+var graph_phraseA1 = ["kyle lauletta", "wrong lane"]
+var entitiesA1 = ["kyle lauletta", "new york giants"]
+var tfidf_resultsA1 = ["lauletta", "police", "shurmur", "shurmur said", "kyle lauletta", "really", "practice"]
+var positionA1 = ["kyle lauletta", "22yearold lauletta", "traffic violation", "marked traffic lane", "new jersey"]
+var yakeA1 = ["new york giants", "york giants qb", "qb kyle lauletta", "new york", "giants qb kyle", "smith has sympathy", "traffic violation stephen"]
+
+var stats_phraseA2 = ["football program", "college park", "dj durkin", "football coach"]
+var graph_phraseA2 = ["maryland regents", "football coach dj durkin", "football program", "university system"]
+var entitiesA2 = ["college park", "dj durkin"]
+var tfidf_resultsA2 = ["loh", "football", "durkin", "university", "regents", "athletic", "president"]
+var positionA2 = ["maryland football team", "maryland football culture", "maryland regents", "maryland board", "former maryland gov", "football coach", "maryland staffers"]
+var yakeA2 = ["coach dj durkin", "dj durkin", "board of regents", "loh", "durkin", "maryland coach dj", "university of maryland"]
+
+var stats_phraseA3 = ["wide receiver", "demaryius thomas"]
+var graph_phraseA3 = ["fantasy football", "demaryius thomas trade", "wide receiver"]
+var entitiesA3 = ["demaryius thomas", "hamilton"]
+var tfidf_resultsA3 = ["thomas", "receiver", "targets", "fantasy", "reception", "yards", "percent"]
+var positionA3 = ["demaryius thomas trade", "wr demaryius thomas", "fantasy football", "picks fantasy intel", "fantasy fallout", "fantasy asset", "fantasy points"]
+var yakeA3 = ["acquired wr demaryius", "wr demaryius thomas", "wr demaryius", "demaryius thomas trade", "afc south-leading texans", "fallout of demaryius", "broncos in exchange"]
+
+var stats_phraseA4 = ["new ipad pro"]
+var graph_phraseA4 = ["apple unveils new ipad pro", "mac mini new york", "macbook air"]
+var entitiesA4 = ["ipad pro"]
+var tfidf_resultsA4 = ["ipad pro", "apple", "ipad", "features", "pro", "new ipad pro", "new ipad"]
+var positionA4 = ["new ipad pro", "new features", "xr apple", "macbook air"]
+var yakeA4 = ["mini new york", "mac mini new", "air and mac", "macbook air", "mac mini", "ceo tim cook", "apple has brought"]
+
+var stats_phraseA5 = ["executive order", "united states", "end birthright citizenship", "house speaker paul ryan"]
+var graph_phraseA5 = ["trump vows", "birthright citizenship", "executive order"]
+var entitiesA5 = ["united states", "supreme court", "14th amendment", "paul ryan"]
+var tfidf_resultsA5 = ["executive", "executive order", "birthright citizenship", "president", "birthright", "citizenship", "immigrants"]
+var positionA5 = ["trump vows", "birthright citizenship has", "other executive orders", "close trump ally"]
+var yakeA5 = ["executive order", "birthright citizenship", "speaker paul ryan", "trump", "house speaker paul", "citizenship", "united states"]
+
+var stats_phraseA6 = ["third-round pick", "free agency", "trade wide receiver golden tate"]
+var graph_phraseA6 = ["wide receiver golden tate", "detroit lions", "philadelphia eagles"]
+var entitiesA6 = ["golden tate", "detroit lions", "michael rothstein"]
+var tfidf_resultsA6 = ["tate", "receiver", "lions", "eagles", "really", "really good", "wide receiver"]
+var positionA6 = ["golden tate", "detroit lions", "wide receiver", "lions trade", "information tate", "best yardsaftercatch receivers"]
+var yakeA6 = ["tate", "golden tate", "among wr rec", "wide receiver golden", "wide receiver", "receiver golden tate", "lions"]
+
+var stats_phraseA7 = ["law enforcement official", "federal bureau"]
+var graph_phraseA7 = ["whitey bulger", "federal bureau", "long-hunted boston mob boss james"]
+var entitiesA7 = ["federal bureau"]
+var tfidf_resultsA7 = ["bulger", "federal", "prison", "law enforcement", "enforcement", "federal bureau", "enforcement official"]
+var positionA7 = ["whitey bulger", "mr bulger", "south boston mobster", "west virginia prison", "prisons employees"]
+var yakeA7 = ["south boston mobster", "mob boss james", "boston mob boss", "long-hunted boston mob", "boss james", "south boston", "bulger is dead"]
+
+var stats_phraseA8 = ["robert mueller", "special counsel", "attorney general"]
+var graph_phraseA8 = ["trump campaign", "jack burkman", "roger stone"]
+var entitiesA8 = ["robert mueller"]
+var tfidf_resultsA8 = ["burkman", "mueller", "robert mueller", "accuses", "attorney general", "general", "investigations"]
+var positionA8 = ["robert mueller", "false claims", "women money", "special counsel", "pm et thu", "trump campaign"]
+var yakeA8 = ["pm et thu", "aide rick gates", "et thu", "pm et", "rick gates", "roger stone", "campaign aide rick"]
+
+var stats_phraseA9 = ["black man", "black people", "terrell jermaine starr", "black candidates"]
+var graph_phraseA9 = ["andrew gillum", "black self photo", "terrell jermaine starr"]
+var entitiesA9 = ["terrell jermaine starr", "andrew gillum"]
+var tfidf_resultsA9 = ["gillum", "people", "black", "advertisement", "political", "deagan", "black people"]
+var positionA9 = ["andrew gillum", "black self photo", "black people", "first black president", "gillum isnt", "proud black man"]
+var yakeA9 = ["gillum", "mayor andrew gillum", "gillum is winning", "black", "terrell jermaine starr", "florida", "mayor andrew"]
+
+var stats_phraseA10 = ["television mart\u00ed", "george soros", "image toggle", "toggle caption"]
+var graph_phraseA10 = ["george soros", "anti-semitic television segment"]
+var entitiesA10 = ["television mart\u00ed", "george soros", "united states", "joe raedle", "fox business", "judicial watch"]
+var tfidf_resultsA10 = ["soros", "investigates", "anti-semitism", "television", "image", "agency", "mart\u00ed"]
+var positionA10 = ["us agency", "george soros", "antisemitic television segment", "taxpayerfunded antisemitism", "parent agency", "expose soros"]
+var yakeA10 = ["agency investigates", "federally funded spanish-language", "radio and television", "television mart\u00ed", "images joe", "attacking george soros", "george soros"]
+
+var stats_phraseA11 = ["lion air crash"]
+var graph_phraseA11 = ["lion air crash", "planes media playback", "boeing 737-max", "device media caption debris"]
+var entitiesA11 = ["lion air"]
+var tfidf_resultsA11 = ["lion air", "jakarta", "lion", "planes", "boeing", "bodies", "families"]
+var positionA11 = ["lion air crash", "lion air jet", "planes media playback", "air traffic control", "plane crash", "air travel"]
+var yakeA11 = ["planes media playback", "planes media", "device media caption", "lion air", "device media", "media playback", "media caption debris"]
+
+var stats_phraseA12 = ["taft point", "image copyright", "dangerous locations"]
+var graph_phraseA12 = ["married bloggers", "india image", "yosemite fall", "travel photos"]
+var entitiesA12 = ["taft point"]
+var tfidf_resultsA12 = ["couple", "image", "moorthy", "viswanath", "taft point", "taft", "selfie"]
+var positionA12 = ["instagram image caption", "yosemite national park", "yosemite fall", "india image", "married couple", "married bloggers"]
+var yakeA12 = ["white sands national", "sands national monument", "national monument", "sands national", "white sands", "victims identified", "yosemite national park"]
+
+var stats_phraseA13 = ["last week", "far-right publication"]
+var graph_phraseA13 = ["far-right publication", "european culture", "last week"]
+var entitiesA13 = ["steve king"]
+var tfidf_resultsA13 = ["contributions", "king", "steve king", "challenger", "far-right publication", "responsibility", "company"]
+var positionA13 = ["rep steve king", "land olakes pac", "great replacement king", "forward king", "minnesotabased dairy giant", "white nationalist worldview"]
+var yakeA13 = ["supremacist gop congressman", "white supremacist gop", "supremacist gop", "minnesota-based dairy giant", "gop congressman steve", "announced tuesday", "steve king"]
+
+var stats_phraseA14 = ["angela merkel"]
+var graph_phraseA14 = ["angela merkel"]
+var entitiesA14 = []
+var tfidf_resultsA14 = ["political", "video angela", "political challenges", "germany", "challenges video angela", "political challenges video", "announced"]
+var positionA14 = ["angela merkel", "political career", "key moments", "queen", "germany", "own party", "term"]
+var yakeA14 = ["video angela merkel", "challenges video angela", "queen of germany", "angela merkel", "video angela", "political challenges video", "challenges video"]
+
+function resultCompare1(selectObject) {
+
+  $("#comp1").empty();
+    var value = selectObject.value;
+    var articleNum = selectObject.id
+    //console.log(value);
+    //console.log(articleNum);
+    array = window[value + articleNum]
+    console.log(array)
+    for (var i = 0; i<array.length; i++) {
+          $("#comp1").append("<h6 class='keyword_label_container' id='cat_label'>"+array[i]+"</h6>");
+      //console.log(i)
+    }
+}
+
+
+
+function resultCompare2(selectObject) {
+
+  $("#comp2").empty();
+    var value = selectObject.value;
+    var articleNum = selectObject.id
+    //console.log(value);
+    //console.log(articleNum);
+    array = window[value + articleNum]
+    console.log(array)
+    for (var i = 0; i<array.length; i++) {
+          $("#comp2").append("<h6 class='keyword_label_container' id='cat_label'>"+array[i]+"</h6>");
+      //console.log(i)
+    }
+}
+
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,1019 @@
+<!DOCTYPE html5>
+<html lang="en-US">
+<head>
+	<title>Inflo main feed</title>
+	<link rel="stylesheet" type="text/css" href="css/mainfeed-style-v1.css">
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+
+	<!-- Slick carousel-->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+
+
+
+
+<script>
+
+
+
+
+
+
+$(document).ready(function(){
+
+
+
+
+/* TO change the topnav layout to fixed when scrolling (NOT USED) */
+var  tn = $(".topnav");
+    tns = "topnav-scrolled";
+    tnh = $('topnav').height();
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > 5) {
+    tn.addClass("topnav-scrolled");
+  } else {
+    tn.removeClass("topnav-scrolled");
+  }
+});
+
+
+
+/* Show and hide menus */
+
+$('.upbtn').on('click', (event) => {
+  $(event.target).siblings('#myUpmenu')
+    .toggleClass('show');
+});
+
+
+$(document).click(function(e) {
+  $('#upContain')
+    .not($('#upContain').has($(e.target)))
+    .children('#myUpmenu')
+    .removeClass('show');
+});
+
+
+
+$('.downbtn').on('click', (event) => {
+  $(event.target).siblings('#myDownmenu')
+    .toggleClass('show');
+});
+
+
+$(document).click(function(e) {
+  $('#downContain')
+    .not($('#downContain').has($(e.target)))
+    .children('#myDownmenu')
+    .removeClass('show');
+});
+
+
+$('.sharebtn').on('click', (event) => {
+  $(event.target).siblings('.sharedown-content')
+    .toggleClass('show');
+});
+
+
+
+$(document).click(function(e) {
+  $('.share_container')
+    .not($('.share_container').has($(e.target)))
+    .children('.sharedown-content')
+    .removeClass('show');
+});
+
+
+$('.addurl').on('click', (event) => {
+  $(event.target).siblings('.addURL-contents')
+    .toggleClass('show');
+});
+
+
+$(document).click(function(e) {
+  $('.addURL-container')
+    .not($('.addURL-container').has($(e.target)))
+    .children('.addURL-contents')
+    .removeClass('show');
+});
+
+
+
+$('#IMPACT-ICON').on('click', (event) => {
+  $(event.target).siblings('.impact-contents')
+    .toggleClass('show');
+});
+
+
+$(document).click(function(e) {
+  $('.impact-container')
+    .not($('.impact-container').has($(e.target)))
+    .children('.impact-contents')
+    .removeClass('show');
+});
+
+
+$('#NOTIF-ICON').on('click', (event) => {
+  $(event.target).siblings('.notif-contents')
+    .toggleClass('show');
+});
+
+
+$(document).click(function(e) {
+  $('.notif-container')
+    .not($('.notif-container').has($(e.target)))
+    .children('.notif-contents')
+    .removeClass('show');
+});
+
+
+
+/*document.getElementById("myUpmenu").addEventListener('click',function(event){
+    event.stopPropagation();
+});
+
+
+document.getElementById("mySharedown").addEventListener('click',function(event){
+    event.stopPropagation();
+}); */
+
+
+$('#shareToUserBtn').click(function() {
+		$('#C, #S').toggle();
+	$('#shareUser').toggleClass('show');
+
+});
+
+
+$('#C').click(function() {
+		$('#S, #shareToUserBtn').toggle();
+	$('#shareComm').toggleClass('show');
+
+});
+
+
+$('.filtertoggle').click(function() {
+		$('.filterhouse, .filterpanel').toggle();
+
+		$('.filtertoggle').toggleClass('open');
+});
+
+
+$('#filtertogglebtn').click(function() {
+		$('.filterhouse, .filterpanel').toggle();
+
+		$('.filtertoggle').toggleClass('open');
+});
+
+
+
+/* $('.commentbutton').click(function() {
+
+$('#CB-container1').toggleClass('cb_container-expand');
+	$('#CB1').toggleClass('cb_layout-expand');
+	$('.commentbutton').toggleClass('.commentbutton-expand')
+
+	$('.image_container').toggleClass('image_container-expand')
+
+	$('#COMMENT-CONTAINER-t1cb1').slideToggle();
+		$('#t1').toggleClass('category_container-expand')
+
+});
+
+$('#IPI').click(function() {
+
+$('#CB-container1').toggleClass('cb_container-expand');
+	$('#CB1').toggleClass('cb_layout-expand');
+	$('.commentbutton').toggleClass('.commentbutton-expand')
+
+	$('.image_container').toggleClass('image_container-expand')
+
+	$('#COMMENT-CONTAINER-t1cb1').slideToggle();
+	$('#t1').toggleClass('category_container-expand')
+
+
+$(document).click(function(e) {
+  $('#IPI')
+    .not($('#IPI').has($(e.target)))
+    $('#cb1-modal').toggle();
+});
+});
+
+*/
+
+
+/* Open Expanded CB in MODAL (twitter) style */
+
+$('#IPI').click(function() {
+	$('#cb1-modal').toggle()
+});
+
+$('.close').click(function() {
+	$('#cb1-modal').toggle()
+});
+
+
+var modal = document.getElementById('cb1-modal');
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+
+
+
+$('#Respond').click(function() {
+	$('#newComment').toggleClass('show');
+
+});
+
+
+/* Show hide share to options (community, user(s) */
+
+    $('input[type="radio"]').click(function(){
+        var inputValue = $(this).attr("value");
+        var targetBox = $("." + inputValue);
+        $(".AddURLMenu-div").not(targetBox).hide();
+        $(targetBox).show();
+    });
+
+
+
+
+/* Category filter mechanism v1 */
+$(".category-selection").click(function() {
+	var checkBox_Tech = document.getElementById("checkbox-tech");
+	var checkBox_Politics = document.getElementById("checkbox-pol");
+	var checkBox_Entertainment = document.getElementById("checkbox-ent");
+	var checkBox_Business = document.getElementById("checkbox-bus");
+	var checkBox_Sports = document.getElementById("checkbox-sport");
+
+		if (checkBox_Tech.checked == true) {
+			console.log(checkBox_Tech.checked);
+			$(".cb_container:contains('Tech')").show();
+			$(".cb_container:not(:contains('Tech'))").hide();
+
+			//if ($('.cb_container').find("*").html() == 'Tech') {
+
+		    	//$('.cb_container').show();
+		    //}
+		    }
+		   else if (checkBox_Politics.checked == true) {
+			console.log(checkBox_Politics.checked);
+			$(".cb_container:contains('Politics')").show();
+			$(".cb_container:not(:contains('Politics'))").hide();
+
+			//if ($('.cb_container').find("*").html() == 'Tech') {
+
+		    	//$('.cb_container').show();
+		    //}
+		    }
+		   else if (checkBox_Entertainment.checked == true) {
+			console.log(checkBox_Entertainment.checked);
+			$(".cb_container:contains('Entertainment')").show();
+			$(".cb_container:not(:contains('Entertainment'))").hide();
+
+			//if ($('.cb_container').find("*").html() == 'Tech') {
+
+		    	//$('.cb_container').show();
+		    //}
+		    }
+		   else if (checkBox_Business.checked == true) {
+			console.log(checkBox_Business.checked);
+			$(".cb_container:contains('Business')").show();
+			$(".cb_container:not(:contains('Business'))").hide();
+
+			//if ($('.cb_container').find("*").html() == 'Tech') {
+
+		    	//$('.cb_container').show();
+		    //}
+		    }
+		   else if (checkBox_Sports.checked == true) {
+			console.log(checkBox_Sports.checked);
+			$(".cb_container:contains('Sports')").show();
+			$(".cb_container:not(:contains('Sports'))").hide();
+
+			//if ($('.cb_container').find("*").html() == 'Tech') {
+
+		    	//$('.cb_container').show();
+		    //}
+		    }
+		   else {$(".cb_container:not(:contains('Sports'))").show();
+		    };
+});
+
+  // Get the checkbox
+  /*var checkBox_Politics = document.getElementById("checkbox-pol");
+  pol = $("#checkbox-pol").val();
+  var checkBox_Business = document.getElementById("checkbox-bus");
+  bus = $("#checkbox-bus").val();
+  var checkBox_Entertainment = document.getElementById("checkbox-ent");
+  ent = $("#checkbox-ent").val();
+  var checkBox_Tech = document.getElementById("checkbox-tech");
+  tech = pol = $("#checkbox-tech").val();
+  var checkBox_Sports = document.getElementById("checkbox-sport");
+  sport =  $("#checkbox-sport").val();
+  //console.log(pol)
+
+  // If the checkbox is checked, display the output text
+  var catArray = [pol, bus, ent, tech, sport];
+  for (var i=0; i < catArray.length; i++) {
+  	console.log('checkBox_'+ catArray[i]);
+  	cat = 'checkBox_'+ catArray[i];
+  	//console.log(cat.checked == false);
+  	if (cat.checked == true){
+
+    	if ($('.cb_container').find("h6").innerHTML == catArray[i]) {
+
+    	$('.cb_container').hide();}
+    }
+   else {$('.cb_container').show();}
+    };
+
+
+    });*/
+
+
+
+
+
+
+
+});
+
+</script>
+
+
+
+</head>
+<body>
+
+
+
+<div>
+		<ul class="topnav"> <a href="#"><img src="images/flo-icon.png" ></a>
+			<li><a class="active" href="#">Main Feed</a></li>
+			<li><a href="#">Discover</a></li>
+
+
+			<div class="dropdown">
+				<a href="#"><img class="dropbtn" src="images/signinimage.png" ></a>
+				<div class="dropdown-content">
+				<a href="#">My Profile</a>
+				<a href="#">Log Out</a>
+				</div></div>
+
+
+
+				<div id="impact-menu-container" class="impact-container">
+			<img id="IMPACT-ICON" src="images/impact2.png" style="float:right">
+
+			<div id="impact-MENU" class="impact-contents">
+		<h2>Impact Rewards:</h2>
+		<a><h4>+5 </h4><h3>Commenting Streak!</h3><h5>3 hours ago</h5></a>
+		<a><h4>+5 </h4><h3>Upvote on comment</h3><h5>5 hours ago</h5></a>
+		<a><h4>+5 </h4><h3>Sharing Streak! </h3><h5>Yesterday</h5></a>
+		<a><h4>+5 </h4><h3>Sharing Streak! </h3><h5>Yesterday</h5></a>
+		</div>
+										</div>
+
+
+
+
+<div id="notif-menu-container" class="notif-container">
+			<img id="NOTIF-ICON" src="images/notif1.png" style="float:right">
+
+			<div id="notif-MENU" class="notif-contents">
+		<h2>Notifications</h2>
+		<a><h3>2 Connection Requests</h3></a>
+		<a><h3>User B Commented on your share</h3></a>
+		<a><h3>User C Reacted to your share</h3></a>
+		</div>
+										</div>
+
+
+		</ul>
+
+	</div>
+			<br><br>
+
+
+
+
+
+<div class="main">
+
+
+<!--Filter panel-->
+
+
+<div class="filtertoggle">
+...
+</div>
+<div class="filterhouse">
+
+<div class="filterpanel">
+	<h1>Filter Options</h1>
+
+	<div class="category-selection">
+		<h2>Categories</h2>
+			<h3 id="cat-none">None &nbsp</h3>/<h3 id="cat-all">&nbsp All</h3>
+	<form>
+		<label class="cat-list-container">Politics<input type="checkbox" name="cat1" value="Politics" id="checkbox-pol">
+			<span class="cat-checkmark"></span></label>
+		<label class="cat-list-container">Business<input type="checkbox" name="cat2" value="Business" id="checkbox-bus"><span class="cat-checkmark"></span></label>
+		<label class="cat-list-container">Entertainment<input type="checkbox" name="cat3" value="Entertainment" id="checkbox-ent"><span class="cat-checkmark"></span></label>
+		<label class="cat-list-container">Tech<input type="checkbox" name="cat4" value="Tech" id="checkbox-tech"><span class="cat-checkmark"></span></label>
+		<label class="cat-list-container">Sports<input type="checkbox" name="cat5" value="Sports" id="checkbox-sport"><span class="cat-checkmark"></span></label>
+	</form>
+
+
+	</div>
+
+
+	<div class="topic-selection">
+		<h2>Trending Topics</h2>
+	<!-- all topics to be automatically generated  -->
+	<ul style="list-style-type:none">
+		<li>World Cup</li>
+		<li>Fathers Day</li>
+		<li>DragonBoatFestival</li>
+		<li>Earthquake</li>
+		<li>China</li>
+	</ul>
+
+	<input class="input" id="search-box" type="text" placeholder="Search topic by keyword">
+
+	</div>
+
+	</div>
+
+</div>
+
+
+
+
+<div class="content_view">
+
+
+
+<div class="content_view-nav">
+	<button class="button-left" id="filtertogglebtn">Filter</button>
+	<div class="community-select-topnav-div">
+		<select id='COMMUNITY-SELECT-TOPNAV' class="community_selector">
+
+		<option value="myNet">My Network</option>
+		<option value="Comm1">Community 1</option>
+		<option value="Comm2">Community 2</option>
+		</select>
+	</div>
+
+
+<!-- SHARE URL Button and Menu -->
+<div id="addURL-menu-container" class="addURL-container">
+
+	<button id="ADDURL" class="addurl">Share Article</button>
+
+	<div id="ADDURL-MENU" class="addURL-contents">
+
+
+		<h2>Add article from URL:</h2>
+		<input class="input" id="URLinput" type="text" placeholder="www.news.com/news">
+
+		<div class="shareTo-AddURLMenu-div">
+
+		<h3>Share to</h3>
+			<label class="container">My network
+			  <input id="MYNETWORK" type="radio" checked="checked" name="shareto-radio">
+			  <span class="checkmark"></span>
+			</label>
+			<label class="container">User
+			  <input id="USER" type="radio" name="shareto-radio" value="user">
+
+			  <span class="checkmark"></span>
+
+			</label>
+
+			<div class="AddURLMenu-div user">
+				<input type="text" id="AddURL-userInput" onkeyup="shareUserAddURL()" name="connection-name" placeholder="Share to User" style="width:80%">
+					<ul id="AddURL-shareUserUL">
+					<li><a href="#">Adele</a></li>
+						<li><a href="#">Agnes</a></li>
+						<li><a href="#">Billy</a></li>
+						<li><a href="#">Bob</a></li>
+						<li><a href="#">Calvin</a></li>
+						<li><a href="#">Christina</a></li>
+						<li><a href="#">Cindy</a></li>
+ 					</ul>
+
+
+			</div>
+
+
+			<label class="container">Community
+			  <input id="COMMUNITY" type="radio" name="shareto-radio" value="community">
+
+				  <span class="checkmark"></span>
+
+
+			</label>
+
+			<div class="AddURLMenu-div community">
+				<select id='COMMUNITY-SELECT-TOPNAV' class="community_selector">
+
+				<option value="myNet">My Network</option>
+				<option value="Comm1">Community 1</option>
+				<option value="Comm2">Community 2</option>
+				</select>
+
+		</div>
+
+
+		<button id="submitURL" class="addurl";>Submit</button>
+
+
+
+		</div>
+
+
+	</div>
+</div>
+
+
+<!-- END OF SHARE URL Button and Menu -->
+
+</div>
+<!--make a nice and clean layout of content blocks -->
+
+
+
+<br>
+
+
+
+<div id="cb-shelf-1" class="cb_shelf">
+
+
+	<h2 id="category-title-1">Main Feed<p>&nbspSort By:</p>
+		<select id='sort-select' class="selector">
+
+		<option value="recent">Most Recent</option>
+		<option value="mostactivity">Most Activity</option>
+		<option value="recentactivity">Recent Activity</option>
+		</select></h2></div>
+
+
+
+<div class="mainfeed_container" id="t1">
+
+
+		<div class="cb_container" id="cont-t1cb2"> <div class="cb_layout" id="t1CB2">							<div class="cb_top"><div class="cb_tag"><p>tag1</p></div><div class="cb_tag"><p>tag2</p></div><div class="cb_tag"><p>tag3</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div></div><div id="IPI" class="imagePlusInfo"><div class="image_container"><img id="CB141-img" src="https://s3.reutersmedia.net/resources/r/?m=02&amp;d=20180704&amp;t=2&amp;i=1279433509&amp;w=1200&amp;r=LYNXMPEE630MQ"></div><div id="cb2-info" class="info"><h2 id="SOURCE141">Reuters</h2><h2 id="DATETIME141">2018-07-04 09:20:09</h2><h6 class="cat_label_container" id="cat_label-141">Business</h6><h3 id="HEADLINE141">Blame 'superstar' tech firms for slow wage growth: OECD</h3><h4 id="DESCRIPTION141">Fast-growing "superstar" tech firms are taking a growing share of national income in many countries, leaving workers' ov...</h4><h5 id="SHAREDBY2">Shared by Nicholas Sukiennik on <span id="timePosted-cb141">2018-07-04 21:42:39.336706</span></h5></div></div><br><div id="BUTTONLAYER" class="cb_button-layer"><div id="upContain" class="menu_container"><img src="images/upvote2.png" class="upbtn"><div id="myUpmenu" class="menu-content"><!--<div class="triangle-with-shadow"></div>--><a href="#">Rxn1</a><a href="#">Rxn2</a><a href="#">Rxn3</a></div> </div>	<div id="downContain" class="menu_container">							<img src="images/downvote2.png" class="downbtn">											<div id="myDownmenu" class="menu-content-DOWN">													<!--<div class="triangle-with-shadow"></div>-->													<a href="#">Rxn1</a>	<a href="#">Rxn2</a><a href="#">Rxn3</a> </div></div><div class="share_container">								<img src="images/share.png" class="sharebtn">											<div id="mySharedown" class="sharedown-content">												<!--<div class="triangle-with-shadow"></div>-->												<a id="shareToUserBtn" href="#">User</a>															<div id="shareUser" class="shareUser-content">									<input id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%" type="text"> 									<ul id="shareUserUL">										<li><a href="#">Adele</a></li>	  													<li><a href="#">Agnes</a></li>	  													<li><a href="#">Billy</a></li>	  													<li><a href="#">Bob</a></li>  														<li><a href="#">Calvin</a></li> 														<li><a href="#">Christina</a></li> 														<li><a href="#">Cindy</a></li></ul> 												</div>			<a id="C" href="#">Community</a>														<div id="shareComm" class="shareComm">															<a href="#">My Network</a>																<a href="#">Comm 1</a>																<a href="#">Comm 2</a>	</div>													<a id="S" href="#">Self (read queue)</a> 	</div> 											</div>															<img id="commentBtn1" src="images/comment.png" class="commentbutton">			</div></div></div>
+
+
+		<div class="cb_container" id="cont-t1cb2"> <div class="cb_layout" id="t1CB2">							<div class="cb_top"><div class="cb_tag"><p>tag1</p></div><div class="cb_tag"><p>tag2</p></div><div class="cb_tag"><p>tag3</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div></div><div id="IPI" class="imagePlusInfo"><div class="image_container"><img id="CB139-img" src="https://s1.reutersmedia.net/resources/r/?m=02&amp;d=20180703&amp;t=2&amp;i=1279302446&amp;w=1200&amp;r=LYNXMPEE62292"></div><div id="cb2-info" class="info"><h2 id="SOURCE139">Reuters</h2><h2 id="DATETIME139">2018-07-03 23:43:43</h2><h6 class="cat_label_container" id="cat_label-139">Politics</h6><h3 id="HEADLINE139">The cover-up: Malaysian officials reveal just how much 1MDB probe was obstructed</h3><h4 id="DESCRIPTION139">The government of former Malaysian prime minister Najib Razak spent years systematically obstructing probes into...</h4><h5 id="SHAREDBY2">Shared by Nicholas Sukiennik on <span id="timePosted-cb139">2018-07-04 21:36:28.290378</span></h5></div></div><br><div id="BUTTONLAYER" class="cb_button-layer"><div id="upContain" class="menu_container"><img src="images/upvote2.png" class="upbtn"><div id="myUpmenu" class="menu-content"><!--<div class="triangle-with-shadow"></div>--><a href="#">Rxn1</a><a href="#">Rxn2</a><a href="#">Rxn3</a></div> </div>	<div id="downContain" class="menu_container">							<img src="images/downvote2.png" class="downbtn">											<div id="myDownmenu" class="menu-content-DOWN">													<!--<div class="triangle-with-shadow"></div>-->													<a href="#">Rxn1</a>	<a href="#">Rxn2</a><a href="#">Rxn3</a> </div></div><div class="share_container">								<img src="images/share.png" class="sharebtn">											<div id="mySharedown" class="sharedown-content">												<!--<div class="triangle-with-shadow"></div>-->												<a id="shareToUserBtn" href="#">User</a>															<div id="shareUser" class="shareUser-content">									<input id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%" type="text"> 									<ul id="shareUserUL">										<li><a href="#">Adele</a></li>	  													<li><a href="#">Agnes</a></li>	  													<li><a href="#">Billy</a></li>	  													<li><a href="#">Bob</a></li>  														<li><a href="#">Calvin</a></li> 														<li><a href="#">Christina</a></li> 														<li><a href="#">Cindy</a></li></ul> 												</div>			<a id="C" href="#">Community</a>														<div id="shareComm" class="shareComm">															<a href="#">My Network</a>																<a href="#">Comm 1</a>																<a href="#">Comm 2</a>	</div>													<a id="S" href="#">Self (read queue)</a> 	</div> 											</div>															<img id="commentBtn1" src="images/comment.png" class="commentbutton">			</div></div></div>
+
+
+
+		<div class="cb_container" id="cont-t1cb2" style=""> <div class="cb_layout" id="t1CB2">							<div class="cb_top"><div class="cb_tag"><p>tag1</p></div><div class="cb_tag"><p>tag2</p></div><div class="cb_tag"><p>tag3</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div></div><div id="IPI" class="imagePlusInfo"><div class="image_container"><img id="CB138-img" src="https://cdn.vox-cdn.com/thumbor/07uC9PA6WnljE32EazzowxthFPg=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/11625313/collage.jpg"></div><div id="cb2-info" class="info"><h2 id="SOURCE138">MMA Fighting</h2><h2 id="DATETIME138">2018-07-03 00:00:00</h2><h6 class="cat_label_container" id="cat_label-138">Sports</h6><h3 id="HEADLINE138">Who would win the World Cup of MMA?</h3><h4 id="DESCRIPTION138">What would happen if the World Cup teams were replaced with teams of fighters from their respective countries? We decide...</h4><h5 id="SHAREDBY2">Shared by Nicholas Sukiennik on <span id="timePosted-cb138">2018-07-04 21:21:52.822669</span></h5></div></div><br><div id="BUTTONLAYER" class="cb_button-layer"><div id="upContain" class="menu_container"><img src="images/upvote2.png" class="upbtn"><div id="myUpmenu" class="menu-content"><!--<div class="triangle-with-shadow"></div>--><a href="#">Rxn1</a><a href="#">Rxn2</a><a href="#">Rxn3</a></div> </div>	<div id="downContain" class="menu_container">							<img src="images/downvote2.png" class="downbtn">											<div id="myDownmenu" class="menu-content-DOWN">													<!--<div class="triangle-with-shadow"></div>-->													<a href="#">Rxn1</a>	<a href="#">Rxn2</a><a href="#">Rxn3</a> </div></div><div class="share_container">								<img src="images/share.png" class="sharebtn">											<div id="mySharedown" class="sharedown-content">												<!--<div class="triangle-with-shadow"></div>-->												<a id="shareToUserBtn" href="#">User</a>															<div id="shareUser" class="shareUser-content">									<input id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%" type="text"> 									<ul id="shareUserUL">										<li><a href="#">Adele</a></li>	  													<li><a href="#">Agnes</a></li>	  													<li><a href="#">Billy</a></li>	  													<li><a href="#">Bob</a></li>  														<li><a href="#">Calvin</a></li> 														<li><a href="#">Christina</a></li> 														<li><a href="#">Cindy</a></li></ul> 												</div>			<a id="C" href="#">Community</a>														<div id="shareComm" class="shareComm">															<a href="#">My Network</a>																<a href="#">Comm 1</a>																<a href="#">Comm 2</a>	</div>													<a id="S" href="#">Self (read queue)</a> 	</div> 											</div>															<img id="commentBtn1" src="images/comment.png" class="commentbutton">			</div></div></div>
+
+		<div class="cb_container" id="cont-t1cb2" style=""> <div class="cb_layout" id="t1CB2">							<div class="cb_top"><div class="cb_tag"><p>tag1</p></div><div class="cb_tag"><p>tag2</p></div><div class="cb_tag"><p>tag3</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div></div><div id="IPI" class="imagePlusInfo"><div class="image_container"><img id="CB137-img" src="http://www.latimes.com/resizer/8uKcXDExkib-wVzixZZxLxhF0Vo=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/4OQCBLTFSFAI7PYIEPP2JHZ6HQ.jpg"></div><div id="cb2-info" class="info"><h2 id="SOURCE137">latimes.com</h2><h2 id="DATETIME137">2018-07-02 00:00:00</h2><h6 class="cat_label_container" id="cat_label-137">Sports</h6><h3 id="HEADLINE137">Julius Randle agrees to deal with Pelicans after Lakers renounce their rights to him</h3><h4 id="DESCRIPTION137">The Lakers renounced their rights to power forward Julius Randle, freeing up $12.5 million in salary cap space to...</h4><h5 id="SHAREDBY2">Shared by Nicholas Sukiennik on <span id="timePosted-cb137">2018-07-04 21:21:42.400704</span></h5></div></div><br><div id="BUTTONLAYER" class="cb_button-layer"><div id="upContain" class="menu_container"><img src="images/upvote2.png" class="upbtn"><div id="myUpmenu" class="menu-content"><!--<div class="triangle-with-shadow"></div>--><a href="#">Rxn1</a><a href="#">Rxn2</a><a href="#">Rxn3</a></div> </div>	<div id="downContain" class="menu_container">							<img src="images/downvote2.png" class="downbtn">											<div id="myDownmenu" class="menu-content-DOWN">													<!--<div class="triangle-with-shadow"></div>-->													<a href="#">Rxn1</a>	<a href="#">Rxn2</a><a href="#">Rxn3</a> </div></div><div class="share_container">								<img src="images/share.png" class="sharebtn">											<div id="mySharedown" class="sharedown-content">												<!--<div class="triangle-with-shadow"></div>-->												<a id="shareToUserBtn" href="#">User</a>															<div id="shareUser" class="shareUser-content">									<input id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%" type="text"> 									<ul id="shareUserUL">										<li><a href="#">Adele</a></li>	  													<li><a href="#">Agnes</a></li>	  													<li><a href="#">Billy</a></li>	  													<li><a href="#">Bob</a></li>  														<li><a href="#">Calvin</a></li> 														<li><a href="#">Christina</a></li> 														<li><a href="#">Cindy</a></li></ul> 												</div>			<a id="C" href="#">Community</a>														<div id="shareComm" class="shareComm">															<a href="#">My Network</a>																<a href="#">Comm 1</a>																<a href="#">Comm 2</a>	</div>													<a id="S" href="#">Self (read queue)</a> 	</div> 											</div>															<img id="commentBtn1" src="images/comment.png" class="commentbutton">			</div></div></div>
+
+		<div class="cb_container" id="cont-t1cb2" style=""> <div class="cb_layout" id="t1CB2">							<div class="cb_top"><div class="cb_tag"><p>tag1</p></div><div class="cb_tag"><p>tag2</p></div><div class="cb_tag"><p>tag3</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div></div><div id="IPI" class="imagePlusInfo"><div class="image_container"><img id="CB136-img" src="https://thenypost.files.wordpress.com/2018/07/chapman.jpg?quality=90&amp;strip=all&amp;w=1200"></div><div id="cb2-info" class="info"><h2 id="SOURCE136">New York Post</h2><h2 id="DATETIME136">2018-07-04 00:00:00</h2><h6 class="cat_label_container" id="cat_label-136">Sports</h6><h3 id="HEADLINE136">It's important the Yankees can win ugly games like this one</h3><h4 id="DESCRIPTION136">This is the way you build the kind of record you’re going to need to survive the gauntlet of the American League. They c...</h4><h5 id="SHAREDBY2">Shared by Nicholas Sukiennik on <span id="timePosted-cb136">2018-07-04 21:21:32.444494</span></h5></div></div><br><div id="BUTTONLAYER" class="cb_button-layer"><div id="upContain" class="menu_container"><img src="images/upvote2.png" class="upbtn"><div id="myUpmenu" class="menu-content"><!--<div class="triangle-with-shadow"></div>--><a href="#">Rxn1</a><a href="#">Rxn2</a><a href="#">Rxn3</a></div> </div>	<div id="downContain" class="menu_container">							<img src="images/downvote2.png" class="downbtn">											<div id="myDownmenu" class="menu-content-DOWN">													<!--<div class="triangle-with-shadow"></div>-->													<a href="#">Rxn1</a>	<a href="#">Rxn2</a><a href="#">Rxn3</a> </div></div><div class="share_container">								<img src="images/share.png" class="sharebtn">											<div id="mySharedown" class="sharedown-content">												<!--<div class="triangle-with-shadow"></div>-->												<a id="shareToUserBtn" href="#">User</a>															<div id="shareUser" class="shareUser-content">									<input id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%" type="text"> 									<ul id="shareUserUL">										<li><a href="#">Adele</a></li>	  													<li><a href="#">Agnes</a></li>	  													<li><a href="#">Billy</a></li>	  													<li><a href="#">Bob</a></li>  														<li><a href="#">Calvin</a></li> 														<li><a href="#">Christina</a></li> 														<li><a href="#">Cindy</a></li></ul> 												</div>			<a id="C" href="#">Community</a>														<div id="shareComm" class="shareComm">															<a href="#">My Network</a>																<a href="#">Comm 1</a>																<a href="#">Comm 2</a>	</div>													<a id="S" href="#">Self (read queue)</a> 	</div> 											</div>															<img id="commentBtn1" src="images/comment.png" class="commentbutton">			</div></div></div>
+
+
+		<div class="cb_container" id="cont-t1cb2" style=""> <div class="cb_layout" id="t1CB2">							<div class="cb_top"><div class="cb_tag"><p>tag1</p></div><div class="cb_tag"><p>tag2</p></div><div class="cb_tag"><p>tag3</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div></div><div id="IPI" class="imagePlusInfo"><div class="image_container"><img id="CB135-img" src="https://www.thewrap.com/wp-content/uploads/2018/06/AntManGiant.jpg"></div><div id="cb2-info" class="info"><h2 id="SOURCE135">TheWrap</h2><h2 id="DATETIME135">2018-07-03 13:38:14</h2><h6 class="cat_label_container" id="cat_label-135">Entertainment</h6><h3 id="HEADLINE135">Can 'Ant-Man and the Wasp' Continue Marvel's $100 Million-Plus Streak?</h3><h4 id="DESCRIPTION135">"Avengers: Infinity War" was such a juggernaut at the box office, it's poised to propel "Ant-Man and the Wasp" into a hu...</h4><h5 id="SHAREDBY2">Shared by Nicholas Sukiennik on <span id="timePosted-cb135">2018-07-04 21:20:57.020050</span></h5></div></div><br><div id="BUTTONLAYER" class="cb_button-layer"><div id="upContain" class="menu_container"><img src="images/upvote2.png" class="upbtn"><div id="myUpmenu" class="menu-content"><!--<div class="triangle-with-shadow"></div>--><a href="#">Rxn1</a><a href="#">Rxn2</a><a href="#">Rxn3</a></div> </div>	<div id="downContain" class="menu_container">							<img src="images/downvote2.png" class="downbtn">											<div id="myDownmenu" class="menu-content-DOWN">													<!--<div class="triangle-with-shadow"></div>-->													<a href="#">Rxn1</a>	<a href="#">Rxn2</a><a href="#">Rxn3</a> </div></div><div class="share_container">								<img src="images/share.png" class="sharebtn">											<div id="mySharedown" class="sharedown-content">												<!--<div class="triangle-with-shadow"></div>-->												<a id="shareToUserBtn" href="#">User</a>															<div id="shareUser" class="shareUser-content">									<input id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%" type="text"> 									<ul id="shareUserUL">										<li><a href="#">Adele</a></li>	  													<li><a href="#">Agnes</a></li>	  													<li><a href="#">Billy</a></li>	  													<li><a href="#">Bob</a></li>  														<li><a href="#">Calvin</a></li> 														<li><a href="#">Christina</a></li> 														<li><a href="#">Cindy</a></li></ul> 												</div>			<a id="C" href="#">Community</a>														<div id="shareComm" class="shareComm">															<a href="#">My Network</a>																<a href="#">Comm 1</a>																<a href="#">Comm 2</a>	</div>													<a id="S" href="#">Self (read queue)</a> 	</div> 											</div>															<img id="commentBtn1" src="images/comment.png" class="commentbutton">			</div></div></div>
+
+
+		<div class="cb_container" id="cont-t1cb2" style=""> <div class="cb_layout" id="t1CB2">							<div class="cb_top"><div class="cb_tag"><p>tag1</p></div><div class="cb_tag"><p>tag2</p></div><div class="cb_tag"><p>tag3</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div></div><div id="IPI" class="imagePlusInfo"><div class="image_container"><img id="CB134-img" src="https://9to5mac.files.wordpress.com/2018/07/ios-12-beta-3-featured1.jpg?quality=82&amp;strip=all&amp;w=1600"></div><div id="cb2-info" class="info"><h2 id="SOURCE134">9to5Mac</h2><h2 id="DATETIME134">2018-07-03 00:00:00</h2><h6 class="cat_label_container" id="cat_label-134">Tech</h6><h3 id="HEADLINE134">Hands-on: iOS 12 beta 3 changes and features [Video]</h3><h4 id="DESCRIPTION134">The third iOS 12 developer beta has been released for eligible iPhones and iPads, and we’ve taken it for a test drive to...</h4><h5 id="SHAREDBY2">Shared by Nicholas Sukiennik on <span id="timePosted-cb134">2018-07-04 21:20:49.277967</span></h5></div></div><br><div id="BUTTONLAYER" class="cb_button-layer"><div id="upContain" class="menu_container"><img src="images/upvote2.png" class="upbtn"><div id="myUpmenu" class="menu-content"><!--<div class="triangle-with-shadow"></div>--><a href="#">Rxn1</a><a href="#">Rxn2</a><a href="#">Rxn3</a></div> </div>	<div id="downContain" class="menu_container">							<img src="images/downvote2.png" class="downbtn">											<div id="myDownmenu" class="menu-content-DOWN">													<!--<div class="triangle-with-shadow"></div>-->													<a href="#">Rxn1</a>	<a href="#">Rxn2</a><a href="#">Rxn3</a> </div></div><div class="share_container">								<img src="images/share.png" class="sharebtn">											<div id="mySharedown" class="sharedown-content">												<!--<div class="triangle-with-shadow"></div>-->												<a id="shareToUserBtn" href="#">User</a>															<div id="shareUser" class="shareUser-content">									<input id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%" type="text"> 									<ul id="shareUserUL">										<li><a href="#">Adele</a></li>	  													<li><a href="#">Agnes</a></li>	  													<li><a href="#">Billy</a></li>	  													<li><a href="#">Bob</a></li>  														<li><a href="#">Calvin</a></li> 														<li><a href="#">Christina</a></li> 														<li><a href="#">Cindy</a></li></ul> 												</div>			<a id="C" href="#">Community</a>														<div id="shareComm" class="shareComm">															<a href="#">My Network</a>																<a href="#">Comm 1</a>																<a href="#">Comm 2</a>	</div>													<a id="S" href="#">Self (read queue)</a> 	</div> 											</div>															<img id="commentBtn1" src="images/comment.png" class="commentbutton">			</div></div></div>
+
+
+		<div class="cb_container" id="cont-t1cb2" style=""> <div class="cb_layout" id="t1CB2">							<div class="cb_top"><div class="cb_tag"><p>tag1</p></div><div class="cb_tag"><p>tag2</p></div><div class="cb_tag"><p>tag3</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div></div><div id="IPI" class="imagePlusInfo"><div class="image_container"><img id="CB133-img" src="https://thumbor.forbes.com/thumbor/600x315/https%3A%2F%2Fblogs-images.forbes.com%2Fgordonkelly%2Ffiles%2F2018%2F05%2F1-Edited.jpg"></div><div id="cb2-info" class="info"><h2 id="SOURCE133">Forbes</h2><h2 id="DATETIME133">2018-07-03 00:00:00</h2><h6 class="cat_label_container" id="cat_label-133">Tech</h6><h3 id="HEADLINE133">Radical Galaxy Note 9 'Confirmed' By US Government</h3><h4 id="DESCRIPTION133">The Galaxy Note 9 just became a lot more exciting after Samsung accidentally leaked what will be a genuinely radical upg...</h4><h5 id="SHAREDBY2">Shared by Nicholas Sukiennik on <span id="timePosted-cb133">2018-07-04 21:20:41.864335</span></h5></div></div><br><div id="BUTTONLAYER" class="cb_button-layer"><div id="upContain" class="menu_container"><img src="images/upvote2.png" class="upbtn"><div id="myUpmenu" class="menu-content"><!--<div class="triangle-with-shadow"></div>--><a href="#">Rxn1</a><a href="#">Rxn2</a><a href="#">Rxn3</a></div> </div>	<div id="downContain" class="menu_container">							<img src="images/downvote2.png" class="downbtn">											<div id="myDownmenu" class="menu-content-DOWN">													<!--<div class="triangle-with-shadow"></div>-->													<a href="#">Rxn1</a>	<a href="#">Rxn2</a><a href="#">Rxn3</a> </div></div><div class="share_container">								<img src="images/share.png" class="sharebtn">											<div id="mySharedown" class="sharedown-content">												<!--<div class="triangle-with-shadow"></div>-->												<a id="shareToUserBtn" href="#">User</a>															<div id="shareUser" class="shareUser-content">									<input id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%" type="text"> 									<ul id="shareUserUL">										<li><a href="#">Adele</a></li>	  													<li><a href="#">Agnes</a></li>	  													<li><a href="#">Billy</a></li>	  													<li><a href="#">Bob</a></li>  														<li><a href="#">Calvin</a></li> 														<li><a href="#">Christina</a></li> 														<li><a href="#">Cindy</a></li></ul> 												</div>			<a id="C" href="#">Community</a>														<div id="shareComm" class="shareComm">															<a href="#">My Network</a>																<a href="#">Comm 1</a>																<a href="#">Comm 2</a>	</div>													<a id="S" href="#">Self (read queue)</a> 	</div> 											</div>															<img id="commentBtn1" src="images/comment.png" class="commentbutton">			</div></div></div>
+
+
+
+		<div class="cb_container" id="cont-t1cb2" style=""> <div class="cb_layout" id="t1CB2">							<div class="cb_top"><div class="cb_tag"><p>tag1</p></div><div class="cb_tag"><p>tag2</p></div><div class="cb_tag"><p>tag3</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div></div><div id="IPI" class="imagePlusInfo"><div class="image_container"><img id="CB132-img" src="https://cdn.vox-cdn.com/thumbor/ZiX58w4LD0k0fF8sAcJwWtfKZ6M=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10713113/acastro_180424_1777_gmail_0001.0.jpg"></div><div id="cb2-info" class="info"><h2 id="SOURCE132">The Verge</h2><h2 id="DATETIME132">2018-07-03 00:00:00</h2><h6 class="cat_label_container" id="cat_label-132">Tech</h6><h3 id="HEADLINE132">Google tries to calm controversy over app developers having access to your Gmail</h3><h4 id="DESCRIPTION132">Google says it vets these app developers and offers strict user controls over data sharing...</h4><h5 id="SHAREDBY2">Shared by Nicholas Sukiennik on <span id="timePosted-cb132">2018-07-04 21:20:33.691123</span></h5></div></div><br><div id="BUTTONLAYER" class="cb_button-layer"><div id="upContain" class="menu_container"><img src="images/upvote2.png" class="upbtn"><div id="myUpmenu" class="menu-content"><!--<div class="triangle-with-shadow"></div>--><a href="#">Rxn1</a><a href="#">Rxn2</a><a href="#">Rxn3</a></div> </div>	<div id="downContain" class="menu_container">							<img src="images/downvote2.png" class="downbtn">											<div id="myDownmenu" class="menu-content-DOWN">													<!--<div class="triangle-with-shadow"></div>-->													<a href="#">Rxn1</a>	<a href="#">Rxn2</a><a href="#">Rxn3</a> </div></div><div class="share_container">								<img src="images/share.png" class="sharebtn">											<div id="mySharedown" class="sharedown-content">												<!--<div class="triangle-with-shadow"></div>-->												<a id="shareToUserBtn" href="#">User</a>															<div id="shareUser" class="shareUser-content">									<input id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%" type="text"> 									<ul id="shareUserUL">										<li><a href="#">Adele</a></li>	  													<li><a href="#">Agnes</a></li>	  													<li><a href="#">Billy</a></li>	  													<li><a href="#">Bob</a></li>  														<li><a href="#">Calvin</a></li> 														<li><a href="#">Christina</a></li> 														<li><a href="#">Cindy</a></li></ul> 												</div>			<a id="C" href="#">Community</a>														<div id="shareComm" class="shareComm">															<a href="#">My Network</a>																<a href="#">Comm 1</a>																<a href="#">Comm 2</a>	</div>													<a id="S" href="#">Self (read queue)</a> 	</div> 											</div>															<img id="commentBtn1" src="images/comment.png" class="commentbutton">			</div></div></div>
+
+
+		<div class="cb_container" id="cont-t1cb2" style=""> <div class="cb_layout" id="t1CB2">							<div class="cb_top"><div class="cb_tag"><p>tag1</p></div><div class="cb_tag"><p>tag2</p></div><div class="cb_tag"><p>tag3</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div></div><div id="IPI" class="imagePlusInfo"><div class="image_container"><img id="CB131-img" src="https://img.huffingtonpost.com/asset/5b3c94ed1a00002700ce34de.jpeg?cache=qckotl03ts&amp;ops=1910_1000"></div><div id="cb2-info" class="info"><h2 id="SOURCE131">HuffPost</h2><h2 id="DATETIME131">2018-07-04 05:40:51</h2><h6 class="cat_label_container" id="cat_label-131">Business</h6><h3 id="HEADLINE131">Barnes &amp; Noble Fires CEO Demos Parneros For Violating Company Policies</h3><h4 id="DESCRIPTION131">He will not receive any severance payment and he is no longer a member of the board....</h4><h5 id="SHAREDBY2">Shared by Nicholas Sukiennik on <span id="timePosted-cb131">2018-07-04 21:20:27.383570</span></h5></div></div><br><div id="BUTTONLAYER" class="cb_button-layer"><div id="upContain" class="menu_container"><img src="images/upvote2.png" class="upbtn"><div id="myUpmenu" class="menu-content"><!--<div class="triangle-with-shadow"></div>--><a href="#">Rxn1</a><a href="#">Rxn2</a><a href="#">Rxn3</a></div> </div>	<div id="downContain" class="menu_container">							<img src="images/downvote2.png" class="downbtn">											<div id="myDownmenu" class="menu-content-DOWN">													<!--<div class="triangle-with-shadow"></div>-->													<a href="#">Rxn1</a>	<a href="#">Rxn2</a><a href="#">Rxn3</a> </div></div><div class="share_container">								<img src="images/share.png" class="sharebtn">											<div id="mySharedown" class="sharedown-content">												<!--<div class="triangle-with-shadow"></div>-->												<a id="shareToUserBtn" href="#">User</a>															<div id="shareUser" class="shareUser-content">									<input id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%" type="text"> 									<ul id="shareUserUL">										<li><a href="#">Adele</a></li>	  													<li><a href="#">Agnes</a></li>	  													<li><a href="#">Billy</a></li>	  													<li><a href="#">Bob</a></li>  														<li><a href="#">Calvin</a></li> 														<li><a href="#">Christina</a></li> 														<li><a href="#">Cindy</a></li></ul> 												</div>			<a id="C" href="#">Community</a>														<div id="shareComm" class="shareComm">															<a href="#">My Network</a>																<a href="#">Comm 1</a>																<a href="#">Comm 2</a>	</div>													<a id="S" href="#">Self (read queue)</a> 	</div> 											</div>															<img id="commentBtn1" src="images/comment.png" class="commentbutton">			</div></div></div>
+
+
+		<div class="cb_container" id="cont-t1cb2" style=""> <div class="cb_layout" id="t1CB2">							<div class="cb_top"><div class="cb_tag"><p>tag1</p></div><div class="cb_tag"><p>tag2</p></div><div class="cb_tag"><p>tag3</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div></div><div id="IPI" class="imagePlusInfo"><div class="image_container"><img id="CB130-img" src="https://o.aolcdn.com/images/dims?thumbnail=1200%2C630&amp;quality=80&amp;image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D3865%252C2576%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1066%26image_uri%3Dhttp%253A%252F%252Fo.aolcdn.com%252Fhss%252Fstorage%252Fmidas%252Fabc28fd2defd5225073cf0af708d8020%252F204664710%252F503545110.jpg%26client%3Da1acac3e1b3290917d92%26signature%3D14782ec6be31d3d4e14aa5855b7ae846eccddc47&amp;client=cbc79c14efcebee57402&amp;signature=ca7f3772c06ff6aa039adc4de3ba5c94512bc95a"></div><div id="cb2-info" class="info"><h2 id="SOURCE130">Engadget</h2><h2 id="DATETIME130">2018-07-03 00:00:00</h2><h6 class="cat_label_container" id="cat_label-130">Tech</h6><h3 id="HEADLINE130">Netflix tests 'Ultra' tier that could add a higher price option</h3><h4 id="DESCRIPTION130">Netflix's "Ultra" tier that could pull features like HDR and simultaneous streams away from your Standard or Premium pla...</h4><h5 id="SHAREDBY2">Shared by Nicholas Sukiennik on <span id="timePosted-cb130">2018-07-04 21:20:02.094655</span></h5></div></div><br><div id="BUTTONLAYER" class="cb_button-layer"><div id="upContain" class="menu_container"><img src="images/upvote2.png" class="upbtn"><div id="myUpmenu" class="menu-content"><!--<div class="triangle-with-shadow"></div>--><a href="#">Rxn1</a><a href="#">Rxn2</a><a href="#">Rxn3</a></div> </div>	<div id="downContain" class="menu_container">							<img src="images/downvote2.png" class="downbtn">											<div id="myDownmenu" class="menu-content-DOWN">													<!--<div class="triangle-with-shadow"></div>-->													<a href="#">Rxn1</a>	<a href="#">Rxn2</a><a href="#">Rxn3</a> </div></div><div class="share_container">								<img src="images/share.png" class="sharebtn">											<div id="mySharedown" class="sharedown-content">												<!--<div class="triangle-with-shadow"></div>-->												<a id="shareToUserBtn" href="#">User</a>															<div id="shareUser" class="shareUser-content">									<input id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%" type="text"> 									<ul id="shareUserUL">										<li><a href="#">Adele</a></li>	  													<li><a href="#">Agnes</a></li>	  													<li><a href="#">Billy</a></li>	  													<li><a href="#">Bob</a></li>  														<li><a href="#">Calvin</a></li> 														<li><a href="#">Christina</a></li> 														<li><a href="#">Cindy</a></li></ul> 												</div>			<a id="C" href="#">Community</a>														<div id="shareComm" class="shareComm">															<a href="#">My Network</a>																<a href="#">Comm 1</a>																<a href="#">Comm 2</a>	</div>													<a id="S" href="#">Self (read queue)</a> 	</div> 											</div>															<img id="commentBtn1" src="images/comment.png" class="commentbutton">			</div></div></div>
+
+
+		<div class="cb_container" id="cont-t1cb2" style=""> <div class="cb_layout" id="t1CB2">							<div class="cb_top"><div class="cb_tag"><p>tag1</p></div><div class="cb_tag"><p>tag2</p></div><div class="cb_tag"><p>tag3</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div></div><div id="IPI" class="imagePlusInfo"><div class="image_container"><img id="CB129-img" src="http://a57.foxnews.com/images.foxnews.com/content/fox-news/us/2018/07/04/us-official-trump-pressed-aides-about-venezuela-invasion/_jcr_content/par/featured-media/media-0.img.png/0/0/1530680262080.png?ve=1"></div><div id="cb2-info" class="info"><h2 id="SOURCE129">Fox News</h2><h2 id="DATETIME129">2018-07-04 00:00:00</h2><h6 class="cat_label_container" id="cat_label-129">Politics</h6><h3 id="HEADLINE129">Trump pressed aides on Venezuela invasion, US official says</h3><h4 id="DESCRIPTION129">As a meeting last August in the Oval Office to discuss sanctions on Venezuela was concluding, President Donald Trump tur...</h4><h5 id="SHAREDBY2">Shared by Nicholas Sukiennik on <span id="timePosted-cb129">2018-07-04 21:19:50.773048</span></h5></div></div><br><div id="BUTTONLAYER" class="cb_button-layer"><div id="upContain" class="menu_container"><img src="images/upvote2.png" class="upbtn"><div id="myUpmenu" class="menu-content"><!--<div class="triangle-with-shadow"></div>--><a href="#">Rxn1</a><a href="#">Rxn2</a><a href="#">Rxn3</a></div> </div>	<div id="downContain" class="menu_container">							<img src="images/downvote2.png" class="downbtn">											<div id="myDownmenu" class="menu-content-DOWN">													<!--<div class="triangle-with-shadow"></div>-->													<a href="#">Rxn1</a>	<a href="#">Rxn2</a><a href="#">Rxn3</a> </div></div><div class="share_container">								<img src="images/share.png" class="sharebtn">											<div id="mySharedown" class="sharedown-content">												<!--<div class="triangle-with-shadow"></div>-->												<a id="shareToUserBtn" href="#">User</a>															<div id="shareUser" class="shareUser-content">									<input id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%" type="text"> 									<ul id="shareUserUL">										<li><a href="#">Adele</a></li>	  													<li><a href="#">Agnes</a></li>	  													<li><a href="#">Billy</a></li>	  													<li><a href="#">Bob</a></li>  														<li><a href="#">Calvin</a></li> 														<li><a href="#">Christina</a></li> 														<li><a href="#">Cindy</a></li></ul> 												</div>			<a id="C" href="#">Community</a>														<div id="shareComm" class="shareComm">															<a href="#">My Network</a>																<a href="#">Comm 1</a>																<a href="#">Comm 2</a>	</div>													<a id="S" href="#">Self (read queue)</a> 	</div> 											</div>															<img id="commentBtn1" src="images/comment.png" class="commentbutton">			</div></div></div>
+
+
+
+
+			<!-- SAMPLE CB (for style testing)-->
+			<div class="cb_container" id="CB-container1">
+
+
+			<div class= "cb_layout"  id="CB1" >
+
+
+
+				<div class="cb_top">
+					<div class="cb_tag"><p>Trump</p></div><div class="cb_tag"><p>US Politics</p></div><div class="cb_tag"><p>Foreign Relations</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div>
+				</div>
+
+
+						<div id="IPI" class="imagePlusInfo">
+							<div id="CB1-img" class="image_container"><img src="images/thumbnails/img2.jpg"></div>
+
+							<div id="cb1-info" class="info">
+								<h2 id="SOURCE">CNN  - </h2><h2 id="DATETIME">May 21, 13:54</h2><h6 class='cat_label_container' id = "cat_label-ex">Politics</h6>
+								<h3 id="HEADLINE">Trump Team's Amazing, evolving Russia defense</h3>
+								<h4 id="DESCRIPTION" >When it comes to the Russia investigation, it's not so much that the Trump team has a habit of "moving the goalposts"...</h4>
+								<h5 id="SHAREDBY">Shared by Kinneikus Salohcin and 2 others (Most recent: May 21, 22:22)</h5>
+							</div>
+
+							</div>
+
+								<br>
+
+								<div id="BUTTONLAYER" class="cb_button-layer">
+
+
+										<div id="upContain" class="menu_container">
+										<img src="images/upvote2.png" class="upbtn">
+
+												<div id="myUpmenu" class="menu-content">
+													<!--<div class="triangle-with-shadow"></div>-->
+													<a href="#">Rxn1</a>
+													<a href="#">Rxn2</a>
+													<a href="#">Rxn3</a>
+
+												</div>
+
+										</div>
+
+										<div id="downContain" class="menu_container">
+										<img src="images/downvote2.png" class="downbtn">
+												<div id="myDownmenu" class="menu-content-DOWN">
+													<!--<div class="triangle-with-shadow"></div>-->
+													<a href="#">Rxn1</a>
+													<a href="#">Rxn2</a>
+													<a href="#">Rxn3</a>
+
+												</div>
+										</div>
+
+										<div class="share_container">
+
+											<img src="images/share.png" class="sharebtn" >
+
+												<div id="mySharedown" class="sharedown-content">
+													<!--<div class="triangle-with-shadow"></div>-->
+													<a id="shareToUserBtn" href="#">User</a>
+
+													<div id="shareUser" class="shareUser-content">
+
+													<input type="text" id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%">
+													<ul id="shareUserUL">
+														<li><a href="#">Adele</a></li>
+	  													<li><a href="#">Agnes</a></li>
+	  													<li><a href="#">Billy</a></li>
+	  													<li><a href="#">Bob</a></li>
+  														<li><a href="#">Calvin</a></li>
+ 														<li><a href="#">Christina</a></li>
+ 														<li><a href="#">Cindy</a></li></ul>
+												</div>
+
+													<a id="C" href="#">Community</a>
+														<div id="shareComm" class="shareComm">
+
+
+																<a href="#">My Network</a>
+																<a href="#">Comm 1</a>
+																<a href="#">Comm 2</a>
+
+														</div>
+
+
+													<a id="S" href="#">Self (read queue)</a>
+
+												</div>
+
+											</div>
+
+										<img id="commentBtn1" src="images/comment.png" class="commentbutton">
+
+
+
+								</div>
+
+
+					</div>
+ 			</div>
+
+
+
+	<!-- end of mainfeed container (/div) below)*/ -->
+	</div>
+
+
+
+
+
+</div>
+
+</div>
+
+
+<!-- End of category 1-->
+
+<!-- expanded cb MODAL -->
+<div class="modal" id="cb1-modal" style="display:none">
+	 <br><br><br><span class="close">&times;</span>
+			<div class="cb_container-expand" id="CB-container1-expand" >
+
+
+				<div class= "cb_layout-expand"  id="CB1" >
+
+
+
+				<div class="cb_top">
+					<div class="cb_tag"><p>Trump</p></div><div class="cb_tag"><p>US Politics</p></div><div class="cb_tag"><p>Foreign Relations</p></div><div class="cb_tag"><p>+5</p></div><div class="more"><img src="images/more.png"></div>
+				</div>
+
+
+						<div id="IPI" class="imagePlusInfo-expand">
+							<div id="CB1-img" class="image_container-expand"><img src="images/thumbnails/img2.jpg"></div>
+
+							<div id="cb1-info" class="info">
+								<h2 id="SOURCE">CNN  - </h2><h2 id="DATETIME">May 21, 13:54</h2>
+								<h3 id="HEADLINE">Trump Team's Amazing, evolving Russia defense</h3>
+								<h4 id="DESCRIPTION">When it comes to the Russia investigation, it's not so much that the Trump team has a habit of "moving the goalposts test test test test test"...</h4>
+								<h5 id="SHAREDBY">Shared by Kinneikus Salohcin and 2 others (Most recent: May 21, 22:22)</h5>
+							</div>
+
+							</div>
+
+								<br>
+
+								<div id="BUTTONLAYER" class="cb_button-layer">
+
+
+										<div id="upContain" class="menu_container">
+										<img src="images/upvote2.png" class="upbtn">
+
+												<div id="myUpmenu" class="menu-content">
+													<!--<div class="triangle-with-shadow"></div>-->
+													<a href="#">Rxn1</a>
+													<a href="#">Rxn2</a>
+													<a href="#">Rxn3</a>
+
+												</div>
+
+										</div>
+
+										<div id="downContain" class="menu_container">
+										<img src="images/downvote2.png" class="downbtn">
+												<div id="myDownmenu" class="menu-content-DOWN">
+													<!--<div class="triangle-with-shadow"></div>-->
+													<a href="#">Rxn1</a>
+													<a href="#">Rxn2</a>
+													<a href="#">Rxn3</a>
+
+												</div>
+										</div>
+
+										<div class="share_container">
+
+											<img src="images/share.png" class="sharebtn" >
+
+												<div id="mySharedown" class="sharedown-content">
+													<!--<div class="triangle-with-shadow"></div>-->
+													<a id="shareToUserBtn" href="#">User</a>
+
+													<div id="shareUser" class="shareUser-content">
+
+													<input type="text" id="myInput" onkeyup="shareUserCB()" name="connection-name" placeholder="Share to User" style="width:80%">
+													<ul id="shareUserUL">
+														<li><a href="#">Adele</a></li>
+	  													<li><a href="#">Agnes</a></li>
+	  													<li><a href="#">Billy</a></li>
+	  													<li><a href="#">Bob</a></li>
+  														<li><a href="#">Calvin</a></li>
+ 														<li><a href="#">Christina</a></li>
+ 														<li><a href="#">Cindy</a></li></ul>
+												</div>
+
+													<a id="C" href="#">Community</a>
+														<div id="shareComm" class="shareComm">
+
+
+																<a href="#">My Network</a>
+																<a href="#">Comm 1</a>
+																<a href="#">Comm 2</a>
+
+														</div>
+
+
+													<a id="S" href="#">Self (read queue)</a>
+
+												</div>
+
+											</div>
+
+										<img id="commentBtn1" src="images/comment.png" class="commentbutton">
+
+
+
+								</div>
+
+
+										<div id="COMMENT-CONTAINER-t1cb1"	class="comments_container">
+
+													<div id="commentID" class="comment">
+														<img src="images/signinimage.png"><span> User A </span>
+														<p>This is soooo interesting and insightful. I read about a similar story here: <a href="#">www.news.pocky.com/trump-does-it-again</a></p>
+														<div id="rrc1" class="react-respond-comment">
+															<p id="Upvote">Upvote</p>
+															<p id="Downvote">Downvote</p>
+															<p id="Respond">Respond</p></div>
+													</div>
+
+														<div id="newComment" class="comment-reply-input">
+															<img src="images/signinimage.png"><span>You!</span>
+														<input id="response-input" type="text" placeholder="Write a response" class="	comment-response-input"></div>
+
+
+
+													<div id="replyID" class="comment-reply">
+														<img src="images/signinimage.png"><span>Kinneikus Salohcin</span>
+														<p>Thanks for the link! I hadn't heard about that before.</p>
+													</div>
+													<input id="add-comment-box" type="text" placeholder="Add a new comment" class="	comment-input"	>
+										</div>
+
+ 				</div>
+ 			</div>
+ 		</div>
+
+
+
+
+
+<script >
+
+
+
+// Close the dropdown menu if the user clicks outside of it
+
+
+
+
+
+
+function shareUserCB() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("shareUserUL");
+    li = ul.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+
+
+function shareUserAddURL() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('AddURL-userInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("AddURL-shareUserUL");
+    li = ul.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+
+/* The big moment... passing URL from input to python. Hopefully this will result
+in saving the Scraped data to the server, which can then be used in the UI.
+ Note: Later on, we will have to add sections in the DB for category and topics (array) for each story */
+
+
+
+//  function getURL() {
+//     var URL = document.getElementById("URLinput").value;
+//     console.log(URL);
+// }
+
+
+  $(function() {
+    $('#submitURL').bind('click', function() {
+      $.getJSON('http://localhost:5000/_scrapeAndReturnData', {
+        a: $('#URLinput').val(),
+
+      }, /* function(data) {
+        $("#result").text(data.result);
+        console.log(data.result);*/
+
+       function(data) {
+        // $("#result").text(data.result);
+        CBdata = data.result;
+        console.log(CBdata);
+        //$('#t1CB2').toggle();
+
+        var storyID =  data.result[0]
+        var date = data.result[1]
+        var headline =  data.result[2]
+        var thumbnail =  data.result[3]
+        var details_long =  data.result[4]
+        var details_short = (details_long.substring(0,120) + '...')
+        var origStory =  data.result[5]
+        var sourceName =  data.result[6]
+        var sourceURL =  data.result[7]
+        var timePosted =  data.result[8]
+        var category =  data.result[9]
+       // console.log(storyID)
+
+		  var count = storyID;
+		  $('#t1').prepend("<div class=\"cb_container\" id=\"cont-cb"+count+"\"> <div class= \"cb_layout\"  id=\"t1CB2\">							<div class=\"cb_top\"><div class=\"cb_tag\"><p>tag1</p></div><div class=\"cb_tag\"><p>tag2</p></div><div class=\"cb_tag\"><p>tag3</p></div><div class=\"cb_tag\"><p>+5</p></div><div class=\"more\"><img src=\"images/more.png\"></div></div><div id=\"IPI\" class=\"imagePlusInfo\"><div class=\"image_container\"><img id=\"CB"+count+"-img\" src=\"#\"></div><div id=\"cb2-info\" class=\"info\"><h2 id=\"SOURCE"+count+"\"></h2><h2 id=\"DATETIME"+count+"\"><h6 class='cat_label_container' id = \"cat_label-"+count+"\"></h6></h2><h3 id=\"HEADLINE"+count+"\"></h3><h4 id=\"DESCRIPTION"+count+"\" ></h4><h5 id=\"SHAREDBY2\">Shared by Nicholas Sukiennik on <span id=\"timePosted-cb"+count+"\"> July 2, 22:22 </span></h5></div></div><br><div id=\"BUTTONLAYER\" class=\"cb_button-layer\"><div id=\"upContain\" class=\"menu_container\"><img src=\"images/upvote2.png\" class=\"upbtn\"><div id=\"myUpmenu\" class=\"menu-content\"><!--<div class=\"triangle-with-shadow\"></div>--><a href=\"#\">Rxn1</a><a href=\"#\">Rxn2</a><a href=\"#\">Rxn3</a></div> </div>	<div id=\"downContain\" class=\"menu_container\">							<img src=\"images/downvote2.png\" class=\"downbtn\">											<div id=\"myDownmenu\" class=\"menu-content-DOWN\">													<!--<div class=\"triangle-with-shadow\"></div>-->													<a href=\"#\">Rxn1</a>	<a href=\"#\">Rxn2</a><a href=\"#\">Rxn3</a> </div></div><div class=\"share_container\">								<img src=\"images/share.png\" class=\"sharebtn\" >											<div id=\"mySharedown\" class=\"sharedown-content\">												<!--<div class=\"triangle-with-shadow\"></div>-->												<a id=\"shareToUserBtn\" href=\"#\">User</a>															<div id=\"shareUser\" class=\"shareUser-content\">									<input type=\"text\" id=\"myInput\" onkeyup=\"shareUserCB()\" name=\"connection-name\" placeholder=\"Share to User\" style=\"width:80%\"> 									<ul id=\"shareUserUL\">										<li><a href=\"#\">Adele</a></li>	  													<li><a href=\"#\">Agnes</a></li>	  													<li><a href=\"#\">Billy</a></li>	  													<li><a href=\"#\">Bob</a></li>  														<li><a href=\"#\">Calvin</a></li> 														<li><a href=\"#\">Christina</a></li> 														<li><a href=\"#\">Cindy</a></li></ul> 												</div>			<a id=\"C\" href=\"#\">Community</a>														<div id=\"shareComm\" class=\"shareComm\">															<a href=\"#\">My Network</a>																<a href=\"#\">Comm 1</a>																<a href=\"#\">Comm 2</a>	</div>													<a id=\"S\" href=\"#\">Self (read queue)</a> 	</div> 											</div>															<img id=\"commentBtn1\" src=\"images/comment.png\" class=\"commentbutton\">			</div></div></div>");
+
+
+    		 $("#DATETIME"+count).text(date);
+	         $("#HEADLINE"+count).text(headline);
+	         $("#DESCRIPTION"+count).text(details_short);
+	         $("#CB"+count+"-img").attr('src', thumbnail);
+	         $("#SOURCE"+count).text(sourceName);
+	         $("#timePosted-cb"+count).text(timePosted);
+	         $("#cat_label-"+count).text(category);
+	         $("cont-cb"+count).attr("href",sourceURL);
+
+
+			  console.log(count)
+
+
+
+
+
+
+
+		});
+
+	});
+});
+
+
+
+
+
+
+</script>
+
+
+<!-- script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+
+
+      $('#t1').slick({
+          infinite: true,
+  		slidesToShow: 1,
+  		slidesToScroll: 1,
+  		variableWidth: true,
+  		swipe: false,
+  		nextArrow: '<button id="navright-t1" class="nav_arrow-right">></div>',
+  		prevArrow: '<button id="navleft-t1" class="nav_arrow-left"><</div>',
+  		appendArrows: $("#category-title-1"),
+  		infinite: false,
+  		focusOnSelect: false
+
+
+
+      });
+
+
+
+    });
+  </script -->
+
+
+</body>
+</html>

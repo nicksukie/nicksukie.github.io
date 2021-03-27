@@ -1,0 +1,10 @@
+<nav>
+  <li>
+<a href="/" {% if page.url == "/" %}style="color: red;"{% endif %}>About</a></li>  
+      <li>
+<a href="/research" {% if page.url == "/research" %}style="color: darkblue;"{% endif %}>Research</a></li>  
+      <li>
+<a href="/team" {% if page.url == "/team" %}style="color: red;"{% endif %}>Team</a></li>  
+        <li>
+<a href="/for_publishers" {% if page.url == "/for_publishers" %}style="color: red;"{% endif %}>For Publishers</a></li>  
+  </nav>
