@@ -4,7 +4,7 @@ title: My Work
 
 ---
 
-<h1 class="sans" style="font-size: 2em">About</h1>
+<h1 class="sans" style="font-size: 2em">About Me</h1>
 <br />
 
 I am a computer scientist with a background in engineering. My professional endeavors have been concentrated in the field of technology, where I am currently intending to pursing research in the field of artificial intelligence, namely computer vision and recommendation systems.
