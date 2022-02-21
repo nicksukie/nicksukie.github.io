@@ -8,7 +8,13 @@ body, html {
 
 
 p {
-	color:#333333
+	color:#333333;
+  text-align: justify;
+}
+
+h2 {
+  text-align:center;
+
 }
 nav {
 color: none;
@@ -37,6 +43,13 @@ nav:hover {
 }
 
 
+li {
+padding-bottom: 0;
+}
+
+br {
+  line-height: 5px;
+}
 
 .nav-contents {
 
@@ -52,7 +65,7 @@ nav:hover {
 	float: left;
 	opacity: .6;
 	transition: opacity .3s;
-	text-transform: lowercase;
+
 
 }
 
@@ -102,7 +115,7 @@ a {
 
 .nav-item {
 	font-size: 0.8em;
-	text-transform: lowercase;
+
 	margin: 0px 0px;
 }
 
@@ -391,7 +404,7 @@ h1 {
 h1, h2, h3, h4, h5, h6 {
 
   margin: 0 ;
-
+font-family: helvetica;
 }
 
 h3 {
@@ -559,16 +572,18 @@ background: #EBF1F7
 }
 
 
-
 /*PORTFOLIO CSS*/
 
-p a {
+p>a{
   text-decoration: underline;
   text-decoration-color:  #6A95D1;
-
+}
+.content-list a{
+  text-decoration: underline;
+  text-decoration-color:  #6A95D1;
 }
 
-p a:hover {
+a:hover {
 color: #6A95D1;
 
 }

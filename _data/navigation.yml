@@ -1,8 +1,4 @@
 - name: Home
   link: /
-- name: Inflo
-  link: /inflo
-- name: Writing
-  link: /writing
-- name: About
-  link: /about
+- name: Blog
+  link: /blog

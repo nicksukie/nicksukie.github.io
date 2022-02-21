@@ -9,10 +9,10 @@ title: Blog
 
 
 <ul class="list-reset">
-  {% for post in site.posts limit:10 %}
+  {% for post in site.posts limit:20 %}
     <li class="post-list-post-preview mb2">
-	<div class="date-text">{{ post.date | date_to_string }}</div>	  
-	  
+	<div class="date-text">{{ post.date | date_to_string }}</div>
+
 	  <a href="{{ post.url }}">
 	  <h1 class="post-list-post-title"> {{ post.title }} </h1>
 	  <p class="excerpt-text m0">{{ post.excerpt }}</p>
