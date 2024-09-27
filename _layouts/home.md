@@ -57,11 +57,11 @@ I have also done a bit of volunteer and freelance work for a handful of startup 
 
     <li>
 
-      <a href="{{ post.url }}">
+      <!--a href="{{ post.url }}"--><a href="/">
 	  <div class="image-contain">
         <img class="featured_img-preview" src="{{ post.featured_img }}" /></div></a>
 
-        <a href="{{ post.url }}">  <h2 class="home-post-title">{{ post.title }} </h2></a>
+        <!--a href="{{ post.url }}"--><a href="/">  <h2 class="home-post-title">{{ post.title }} </h2></a>
       <div class="mt1"><span class="date-text">{{ post.date | date_to_string }}</span></div>
     </li>
 	</div>
