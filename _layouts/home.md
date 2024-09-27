@@ -9,7 +9,9 @@ layout: default
 
 I'm currently a PhD student doing research on recommender systems and their social impacts. I have also, along with virtually the entire academic community, begun delving into the capabilities of large language models. 
 <br>
+<br>
 I'm interested in the intersection between technology and society, namely, how the platforms we use influence the information we are exposed to, and, in turn, how that information informs our views. 
+<br>
 <br>
 My research is multi-disciplinary and transcends computer science, electronic engineering, as well as social science/sociology, linguistics, and to some extent, philosophy. 
 
