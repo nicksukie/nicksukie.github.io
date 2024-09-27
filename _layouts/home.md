@@ -7,18 +7,24 @@ layout: default
 <p>
 <br>
 
-I'm currently a PhD student doing research on deep learning enabled recommender systems (and more!). Having taken an unconventional career path, my experiences living and travel abroad for ~10 years will serve (whether I like it or not) as the mental context and foundational inspiration for all of my work, technical or otherwise. I have spent quite some time trying to reconcile all the aspects of my life, only to realize that doing so is impossible, at least at this point in my state of <a href="/">consciousness</a>. As such, I will here be focusing primarily on technology and academia, and whatever tangential topics happen to be related to my academic journey. What I hope to achieve here is, well... nothing. I just want an outlet to express myself. And if, in the process, I am able to offer tips, guidance, inspiration, tools and/or resources to help others succeed in academia, that would be nice too.
+I'm currently a PhD student doing research on recommender systems and their social impacts. I have also, along with virtually the entire academic community, begun delving into the capabilities of large language models. 
+<br>
+I'm interested in the intersection between technology and society, namely, how the platforms we use influence the information we are exposed to, and, in turn, how that information informs our views. 
+<br>
+My research is multi-disciplinary and transcends computer science, electronic engineering, as well as social science/sociology, linguistics, and to some extent, philosophy. 
+
+<!--Having taken an unconventional career path, my experiences living and travel abroad for ~10 years will serve (whether I like it or not) as the mental context and foundational inspiration for all of my work, technical or otherwise. I have spent quite some time trying to reconcile all the aspects of my life, only to realize that doing so is impossible, at least at this point in my state of <a href="/">consciousness</a>. As such, I will here be focusing primarily on technology and academia, and whatever tangential topics happen to be related to my academic journey. What I hope to achieve here is, well... nothing. I just want an outlet to express myself. And if, in the process, I am able to offer tips, guidance, inspiration, tools and/or resources to help others succeed in academia, that would be nice too.-->
 <br>
 <br>
-<div style="font-style: italic;">
-Tl;dr - I'll be using this site as a platform to share my research journey, but in a "meta" (not -verse) sense, i.e. all the aspects that go into a research career, minus the actual research, which will (ideally) be published self-evidently. </div>
+<!--div style="font-style: italic;">
+Tl;dr - I'll be using this site as a platform to share my research journey, but in a "meta" (not -verse) sense, i.e. all the aspects that go into a research career, minus the actual research, which will (ideally) be published self-evidently. </div-->
 <br>
 <br>
 
 <h2> Some Previous Projects </h2>
 <br>
-
-<div class="content-list">
+TODO
+<!--div class="content-list">
 
 <p >
 <ul>
@@ -35,12 +41,12 @@ I have also done a bit of volunteer and freelance work for a handful of startup 
 <br>
 <li>
  The purpose of this blog is to express myself in a non-technical context, as a hobby, whereas my _actual_ career will highly niche and technical.</li>
-<br>
- I'm also passionate about learning mandarin and photography.
+
 
 </p>
-
-</div>
+<br>
+ I'm also passionate about learning languages and photography.
+</div-->
 </div>
 
 <hr>
