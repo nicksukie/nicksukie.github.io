@@ -6,7 +6,6 @@ layout: default
 <h2>Who Am I?</h2>
 <p>
 <br>
-
 I'm Nick. I'm currently a PhD candidate at Tsinghua University. I do research on recommender systems and their social impacts. I have also, along with virtually the entire academic community, begun delving into the capabilities of large language models. 
 <br>
 <br>
@@ -16,11 +15,9 @@ I'm interested in the intersection between technology and society, namely, how t
 My research is multi-disciplinary and transcends computer science, electronic engineering, as well as social science/sociology, linguistics, and to some extent, philosophy. 
 
 <!--Having taken an unconventional career path, my experiences living and travel abroad for ~10 years will serve (whether I like it or not) as the mental context and foundational inspiration for all of my work, technical or otherwise. I have spent quite some time trying to reconcile all the aspects of my life, only to realize that doing so is impossible, at least at this point in my state of <a href="/">consciousness</a>. As such, I will here be focusing primarily on technology and academia, and whatever tangential topics happen to be related to my academic journey. What I hope to achieve here is, well... nothing. I just want an outlet to express myself. And if, in the process, I am able to offer tips, guidance, inspiration, tools and/or resources to help others succeed in academia, that would be nice too.-->
-<br>
-<br>
+
 <!--div style="font-style: italic;">
 Tl;dr - I'll be using this site as a platform to share my research journey, but in a "meta" (not -verse) sense, i.e. all the aspects that go into a research career, minus the actual research, which will (ideally) be published self-evidently. </div-->
-<br>
 <br>
 
 <h2> My Recent Works</h2>
@@ -39,7 +36,7 @@ Tl;dr - I'll be using this site as a platform to share my research journey, but 
     Proceedings of the International AAAI Conference on Web and Social Media.
   </li>
   <li>
-    <em>Debiasing International Attitudes: LLM Agents for Simulating US-China Perception Changes</em> (2025) <strong>N Sukiennik</strong>Yichuan Xu, Yuqing Kan, Jinghua Piao, Yuwei Yan, Chen Gao, Yong Li,
+    <em>Debiasing International Attitudes: LLM Agents for Simulating US-China Perception Changes</em> (2025) <strong>N Sukiennik</strong>, Yichuan Xu, Yuqing Kan, Jinghua Piao, Yuwei Yan, Chen Gao, Yong Li,
     preprint
   </li>
   <li>
@@ -54,9 +51,8 @@ Tl;dr - I'll be using this site as a platform to share my research journey, but 
     The Innovation 6 (2)
   </li>
 </ul>
-
-\br
-My master's thesis can be read here. The remnants of my master's thesis project can be found <a href="https://nicksukie.github.io/inflo/"> here </a>. 
+<br>
+My master's thesis can be read <a href="https://repository.hkust.edu.hk/ir/Record/1783.1-107312"> here</a>. The remnants of my master's thesis project can be found <a href="https://nicksukie.github.io/inflo/"> here </a>. 
 <br>
 
 
