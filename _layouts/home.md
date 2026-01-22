@@ -80,34 +80,5 @@ I have also done a bit of volunteer and freelance work for a handful of startup 
  I'm also passionate about learning languages and photography.
 </div-->
 </div>
-
 <hr>
-
-<!--
-<div class="recent-entries-container">
-  <h1 class="center"> Recent Entries </h1>
-  <br>
-  <div class="recent-entries clearfix">
-    <ul class="list-reset post-list">
-      {% for post in site.posts limit:4 %}
-      <div class="post-preview post-preview-home sm-col sm-col-3">
-        <li>
-          <!--a href="{{ post.url }}"--><a href="/">
-            <div class="image-contain">
-              <img class="featured_img-preview" src="{{ post.featured_img }}" />
-            </div>
-          </a>
-          <!--a href="{{ post.url }}"--><a href="/">
-            <h2 class="home-post-title">{{ post.title }} </h2>
-          </a>
-          <div class="mt1">
-            <span class="date-text">{{ post.date | date_to_string }}</span>
-          </div>
-        </li>
-      </div>
-      {% endfor %}
-    </ul>
-  </div>
-</div>
--->
 </div>>
