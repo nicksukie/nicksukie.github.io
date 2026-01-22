@@ -52,7 +52,7 @@ Tl;dr - I'll be using this site as a platform to share my research journey, but 
   </li>
 </ul>
 <br>
-My master's thesis can be read <a href="https://repository.hkust.edu.hk/ir/Record/1783.1-107312"> here</a>. The remnants of my master's thesis project can be found <a href="https://nicksukie.github.io/inflo/"> here </a>. 
+My master's thesis can be read <a href="https://repository.hkust.edu.hk/ir/Record/1783.1-107312"> here</a>. The remnants of my master's thesis project can be found <a href="https://nicksukie.github.io/inflo/">here</a>. 
 <br>
 
 
