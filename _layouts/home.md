@@ -19,7 +19,7 @@ My research is multi-disciplinary and transcends computer science, electronic en
 <!--div style="font-style: italic;">
 Tl;dr - I'll be using this site as a platform to share my research journey, but in a "meta" (not -verse) sense, i.e. all the aspects that go into a research career, minus the actual research, which will (ideally) be published self-evidently. </div-->
 <br>
-
+<br>
 <h2> My Recent Works</h2>
 
 <ul>
@@ -83,29 +83,31 @@ I have also done a bit of volunteer and freelance work for a handful of startup 
 
 <hr>
 
-<!--div class="recent-entries-container">
-
-<h1 class="center"> Recent Entries </h1>
-<br>
-<div class="recent-entries clearfix">
-
-<ul class="list-reset post-list">
-  {% for post in site.posts limit:4 %}
-  <div class="post-preview post-preview-home sm-col sm-col-3">
-
-    <li>
-
-      <!--a href="{{ post.url }}"--><a href="/">
-	  <div class="image-contain">
-        <img class="featured_img-preview" src="{{ post.featured_img }}" /></div></a>
-
-        <!--a href="{{ post.url }}"--><a href="/">  <h2 class="home-post-title">{{ post.title }} </h2></a>
-      <div class="mt1"><span class="date-text">{{ post.date | date_to_string }}</span></div>
-    </li>
-	</div>
-  {% endfor %}
-</ul>
-
-</div
-</div-->
+<!--
+<div class="recent-entries-container">
+  <h1 class="center"> Recent Entries </h1>
+  <br>
+  <div class="recent-entries clearfix">
+    <ul class="list-reset post-list">
+      {% for post in site.posts limit:4 %}
+      <div class="post-preview post-preview-home sm-col sm-col-3">
+        <li>
+          <!--a href="{{ post.url }}"--><a href="/">
+            <div class="image-contain">
+              <img class="featured_img-preview" src="{{ post.featured_img }}" />
+            </div>
+          </a>
+          <!--a href="{{ post.url }}"--><a href="/">
+            <h2 class="home-post-title">{{ post.title }} </h2>
+          </a>
+          <div class="mt1">
+            <span class="date-text">{{ post.date | date_to_string }}</span>
+          </div>
+        </li>
+      </div>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
+-->
+</div>>
