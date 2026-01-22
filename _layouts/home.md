@@ -80,5 +80,4 @@ I have also done a bit of volunteer and freelance work for a handful of startup 
  I'm also passionate about learning languages and photography.
 </div-->
 </div>
-<hr>
 </div>
