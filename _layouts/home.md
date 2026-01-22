@@ -7,10 +7,10 @@ layout: default
 <p>
 <br>
 
-I'm currently a PhD student doing research on recommender systems and their social impacts. I have also, along with virtually the entire academic community, begun delving into the capabilities of large language models. 
+I'm Nick. I'm currently a PhD candidate at Tsinghua University. I do research on recommender systems and their social impacts. I have also, along with virtually the entire academic community, begun delving into the capabilities of large language models. 
 <br>
 <br>
-I'm interested in the intersection between technology and society, namely, how the platforms we use influence the information we are exposed to, and, in turn, how that information informs our views. 
+I'm interested in the intersection between technology and society, namely, how the platforms/chatbots we use influence the information we are exposed to, and, in turn, how that information informs our views. 
 <br>
 <br>
 My research is multi-disciplinary and transcends computer science, electronic engineering, as well as social science/sociology, linguistics, and to some extent, philosophy. 
@@ -23,9 +23,43 @@ Tl;dr - I'll be using this site as a platform to share my research journey, but 
 <br>
 <br>
 
-<h2> Some Previous Projects </h2>
+<h2> My Recent Works</h2>
+
+<ul>
+	<li>
+    <em>Uncovering the Deep Filter Bubble: Narrow Exposure in Short-Video Recommendation</em> (2024), <strong>N Sukiennik</strong>, C Gao, N Li,
+    Proceedings of the ACM Web Conference 2024 (WWW24)
+  </li>
+	<li>
+    <em>An evaluation of cultural value alignment in llm</em> (2025), <strong>N Sukiennik</strong>, C Gao, F Xu, Y Li,
+    TWEB (Under Review). 
+  </li>
+  <li>
+    <em>Can't Stop Scrolling: Understanding the Online Behavioral Factors and Trends of Short-Video Addiction</em> (2025), JY Wang, <strong>N Sukiennik</strong>, J Piao, Z Pan, C Gao, Y Li,
+    Proceedings of the International AAAI Conference on Web and Social Media.
+  </li>
+  <li>
+    <em>Debiasing International Attitudes: LLM Agents for Simulating US-China Perception Changes</em> (2025) <strong>N Sukiennik</strong>Yichuan Xu, Yuqing Kan, Jinghua Piao, Yuwei Yan, Chen Gao, Yong Li,
+    preprint
+  </li>
+  <li>
+    <em>Simulating Filter Bubble on Short-video Recommender System with Large Language Model Agents</em> (2025), <strong>N Sukiennik</strong>, H Wang, Z Zeng, C Gao, Y Li, arXiv preprint. 
+  </li>
+  <li>
+    <em>A survey on human-centric llms</em> (2024), JY Wang, <strong>N Sukiennik</strong>, T Li, W Su, Q Hao, J Xu, Z Huang, F Xu, Y Li,
+    arXiv preprint.
+  </li>
+  <li>
+    <em>MetaCity: Data-driven sustainable development of complex cities</em> (2025), Y Zhang, Y Lin, G Zheng, Y Liu, <strong>N Sukiennik</strong>, F Xu, Y Xu, F Lu, Q Wang.
+    The Innovation 6 (2)
+  </li>
+</ul>
+
+\br
+My master's thesis can be read here. The remnants of my master's thesis project can be found <a href="https://nicksukie.github.io/inflo/"> here </a>. 
 <br>
-TODO
+
+
 <!--div class="content-list">
 
 <p >
@@ -53,7 +87,7 @@ I have also done a bit of volunteer and freelance work for a handful of startup 
 
 <hr>
 
-<div class="recent-entries-container">
+<!--div class="recent-entries-container">
 
 <h1 class="center"> Recent Entries </h1>
 <br>
@@ -76,6 +110,6 @@ I have also done a bit of volunteer and freelance work for a handful of startup 
   {% endfor %}
 </ul>
 
-</div>
-</div>
+</div
+</div-->
 </div>
