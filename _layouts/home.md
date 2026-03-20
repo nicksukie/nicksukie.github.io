@@ -55,6 +55,16 @@ Tl;dr - I'll be using this site as a platform to share my research journey, but 
 My master's thesis can be read <a href="https://repository.hkust.edu.hk/ir/Record/1783.1-107312"> here</a>. The remnants of my master's thesis project can be found <a href="https://nicksukie.github.io/inflo/">here</a>. 
 <br>
 
+<h1>Side Projects</h1>
+
+<h2><a href="https://github.com/nicksukie/BiliOCR">BILIOCR</a></h2>
+<p>A real-time subtitle translation tool for mac using OCR, compatible with most popular LLM APIs (BYOkey).</p>
+
+<h2><a href="https://www.globalthinkingcourse.com">Global Thinking Course</a></h2>
+<p>An online course meant to impart the learnings I have obtained through my experiences living in various places around the world.</p>
+
+
+
 
 <!--div class="content-list">
 
