@@ -1,0 +1,36 @@
+<script>
+(function () {
+  var triggers = document.querySelectorAll(".abstract-info");
+
+  function closeAll(except) {
+    triggers.forEach(function (trigger) {
+      if (trigger !== except) {
+        trigger.classList.remove("is-open");
+        trigger.setAttribute("aria-expanded", "false");
+      }
+    });
+  }
+
+  triggers.forEach(function (trigger) {
+    trigger.addEventListener("click", function (event) {
+      event.stopPropagation();
+      var isOpen = trigger.classList.toggle("is-open");
+      trigger.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      if (isOpen) {
+        closeAll(trigger);
+      }
+    });
+
+    trigger.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") {
+        trigger.classList.remove("is-open");
+        trigger.setAttribute("aria-expanded", "false");
+      }
+    });
+  });
+
+  document.addEventListener("click", function () {
+    closeAll();
+  });
+})();
+</script>
